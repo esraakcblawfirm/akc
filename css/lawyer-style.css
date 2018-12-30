@@ -1,0 +1,30 @@
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-family: 'PT Serif', serif;
+}
+
+h1,
+h2 {
+	font-weight: 700;
+}
+
+.btn-form {
+	background-color: #003366 !important;
+}
+
+.btn-form:hover {
+	background-color: #003399 !important;
+}
+
+.btn-form:active {
+	background-color: #003366 !important;
+}
+
+.btn-form:at-level {
+	background-color: #003366 !important;
+}
