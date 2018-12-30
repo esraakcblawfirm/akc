@@ -69,8 +69,8 @@ if (!$_SESSION["lang"]) {
                             <div class="topbar-dropdown">
                                 <a class="title"><i class="fa fa-globe"></i></a>
                                 <div class="dropdown-list">
-                                    <a class="list-entry" href="language/language.php?lang=tr">Türkçe</a>
-                                    <a class="list-entry" href="language/language.php?lang=en">English</a>
+                                    <a class="list-entry" href="language/language.php?lang=tr&page=workArea">Türkçe</a>
+                                    <a class="list-entry" href="language/language.php?lang=en&page=workArea">English</a>
                                 </div>
                             </div>
                         </li>
@@ -138,8 +138,8 @@ if (!$_SESSION["lang"]) {
                 </div>
                 <div class="col-md-6">
                     <div class="heading heading text-left">
-                        <h2>ÇALIŞMA ALANLARIMIZ</h2>
-                        <span class="lead">Uluslararası ticari veya ticari işlemleri yöneten yasal kurallar, sözleşmeler, anlaşmalar, yerel mevzuat ve ticari gümrükler veya kullanımları üzerinde tarafınıza temsil edilmekteyiz. Avukatlık Büromuz tarafından, tüm ticari işlemlerinizi hukuki zeminde gerçekleştirin. Birden fazla ülkenin unsurları söz konusu olduğunda uluslararası nitelik kazanmaya hak kazanın.<br/>
+                        <h2><?php echo $lang['workareas']; ?></h2>
+                        <span class="lead"><?php echo $lang['workarea_detail']; ?><br/>
                             <br><strong>- ULUSLARARASI TİCARET</strong><br/>
                             <strong>- ULUSLARARASI HUKUK</strong><br/>
                             <strong>- TİCARET HUKUKU</strong><br/>
@@ -153,7 +153,7 @@ if (!$_SESSION["lang"]) {
                             
                         <br>Hukuk Büromuz, hukuk ve sivil haklar, ekonomik ve sosyal haklar ve devletler ve devlet dışı aktörler tarafından ihlali için hesap verebilirlik konularını kapsayan hukuki çözümler sunulmaktadır. Hukuk büromuz, sözleşmeler, sözleşmeler ve BM Güvenlik Konseyi kararları ile ilgili olarak sizi temsil ediyor, izleme mekanizmalarını, komisyonları, adliye mahkemelerini ve hatta bölgesel insan hakları mahkemeleri ve Uluslararası Ceza Mahkemesi gibi daimi mahkemeleri bile beraberinde getirdi. Bunların hepsi uluslararası yasal konulara katkıda bulunur.
                         <br/><br>
-                        <strong><font size="+2">SANAYİ</font><br/>
+                        <strong style="font-size: 144%; ">SANAYİ<br/>
                         <strong>- ULUSLARASI UYUŞMAZLIKLAR</strong><br/>
                         <strong>- AVRUPA İNSAN HAKLARI</strong><br/>
                         <strong>- HAVACILIK VE UZAY</strong><br/>
@@ -181,55 +181,45 @@ if (!$_SESSION["lang"]) {
                 <div class="row">
                     <div class="col-md-3">
                         <div class="widget clearfix widget-categories">
-                            <h4 class="widget-title">LİNKLER</h4>
+                            <h4 class="widget-title"><?php echo $lang['links']; ?></h4>
                             <ul class="list list-arrow-icons">
-                                <li><a title="" href="hakkimizda.html">Hakkımızda </a></li>
-                                <li><a title="" href="workArea.php">Çalışma Alanlarımız</a></li>
-                                <li><a title="" href="cozum-ortaklarimiz.html">Çözüm Ortaklarımız</a></li>
-                                <li><a title="" href="connection.php">İletişim</a></li>
+                                <li><a title="" href="workArea.php"><?php echo $lang['workareassmall']; ?></a></li>
+                                <li><a title="" href="cozum-ortaklarimiz.html"><?php echo $lang['partnerssmall']; ?></a>
+                                </li>
+                                <li><a title="" href="connection.php"><?php echo $lang['connectionsmall']; ?></a></li>
                             </ul>
                         </div>
                     </div>
-
                     <div class="col-md-3">
                         <div class="widget clearfix widget-categories">
-                            <h4 class="widget-title">İÇERİK LİNKLERİ</h4>
+                            <h4 class="widget-title"><?php echo $lang['content']; ?></h4>
                             <ul class="list list-arrow-icons">
-                                <li><a href="purpose.php">Amacımız</a></li>
-                                <li><a href="membership.php">Üye Olunan Kuruluşlar</a></li>
-                                <li><a href="vision.php">Vizyonumuz</a></li>
-                                <li><a href="publication.php">Yayınlarımız</a></li>
+                                <li><a href="purpose.php"><?php echo $lang['purpose']; ?></a></li>
+                                <li><a href="membership.php"><?php echo $lang['members']; ?></a></li>
+                                <li><a href="vision.php"><?php echo $lang['vision']; ?></a></li>
+                                <li><a href="publication.php"><?php echo $lang['publications']; ?></a></li>
                             </ul>
                         </div>
                     </div>
-
                     <div class="col-md-3">
                         <div class="widget clearfix widget-categories">
-                            <h4 class="widget-title">ÇÖZÜM ORTAKLARIMIZ</h4>
+                            <h4 class="widget-title"><?php echo $lang['partners']; ?></h4>
                             <ul class="list list-arrow-icons">
-                                <li><a href="find-a-partner.html">Find A Partner</a>
-                                </li>
-                                <li><a href="find-a-lawyer.html">Find A Lawyer</a>
-                                </li>
-                                <li><a href="find-a-consulting.html">Find A Consulting</a>
-                                </li>
+                                <li><a href="find-a-partner.html">Find A Partner</a></li>
+                                <li><a href="find-a-lawyer.html">Find A Lawyer</a></li>
                             </ul>
                         </div>
                     </div>
-
                     <div class="col-md-3">
                         <img src="images/logo-white.png" alt="">
-
                     </div>
-
-
                 </div>
             </div>
         </div>
         <div class="copyright-content">
             <div class="container">
                 <div class="row">
-                    <div class="copyright-text text-center"> © AKCBLAWFIRM </div>
+                    <div class="copyright-text text-center"> © AKCBLAWFIRM</div>
                 </div>
             </div>
         </div>

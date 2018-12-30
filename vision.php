@@ -70,8 +70,8 @@ if (!$_SESSION["lang"]) {
                             <div class="topbar-dropdown">
                                 <a class="title"><i class="fa fa-globe"></i></a>
                                 <div class="dropdown-list">
-                                    <a class = "list-entry" href="language/language.php?lang=tr">Türkçe</a>
-                                    <a class = "list-entry" href="language/language.php?lang=en">English</a>
+                                    <a class = "list-entry" href="language/language.php?lang=tr&page=vision">Türkçe</a>
+                                    <a class = "list-entry" href="language/language.php?lang=en&page=vision">English</a>
                                 </div>
                             </div>
                         </li>
@@ -159,56 +159,45 @@ if (!$_SESSION["lang"]) {
                 <div class="row">
                     <div class="col-md-3">
                         <div class="widget clearfix widget-categories">
-                            <h4 class="widget-title">LİNKLER</h4>
+                            <h4 class="widget-title"><?php echo $lang['links']; ?></h4>
                             <ul class="list list-arrow-icons">
-                                <li><a title="" href="hakkimizda.html">Hakkımızda </a></li>
-                                <li><a title="" href="workArea.php">Çalışma Alanlarımız</a></li>
-                                <li><a title="" href="cozum-ortaklarimiz.html">Çözüm Ortaklarımız</a></li>
-                                <li><a title="" href="connection.php">İletişim</a></li>
+                                <li><a title="" href="workArea.php"><?php echo $lang['workareassmall']; ?></a></li>
+                                <li><a title="" href="cozum-ortaklarimiz.html"><?php echo $lang['partnerssmall']; ?></a>
+                                </li>
+                                <li><a title="" href="connection.php"><?php echo $lang['connectionsmall']; ?></a></li>
                             </ul>
                         </div>
                     </div>
-
                     <div class="col-md-3">
                         <div class="widget clearfix widget-categories">
-                            <h4 class="widget-title">İÇERİK LİNKLERİ</h4>
+                            <h4 class="widget-title"><?php echo $lang['content']; ?></h4>
                             <ul class="list list-arrow-icons">
-                                <li><a href="purpose.php">Amacımız</a></li>
-                                <li><a href="workArea.php">Alanlarımız</a></li>
-                                <li><a href="workArea.php">Hizmetlerimiz</a></li>
-                                <li><a href="publication.php">Yayınlarımız</a></li>
+                                <li><a href="purpose.php"><?php echo $lang['purpose']; ?></a></li>
+                                <li><a href="membership.php"><?php echo $lang['members']; ?></a></li>
+                                <li><a href="vision.php"><?php echo $lang['vision']; ?></a></li>
+                                <li><a href="publication.php"><?php echo $lang['publications']; ?></a></li>
                             </ul>
                         </div>
                     </div>
-
                     <div class="col-md-3">
                         <div class="widget clearfix widget-categories">
-                            <h4 class="widget-title">ÇÖZÜM ORTAKLARIMIZ</h4>
+                            <h4 class="widget-title"><?php echo $lang['partners']; ?></h4>
                             <ul class="list list-arrow-icons">
-                                <li><a href="find-a-partner.html">Find A Partner</a>
-                                </li>
-                                <li><a href="find-a-lawyer.html">Find A Lawyer</a>
-                                </li>
-                                <li><a href="find-a-consulting.html">Find A Consulting</a>
-                                </li>
+                                <li><a href="find-a-partner.html">Find A Partner</a></li>
+                                <li><a href="find-a-lawyer.html">Find A Lawyer</a></li>
                             </ul>
                         </div>
                     </div>
-
                     <div class="col-md-3">
                         <img src="images/logo-white.png" alt="">
-
-
                     </div>
-
-
                 </div>
             </div>
         </div>
         <div class="copyright-content">
             <div class="container">
                 <div class="row">
-                    <div class="copyright-text text-center"> © AKCBLAWFIRM  </div>
+                    <div class="copyright-text text-center"> © AKCBLAWFIRM</div>
                 </div>
             </div>
         </div>

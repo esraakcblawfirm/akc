@@ -9,10 +9,33 @@ $lang = array(
     "purpose" => "Amacımız",
     "members" => "Üye Olunan Kuruluşlar",
     "workareas" => "ÇALIŞMA ALANLARIMIZ",
+    "workareassmall" => "Çalışma Alanlarımız",
     "partners" => "ÇÖZÜM ORTAKLARIMIZ",
+    "partnerssmall" => "Çözüm Ortaklarımız",
     "connection" => "İLETİŞİM",
+    "connectionsmall" => "İletişim",
     "openDoor" => "KAPIMIZI AÇIN",
     "homePageText" => "Dünden bugüne ve bugünden yarına kadar sizinle birlikteyiz. Yargının bağımsız savunucuları olarak, gücümüzü sizden alıyoruz. Her şey değişmektedir. Hukuk değişkendir ve değişime hazırdır.",
-    "aboutUsSmallText" => "Dünyanın dört bir yanındaki insanlara ulaşmayı ve size ulaşmayı hedefledik."
+    "aboutUsSmallText" => "Dünyanın dört bir yanındaki insanlara ulaşmayı ve size ulaşmayı hedefledik.",
+    "links" => "BAĞLANTILAR",
+    "content" => "İÇERİKLER",
+    "homepage_workAreas" => "Avukatlık büromuz ile işlemlerinizi hukuki zeminde gerçekleştirin.",
+    "homepage_partners" => "Çözüm ortaklarımız ile sizin yanınızdayız.",
+    "homepage_publications" => "Yayınlarımız ile size daha fazla hizmet sunuyoruz.",
+    "homepage_connection" => "İletişim bilgilerimize buradan ulaşabilirsiniz.",
+    "homepage_thinktogether_title" => "Birlikte Düşünelim & Yaratalım",
+    "homepage_thinktogether_details" => "Müşteri odaklılık yaptığımız her şeyin merkezinde yer aldı. En büyük gücümüzün her zaman müşterilerimizle birlikte olma hırsımız olduğuna inanıyoruz. Onlara adım atıyor ve gelecekte onlar için neyin önemli olacağına karar veriyoruz.",
+    "homepage_purpose_details" => "Dünyanın dört bir yanındaki insanlara ulaşmayı ve size ulaşmayı hedefledik.",
+    "homepage_publication_details" => "Yayınlarımıza buradan ulaşabilirsiniz.",
+    "homepage_member_details" => "Üyesi olduğumuz kuruluşları buradan görebilirsiniz.",
+
+    "workarea_detail" => "Uluslararası ticari veya ticari işlemleri yöneten yasal kurallar, sözleşmeler, anlaşmalar, yerel mevzuat ve ticari gümrükler veya kullanımları üzerinde tarafınıza temsil edilmekteyiz. Avukatlık Büromuz tarafından, tüm ticari işlemlerinizi hukuki zeminde gerçekleştirin. Birden fazla ülkenin unsurları söz konusu olduğunda uluslararası nitelik kazanmaya hak kazanın.",
+
+    "form_email_title" => "HEMEN MAİL YOLLA",
+    "form_email_text" => "Hızlı bir şekilde mail yollayarak bilgi alabilirsiniz.",
+    "form_email_name" => "Adınız ve Soyadınız",
+    "form_email_address" => "Mail Adresiniz",
+    "form_email_message" => "Mesajınız",
+    "form_email_btn" => "Mail Gönder"
 );
 ?>

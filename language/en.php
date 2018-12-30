@@ -9,10 +9,33 @@ $lang = array(
     "purpose" => "Our Aim",
     "members" => "Our Membership Organizations",
     "workareas" => "OUR PRACTICE & INDUSTRIES",
+    "workareassmall" => "Our Practice & Industries",
     "partners" => "OUR PARTNERS",
+    "partnerssmall" => "Our Partners",
     "connection" => "CONNECTION",
+    "connectionsmall" => "Connection",
     "openDoor" => "OPEN OUR DOOR",
     "homePageText" => "Being with you from yesterday to today and  from today to tomorrow. As independent advocates of the judiciary, we take our power from you. Everything changes and law is variable and ready for change with you.",
-    "aboutUsSmallText" => "We aimed to reach out to people all over the world and reach to you."
+    "aboutUsSmallText" => "We aimed to reach out to people all over the world and reach to you.",
+    "links" => "LINKS",
+    "content" => "CONTENTS",
+    "homepage_workAreas" => "Perform your processes in a legal basis with our law firm.",
+    "homepage_partners" => "We are with you with our solution partners.",
+    "homepage_publications" => "We offer you more services with our publications.",
+    "homepage_connection" => "Contact information can be found here.",
+    "homepage_thinktogether_title" => "Think & Create Together",
+    "homepage_thinktogether_details" => "Client focus has been central to everything we do. We believe our greatest strength lies in the ambition to be with our customers always. We keeping step with them and deciding what will become important for them in the future too.",
+    "homepage_purpose_details" => "We aimed to reach out to people all over the world.",
+    "homepage_publication_details" => "You can access our publications from here.",
+    "homepage_member_details" => "You can see our membership organizations from here.",
+
+    "workarea_detail" => "We are being represent to your side on the body of legal rules, conventions, treaties, domestic legislation and commercial customs or usages, that governs international commercial or business transactions.  By Our Law Firm make a real you’re all the commercial transactions in the legal ground. You will qualify to be international if elements of more than one country are involved.",
+
+    "form_email_title" => "SEND AN EMAIL",
+    "form_email_text" => "You can get information with sending an email to us.",
+    "form_email_name" => "Name & Surname",
+    "form_email_address" => "Your Email Address",
+    "form_email_message" => "Your Message",
+    "form_email_btn" => "Send Email"
 );
 ?>

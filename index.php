@@ -123,9 +123,7 @@ if (!$_SESSION["lang"]) {
                         <span style="font-family: Myriad Pro; ">AKCBLAWFIRM</span>
                     </h3>
                     <h3 style="color: #003366; text-align: center">
-                        <span style="font-family: Courgette; font-size: 80%; color: #CA0027; opacity: 0.5; text-align: center; font-style: italic">
-                            ULUSAL VE ULUSLARARASI HUKUK VE DANIŞMANLIK
-                        </span>
+                        <span style="font-family: Courgette; font-size: 80%; color: #CA0027; opacity: 0.5; text-align: center; font-style: italic"> ULUSAL VE ULUSLARARASI HUKUK VE DANIŞMANLIK </span>
                     </h3>
                     <p class="lead">
                     <div style="text-align: center;">
@@ -135,7 +133,7 @@ if (!$_SESSION["lang"]) {
                     </div>
                     </p>
                     <div style="text-align: center;">
-                        <a class="btn btn-red" href="#section6" id="goToSection6"><?php echo $lang['openDoor']; ?></a>
+                        <a class="btn btn-red goToSection" href="#section3"><?php echo $lang['openDoor']; ?></a>
                     </div>
                 </div>
             </div>
@@ -148,50 +146,37 @@ if (!$_SESSION["lang"]) {
         <div class="container">
             <div class="heading heading-center">
                 <h2>AKCBLAWFIRM</h2>
-                <span class="lead">Ulusal ve Uluslararası Hukuk ve Danışmanlık </span>
+                <span class="lead">Ulusal ve Uluslararası Hukuk ve Danışmanlık</span>
             </div>
-
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="icon-box effect medium square color">
-                        <div class="icon"><a href="vision.php"><i class="fa fa-lock"></i></a></div>
+                        <div class="icon"><a href="vision.php"><i class="fa fa-balance-scale"></i></a></div>
                         <h3><?php echo $lang['about']; ?></h3>
                         <p><?php echo $lang['aboutUsSmallText']; ?></p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="icon-box effect medium square color">
-                        <div class="icon"><a href="workArea.php"><i class="fa fa-gavel"></i></a></div>
-                        <h3>Çalışma Alanlarımız</h3>
-                        <p>Avukatlık büromuz ile, işlemlerinizi hukuki zeminde gerçekleştirin.</p>
+                        <div class="icon"><a href="workArea.php"><i class="fa fa-pencil"></i></a></div>
+                        <h3><?php echo $lang['workareassmall']; ?></h3>
+                        <p><?php echo $lang['homepage_workAreas']; ?></p>
                     </div>
                 </div>
-                <div class="col-md-4">
+            </div>
+            <div class="row">
+                <div class="col-md-6">
                     <div class="icon-box effect medium square color">
-                        <div class="icon"><a href="cozum-ortaklarimiz.html"><i class="fa fa-users"></i></a></div>
-                        <h3>Çözüm Ortaklarımız</h3>
-                        <p>Bu görev doğrultusunda sizlerin amacına ulaşmak için yanınızdayız.</p>
+                        <div class="icon"><a href="publication.php"><i class="fa fa-book"></i></a></div>
+                        <h3><?php echo $lang['publications']; ?></h3>
+                        <p><?php echo $lang['homepage_publications']; ?></p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="icon-box effect medium square color">
-                        <div class="icon"><a href="publication.php"><i class="fa fa-university"></i></a></div>
-                        <h3>Yayınlarımız</h3>
-                        <p>Birden fazla ülkenin unsurları söz konusu olduğunda uluslararası ...</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="icon-box effect medium square color">
-                        <div class="icon"><a href="index.php"><i class="fa fa-truck"></i></a></div>
-                        <h3>Hizmetlerimiz</h3>
-                        <p>Avukatlık büromuzun sunduğu tüm hizmetlere ulaşabilirsiniz.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="icon-box effect medium square color">
-                        <div class="icon"><a href="connection.php"><i class="fa fa-heart"></i></a></div>
-                        <h3>İletişim Ofislerimiz</h3>
-                        <p>İletişim bilgilerimize buradan ulaşabilirsiniz.</p>
+                        <div class="icon"><a href="connection.php"><i class="fa fa-address-card"></i></a></div>
+                        <h3><?php echo $lang['connectionsmall']; ?></h3>
+                        <p><?php echo $lang['homepage_connection']; ?></p>
                     </div>
                 </div>
             </div>
@@ -207,15 +192,13 @@ if (!$_SESSION["lang"]) {
                     <img alt="lawyer" src="images/vizyon-anasayfa.png" class="img-responsive m-b-10">
                 </div>
                 <div class="col-md-7">
-                    <h2 class="text-medium">Vizyonumuz</h2>
-                    <h3>Birlikte Düşünüp Yaratalım</h3>
-                    <p>Mükemmel müşteri hizmetleri sunmak ve müşterilerin doğru fırsatları yakalamalarına yardımcı olmak
-                        için dünya çapında yeteneklerimizi kullanmak, uzun süreli ve kalıcı ilişkilerden faydalanmak
-                        dünya görüşümüzdür. İşimizin tadını çıkarın ve şirketteki görevimiz ne olursa olsun sıra dışı
-                        bir iş yapmaya kararlıyız. Yaptığımız her işte en yüksek kişisel, etik ve profesyonel
-                        standartları gözlemliyoruz ve her zaman dürüstlükle çalışıyoruz.</p>
+                    <h2 class="text-medium"></h2>
+                    <h3><?php echo $lang['homepage_thinktogether_title']; ?></h3>
+                    <p><?php echo $lang['homepage_thinktogether_details']; ?></p>
                     <div class="clear"></div>
+                    <br/>
                     <div class="seperator"><i class="fa fa-gavel"></i></div>
+                    <br/>
                     <div class="row team-members">
                         <div class="col-md-4">
                             <a href="purpose.php">
@@ -224,9 +207,8 @@ if (!$_SESSION["lang"]) {
                                         <img src="images/amacimiz-anasayfa.png">
                                     </div>
                                     <div class="team-desc">
-                                        <h3>Amacımız</h3>
-                                        <p>Dünyanın dört bir yanındaki insanlara ulaşmayı ve size ulaşmayı
-                                            hedefledik.</p>
+                                        <h3><?php echo $lang['purpose']; ?></h3>
+                                        <p><?php echo $lang['homepage_purpose_details']; ?></p>
                                     </div>
                                 </div>
                             </a>
@@ -238,9 +220,8 @@ if (!$_SESSION["lang"]) {
                                         <img src="images/yayinlarimiz-anasayfa.png">
                                     </div>
                                     <div class="team-desc">
-                                        <h3>Yayınlarımız</h3>
-                                        <p>Doğrudan Yabancı Yatırımlar için Türkiye’deki Yasal Alt Yapı (Kasım 2013)</p>
-
+                                        <h3><?php echo $lang['publications']; ?></h3>
+                                        <p><?php echo $lang['homepage_publication_details']; ?></p>
                                     </div>
                                 </div>
                             </a>
@@ -252,9 +233,8 @@ if (!$_SESSION["lang"]) {
                                         <img src="images/uye-olunan-kuruluslar-anasayfa.png">
                                     </div>
                                     <div class="team-desc">
-                                        <h3>Üye Olunan Kuruluşlar</h3>
-                                        <p>İstanbul Barosu (2011) </br> Birleşik Hakemler Kurulu üye olduğumuz
-                                            kuruluşlardır.</p>
+                                        <h3><?php echo $lang['members']; ?></h3>
+                                        <p><?php echo $lang['homepage_member_details']; ?></p>
 
                                     </div>
                                 </div>
@@ -268,47 +248,44 @@ if (!$_SESSION["lang"]) {
     </section>
     <!-- end: ABOUT LAWYER -->
 
-
     <!-- GET FREE CONSULTATION -->
     <section id="section6" data-parallax-image="images/iletisim-form.png">
         <div class="container">
             <div class="row">
-
                 <div class="col-md-8"></div>
                 <div class="col-md-4 background-colored text-light p-40">
-                    <div class="text-small">HEMEN EMAİL YOLLA</div>
-                    <p>Hızlı bir şekilde email yollayarak bilgi alabilirsiniz.</p>
-
+                    <div class="text-small"><?php echo $lang['form_email_title']; ?></div>
+                    <p><?php echo $lang['form_email_text']; ?></p>
                     <form class="widget-contact-form" action="include/contact-form.php" role="form" method="post">
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label for="name">Adınız ve Soyadınız</label>
+                                    <label for="name"><?php echo $lang['form_email_name']; ?></label>
                                     <input type="text" aria-required="true" name="widget-contact-form-name"
-                                           class="form-control required name" placeholder="Adınız ve Soyadınız">
+                                           class="form-control required name"
+                                           placeholder="<?php echo $lang['form_email_name']; ?>">
                                 </div>
                                 <div class="form-group">
-                                    <label for="email">Email Adresiniz</label>
+                                    <label for="email"><?php echo $lang['form_email_address']; ?></label>
                                     <input type="email" aria-required="true" name="widget-contact-form-email"
-                                           class="form-control required email" placeholder="Email Adresiniz">
+                                           class="form-control required email"
+                                           placeholder="<?php echo $lang['form_email_address']; ?>">
                                 </div>
                                 <div class="form-group">
-                                    <label for="message">Mesajınız</label>
+                                    <label for="message"><?php echo $lang['form_email_message']; ?></label>
                                     <textarea type="text" name="widget-contact-form-message" rows="9"
-                                              class="form-control required" placeholder="Mesajınız"></textarea>
+                                              class="form-control required"
+                                              placeholder="<?php echo $lang['form_email_message']; ?>"></textarea>
                                 </div>
-
                                 <div class="form-group text-center">
                                     <button class="btn btn-form center" type="submit" id="form-submit" name="submit">
-                                        Mesajı Yolla
+                                        <?php echo $lang['form_email_btn']; ?>
                                     </button>
                                 </div>
                             </div>
                         </div>
                     </form>
-
                 </div>
-
             </div>
         </div>
     </section>
@@ -321,42 +298,35 @@ if (!$_SESSION["lang"]) {
                 <div class="row">
                     <div class="col-md-3">
                         <div class="widget clearfix widget-categories">
-                            <h4 class="widget-title">LİNKLER</h4>
+                            <h4 class="widget-title"><?php echo $lang['links']; ?></h4>
                             <ul class="list list-arrow-icons">
-                                <li><a title="" href="hakkimizda.html">Hakkımızda </a></li>
-                                <li><a title="" href="workArea.php">Çalışma Alanlarımız</a></li>
-                                <li><a title="" href="cozum-ortaklarimiz.html">Çözüm Ortaklarımız</a></li>
-                                <li><a title="" href="connection.php">İletişim</a></li>
+                                <li><a title="" href="workArea.php"><?php echo $lang['workareassmall']; ?></a></li>
+                                <li><a title="" href="cozum-ortaklarimiz.html"><?php echo $lang['partnerssmall']; ?></a>
+                                </li>
+                                <li><a title="" href="connection.php"><?php echo $lang['connectionsmall']; ?></a></li>
                             </ul>
                         </div>
                     </div>
-
                     <div class="col-md-3">
                         <div class="widget clearfix widget-categories">
-                            <h4 class="widget-title">İÇERİK LİNKLERİ</h4>
+                            <h4 class="widget-title"><?php echo $lang['content']; ?></h4>
                             <ul class="list list-arrow-icons">
-                                <li><a href="purpose.php">Amacımız</a></li>
-                                <li><a href="workArea.php">Alanlarımız</a></li>
-                                <li><a href="workArea.php">Hizmetlerimiz</a></li>
-                                <li><a href="publication.php">Yayınlarımız</a></li>
+                                <li><a href="purpose.php"><?php echo $lang['purpose']; ?></a></li>
+                                <li><a href="membership.php"><?php echo $lang['members']; ?></a></li>
+                                <li><a href="vision.php"><?php echo $lang['vision']; ?></a></li>
+                                <li><a href="publication.php"><?php echo $lang['publications']; ?></a></li>
                             </ul>
                         </div>
                     </div>
-
                     <div class="col-md-3">
                         <div class="widget clearfix widget-categories">
-                            <h4 class="widget-title">ÇÖZÜM ORTAKLARIMIZ</h4>
+                            <h4 class="widget-title"><?php echo $lang['partners']; ?></h4>
                             <ul class="list list-arrow-icons">
-                                <li><a href="find-a-partner.html">Find A Partner</a>
-                                </li>
-                                <li><a href="find-a-lawyer.html">Find A Lawyer</a>
-                                </li>
-                                <li><a href="find-a-consulting.html">Find A Consulting</a>
-                                </li>
+                                <li><a href="find-a-partner.html">Find A Partner</a></li>
+                                <li><a href="find-a-lawyer.html">Find A Lawyer</a></li>
                             </ul>
                         </div>
                     </div>
-
                     <div class="col-md-3">
                         <img src="images/logo-white.png" alt="">
                     </div>
@@ -366,8 +336,7 @@ if (!$_SESSION["lang"]) {
         <div class="copyright-content">
             <div class="container">
                 <div class="row">
-                    <div class="copyright-text text-center"> © AKCBLAWFIRM</a>
-                    </div>
+                    <div class="copyright-text text-center"> © AKCBLAWFIRM</div>
                 </div>
             </div>
         </div>
@@ -385,23 +354,6 @@ if (!$_SESSION["lang"]) {
 
 <!--Template functions-->
 <script src="js/functions.js"></script>
-<script>
-    $(document).ready(function () {
-        $("#goToSection6").on('click', function (event) {
-            console.log("HERE :   ddd");
-            if (this.hash !== "") {
-                event.preventDefault();
-                // Store hash
-                var hash = this.hash;
-                $('html, body').animate({
-                    scrollTop: $(hash).offset().top
-                }, 800, function () {
-                    window.location.hash = hash;
-                });
-            }
-        });
-    });
-</script>
 </body>
 
 </html>

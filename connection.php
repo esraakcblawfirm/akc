@@ -69,8 +69,8 @@ if (!$_SESSION["lang"]) {
                             <div class="topbar-dropdown">
                                 <a class="title"><i class="fa fa-globe"></i></a>
                                 <div class="dropdown-list">
-                                    <a class="list-entry" href="language/language.php?lang=tr">Türkçe</a>
-                                    <a class="list-entry" href="language/language.php?lang=en">English</a>
+                                    <a class="list-entry" href="language/language.php?lang=tr&page=connection">Türkçe</a>
+                                    <a class="list-entry" href="language/language.php?lang=en&page=connection">English</a>
                                 </div>
                             </div>
                         </li>
@@ -180,7 +180,6 @@ if (!$_SESSION["lang"]) {
                         <div class="widget clearfix widget-categories">
                             <h4 class="widget-title">LİNKLER</h4>
                             <ul class="list list-arrow-icons">
-                                <li><a title="" href="hakkimizda.html">Hakkımızda </a></li>
                                 <li><a title="" href="workArea.php">Çalışma Alanlarımız</a></li>
                                 <li><a title="" href="cozum-ortaklarimiz.html">Çözüm Ortaklarımız</a></li>
                                 <li><a title="" href="connection.php">İletişim</a></li>
