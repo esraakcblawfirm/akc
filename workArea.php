@@ -16,7 +16,7 @@ if (!$_SESSION["lang"]) {
     <meta name="author" content="AKCBLAWFIRM"/>
     <meta name="description" content="Akcblawfirm">
     <!-- Document title -->
-    <title>AKCBLAWFIRM - Çalışma Alanlarımız</title>
+    <title><?php echo $lang['title_workAreas']; ?></title>
     <!-- Stylesheets & Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,800,700,600|Montserrat:400,500,600,700|Raleway:100,300,600,700,800"
           rel="stylesheet" type="text/css"/>
@@ -28,14 +28,12 @@ if (!$_SESSION["lang"]) {
 <body>
 <!-- Wrapper -->
 <div id="wrapper">
-
-    <!-- TOPBAR -->
     <div id="topbar" class="visible-md visible-lg">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
                     <ul class="top-menu">
-                        <li><a href="#">Telefon: +90 541 715 19 86</a></li>
+                        <li><a href="#"><?php echo $lang['phone']; ?> +90 541 715 19 86</a></li>
                         <li><a href="#">Email: info@akcblawfirm.com</a></li>
                     </ul>
                 </div>
@@ -51,7 +49,6 @@ if (!$_SESSION["lang"]) {
             </div>
         </div>
     </div>
-    <!-- end: TOPBAR -->
 
     <!-- Header -->
     <header id="header">
@@ -121,7 +118,7 @@ if (!$_SESSION["lang"]) {
                     <div class="text-light" style="">
                         <h4 class="text-uppercase m-b-0"><font color="#FFCC00">AKCBLAWFIRM</font></h4>
                         <h1 class="text-uppercase text-large"><font color="#FFFFFF">SİZİN BAŞARINIZ</font></h1>
-                        <a href="#" class="btn btn-red">KAPIMIZI AÇIN</a>
+                        <a href="#empty" class="btn btn-red goToSection"><?php echo $lang['openDoor']; ?></a>
                     </div>
                 </div>
             </div>

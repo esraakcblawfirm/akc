@@ -1,6 +1,12 @@
 <?php
 $lang = array(
     "title" => "AKCBLAWFIRM",
+    "title_workAreas" => "AKCBLAWFIRM - Our Work Areas",
+    "title_vision" => "AKCBLAWFIRM - Our Vision",
+    "title_aim" => "AKCBLAWFIRM - Our Aim",
+    "title_publications" => "AKCBLAWFIRM - Our Publications",
+    "title_membership" => "AKCBLAWFIRM - Our Membership Organizations",
+    "title_connection" => "AKCBLAWFIRM - Connection",
     "phone" => "Phone:",
     "mainpage" => "Home Page",
     "about" => "About Us",

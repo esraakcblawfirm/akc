@@ -16,7 +16,7 @@ if (!$_SESSION["lang"]) {
     <meta name="author" content="AKCBLAWFIRM"/>
     <meta name="description" content="Akcblawfirm">
     <!-- Document title -->
-    <title>AKCBLAWFIRM - İletişim</title>
+    <title><?php echo $lang['title_connection']; ?></title>
     <!-- Stylesheets & Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,800,700,600|Montserrat:400,500,600,700|Raleway:100,300,600,700,800"
           rel="stylesheet" type="text/css"/>
@@ -29,13 +29,12 @@ if (!$_SESSION["lang"]) {
 <body>
 <!-- Wrapper -->
 <div id="wrapper">
-    <!-- TOPBAR -->
     <div id="topbar" class="visible-md visible-lg">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
                     <ul class="top-menu">
-                        <li><a href="#">Telefon: +90 541 715 19 86</a></li>
+                        <li><a href="#"><?php echo $lang['phone']; ?> +90 541 715 19 86</a></li>
                         <li><a href="#">Email: info@akcblawfirm.com</a></li>
                     </ul>
                 </div>
@@ -51,7 +50,6 @@ if (!$_SESSION["lang"]) {
             </div>
         </div>
     </div>
-    <!-- end: TOPBAR -->
 
     <!-- Header -->
     <header id="header">
@@ -69,8 +67,10 @@ if (!$_SESSION["lang"]) {
                             <div class="topbar-dropdown">
                                 <a class="title"><i class="fa fa-globe"></i></a>
                                 <div class="dropdown-list">
-                                    <a class="list-entry" href="language/language.php?lang=tr&page=connection">Türkçe</a>
-                                    <a class="list-entry" href="language/language.php?lang=en&page=connection">English</a>
+                                    <a class="list-entry"
+                                       href="language/language.php?lang=tr&page=connection">Türkçe</a>
+                                    <a class="list-entry"
+                                       href="language/language.php?lang=en&page=connection">English</a>
                                 </div>
                             </div>
                         </li>

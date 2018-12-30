@@ -28,7 +28,6 @@ if (!$_SESSION["lang"]) {
 
 <body>
 <div id="wrapper">
-    <!-- TOPBAR -->
     <div id="topbar" class="visible-md visible-lg">
         <div class="container">
             <div class="row">
