@@ -23,7 +23,7 @@ if (!$_SESSION["lang"]) {
     <link href="css/plugins.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Charm|Courgette" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/lawyer-style.css" media="screen"/>
 </head>
 

@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53079045-c153-4a6e-8b95-ec55cfdf5c32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/partner.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/lawyer-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/lawyer-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/en.php" beforeDir="false" afterPath="$PROJECT_DIR$/language/en.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/tr.php" beforeDir="false" afterPath="$PROJECT_DIR$/language/tr.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/membership.php" beforeDir="false" afterPath="$PROJECT_DIR$/membership.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publication.php" beforeDir="false" afterPath="$PROJECT_DIR$/publication.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purpose.php" beforeDir="false" afterPath="$PROJECT_DIR$/purpose.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partner.php" beforeDir="false" afterPath="$PROJECT_DIR$/partner.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vision.php" beforeDir="false" afterPath="$PROJECT_DIR$/vision.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workArea.php" beforeDir="false" afterPath="$PROJECT_DIR$/workArea.php" afterDir="false" />
     </list>
@@ -33,15 +26,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/workArea.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="127" column="123" selection-start-line="127" selection-start-column="123" selection-end-line="127" selection-end-column="123" />
+            <state relative-caret-position="3111">
+              <caret line="236" column="32" selection-start-line="236" selection-start-column="32" selection-end-line="236" selection-end-column="32" />
               <folding>
                 <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -64,7 +58,16 @@
         <entry file="file://$PROJECT_DIR$/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="475">
-              <caret line="465" column="25" lean-forward="true" selection-start-line="465" selection-start-column="25" selection-end-line="465" selection-end-column="25" />
+              <caret line="465" column="25" selection-start-line="465" selection-start-column="25" selection-end-line="465" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vision.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -82,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/connection.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="321">
-              <caret line="128" column="31" lean-forward="true" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="31" />
+              <caret line="128" column="31" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="31" />
               <folding>
                 <element signature="n#style#0;n#h3#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -94,19 +97,10 @@
         <entry file="file://$PROJECT_DIR$/purpose.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="219">
-              <caret line="135" column="114" lean-forward="true" selection-start-line="135" selection-start-column="41" selection-end-line="135" selection-end-column="114" />
+              <caret line="135" column="114" selection-start-line="135" selection-start-column="41" selection-end-line="135" selection-end-column="114" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/publication.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -133,8 +127,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#F7F7F7</find>
-      <find>sizin başar</find>
       <find>workArea_yourSuccess</find>
       <find>Connect</find>
       <find>connection</find>
@@ -163,6 +155,8 @@
       <find>@Media</find>
       <find>max-device-wi</find>
       <find>contact</find>
+      <find>lawyer-</find>
+      <find>charm</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -222,15 +216,15 @@
         <option value="$PROJECT_DIR$/membership.php" />
         <option value="$PROJECT_DIR$/publication.php" />
         <option value="$PROJECT_DIR$/purpose.php" />
-        <option value="$PROJECT_DIR$/vision.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/connection.php" />
-        <option value="$PROJECT_DIR$/partner.php" />
         <option value="$PROJECT_DIR$/language/en.php" />
         <option value="$PROJECT_DIR$/language/tr.php" />
         <option value="$PROJECT_DIR$/css/lawyer-style.css" />
+        <option value="$PROJECT_DIR$/connection.php" />
+        <option value="$PROJECT_DIR$/vision.php" />
         <option value="$PROJECT_DIR$/workArea.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/partner.php" />
       </list>
     </option>
   </component>
@@ -328,7 +322,7 @@
       <workItem from="1546118013123" duration="20000" />
       <workItem from="1546118058734" duration="20291000" />
       <workItem from="1546163100604" duration="25062000" />
-      <workItem from="1546237991992" duration="8116000" />
+      <workItem from="1546237991992" duration="9209000" />
     </task>
     <task id="LOCAL-00001" summary="Index Page is completed and headers and footers are added for all pages.">
       <created>1546170766635</created>
@@ -344,11 +338,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546172667879</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="workArea page is completed.">
+      <created>1546248223937</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1546248223938</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53489000" />
+    <option name="totallyTimeSpent" value="54582000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -363,6 +364,38 @@
     <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.29424307" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39970717" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329429" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.28936172" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3287234" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.329429" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="12" weight="0.329429" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29424307" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
@@ -379,41 +412,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329429" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.30746704" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.28936172" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.329429" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.329429" />
-      <window_info anchor="bottom" id="PHP-CGI Server" order="12" weight="0.329429" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3704698" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39970717" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.329429" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.30746704" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.329429" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3287234" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.329429" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="12" weight="0.329429" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -433,7 +434,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Index Page is completed and headers and footers are added for all pages." />
     <MESSAGE value="Page Titles and top-bars are edited." />
-    <option name="LAST_COMMIT_MESSAGE" value="Page Titles and top-bars are edited." />
+    <MESSAGE value="workArea page is completed." />
+    <option name="LAST_COMMIT_MESSAGE" value="workArea page is completed." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/resimler/logo.png" />
@@ -505,13 +507,6 @@
     <entry file="file://$PROJECT_DIR$/images/bookcase-books-bookshelf.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/vision.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2295">
-          <caret line="135" column="16" selection-start-line="135" selection-start-column="16" selection-end-line="137" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partner.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2278">
@@ -546,7 +541,7 @@
     <entry file="file://$PROJECT_DIR$/purpose.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
-          <caret line="135" column="114" lean-forward="true" selection-start-line="135" selection-start-column="41" selection-end-line="135" selection-end-column="114" />
+          <caret line="135" column="114" selection-start-line="135" selection-start-column="41" selection-end-line="135" selection-end-column="114" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -584,7 +579,7 @@
     <entry file="file://$PROJECT_DIR$/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
-          <caret line="465" column="25" lean-forward="true" selection-start-line="465" selection-start-column="25" selection-end-line="465" selection-end-column="25" />
+          <caret line="465" column="25" selection-start-line="465" selection-start-column="25" selection-end-line="465" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -598,7 +593,7 @@
     <entry file="file://$PROJECT_DIR$/connection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
-          <caret line="128" column="31" lean-forward="true" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="31" />
+          <caret line="128" column="31" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="31" />
           <folding>
             <element signature="n#style#0;n#h3#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -607,17 +602,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/workArea.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="127" column="123" selection-start-line="127" selection-start-column="123" selection-end-line="127" selection-end-column="123" />
+        <state relative-caret-position="3111">
+          <caret line="236" column="32" selection-start-line="236" selection-start-column="32" selection-end-line="236" selection-end-column="32" />
           <folding>
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vision.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
         </state>
       </provider>
     </entry>
