@@ -111,7 +111,7 @@ if (!$_SESSION["lang"]) {
          data-autoplay-timeout="2600" data-animate-in="fadeIn" data-animate-out="fadeOut" data-items="1"
          data-loop="true" data-autoplay="true">
 
-        <div class="slide background-overlay-one" style="background-image:url('images/slider.png');">
+        <div class="slide background-overlay-one" style="background-image:url('images/slider.png');  border-bottom: 3px solid #1f1f1f;">
             <div class="container">
                 <div class="slide-captions">
                     <!-- Captions -->
@@ -181,8 +181,8 @@ if (!$_SESSION["lang"]) {
     <!-- end: PRACTICE AREAS -->
 
     <!-- ABOUT LAWYER -->
-    <section id="section3">
-        <div class="container">
+    <section id="section3" style="">
+        <div class="container" style="">
             <div class="row">
                 <div class="col-md-5">
                     <img alt="lawyer" src="images/vizyon-anasayfa.png" class="img-responsive m-b-10">
