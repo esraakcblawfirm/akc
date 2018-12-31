@@ -12254,7 +12254,8 @@ body.device-xxs .text-medium-light {
   z-index: 0; }
 
 .background-colored {
-  background-color: #1abc9c; }
+  background-color: #1abc9c;
+}
 
 #particles-js {
   position: absolute;

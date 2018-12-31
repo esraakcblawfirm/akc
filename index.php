@@ -59,7 +59,6 @@ if (!$_SESSION["lang"]) {
                         <img src="images/logo-black.png" alt="Akcblawfirm Logo">
                     </a>
                 </div>
-
                 <div class="header-extras">
                     <ul>
                         <li>
@@ -73,11 +72,9 @@ if (!$_SESSION["lang"]) {
                         </li>
                     </ul>
                 </div>
-
                 <div id="mainMenu-trigger">
                     <button class="lines-button x"><span class="lines"></span></button>
                 </div>
-
                 <div id="mainMenu" class="light">
                     <div class="container">
                         <nav>
@@ -93,7 +90,7 @@ if (!$_SESSION["lang"]) {
                                 </li>
                                 <li><a href="workArea.php"><?php echo $lang['workareas']; ?></a></li>
                                 <li class="dropdown"><a
-                                            href="cozum-ortaklarimiz.html"><?php echo $lang['partners']; ?></a>
+                                            href="partner.php"><?php echo $lang['partners']; ?></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="find-a-partner.html">Find A Partner</a></li>
                                         <li><a href="find-a-lawyer.html">Find A Lawyer</a></li>
@@ -125,11 +122,11 @@ if (!$_SESSION["lang"]) {
                         <span style="font-family: Courgette; font-size: 80%; color: #CA0027; opacity: 0.5; text-align: center; font-style: italic"> ULUSAL VE ULUSLARARASI HUKUK VE DANIŞMANLIK </span>
                     </h3>
                     <p class="lead">
-                    <div style="text-align: center;">
-                        <span style="font-family: Courgette; color: #ffffff; font-size: 144%; font-style: italic;">
-                            <?php echo $lang['homePageText']; ?>
-                        </span>
-                    </div>
+                        <div style="text-align: center;">
+                            <span style="font-family: Courgette; color: #ffffff; font-size: 144%; font-style: italic;">
+                                <?php echo $lang['homePageText']; ?>
+                            </span>
+                        </div>
                     </p>
                     <div style="text-align: center;">
                         <a class="btn btn-red goToSection" href="#section3"><?php echo $lang['openDoor']; ?></a>
@@ -141,7 +138,7 @@ if (!$_SESSION["lang"]) {
     <!--end: Inspiro Slider -->
 
     <!-- PRACTICE AREAS -->
-    <section id="section2" class="p-t-100">
+    <section id="section2" class="p-t-100" style="background-color: #EFEFEF;">
         <div class="container">
             <div class="heading heading-center">
                 <h2>AKCBLAWFIRM</h2>
@@ -248,11 +245,11 @@ if (!$_SESSION["lang"]) {
     <!-- end: ABOUT LAWYER -->
 
     <!-- GET FREE CONSULTATION -->
-    <section id="section6" data-parallax-image="images/iletisim-form.png">
+    <section id="section4" data-parallax-image="images/iletisim-form.png" style="background-color: #EFEFEF;">
         <div class="container">
             <div class="row">
                 <div class="col-md-8"></div>
-                <div class="col-md-4 background-colored text-light p-40">
+                <div class="col-md-4 form-colored text-light p-40">
                     <div class="text-small"><?php echo $lang['form_email_title']; ?></div>
                     <p><?php echo $lang['form_email_text']; ?></p>
                     <form class="widget-contact-form" action="include/contact-form.php" role="form" method="post">
@@ -300,7 +297,7 @@ if (!$_SESSION["lang"]) {
                             <h4 class="widget-title"><?php echo $lang['links']; ?></h4>
                             <ul class="list list-arrow-icons">
                                 <li><a title="" href="workArea.php"><?php echo $lang['workareassmall']; ?></a></li>
-                                <li><a title="" href="cozum-ortaklarimiz.html"><?php echo $lang['partnerssmall']; ?></a>
+                                <li><a title="" href="partner.php"><?php echo $lang['partnerssmall']; ?></a>
                                 </li>
                                 <li><a title="" href="connection.php"><?php echo $lang['connectionsmall']; ?></a></li>
                             </ul>

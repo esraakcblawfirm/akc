@@ -95,7 +95,7 @@ if (!$_SESSION["lang"]) {
                                 </li>
                                 <li><a href="workArea.php"><?php echo $lang['workareas']; ?></a></li>
                                 <li class="dropdown"><a
-                                            href="cozum-ortaklarimiz.html"><?php echo $lang['partners']; ?></a>
+                                            href="partner.php"><?php echo $lang['partners']; ?></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="find-a-partner.html">Find A Partner</a></li>
                                         <li><a href="find-a-lawyer.html">Find A Lawyer</a></li>
@@ -158,7 +158,7 @@ if (!$_SESSION["lang"]) {
                             <h4 class="widget-title"><?php echo $lang['links']; ?></h4>
                             <ul class="list list-arrow-icons">
                                 <li><a title="" href="workArea.php"><?php echo $lang['workareassmall']; ?></a></li>
-                                <li><a title="" href="cozum-ortaklarimiz.html"><?php echo $lang['partnerssmall']; ?></a>
+                                <li><a title="" href="partner.php"><?php echo $lang['partnerssmall']; ?></a>
                                 </li>
                                 <li><a title="" href="connection.php"><?php echo $lang['connectionsmall']; ?></a></li>
                             </ul>

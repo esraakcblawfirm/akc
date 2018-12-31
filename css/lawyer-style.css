@@ -13,6 +13,10 @@ h2 {
 	font-weight: 700;
 }
 
+.form-colored {
+	background-color: #c0d6e4 !important;
+}
+
 .btn-form {
 	background-color: #003366 !important;
 }
@@ -27,4 +31,62 @@ h2 {
 
 .btn-form:at-level {
 	background-color: #003366 !important;
+}
+
+.inspiro-slider .slide-special {
+	background-position: 50% 10%;
+	background-repeat: repeat-y;
+	background-size: cover;
+	display: table-cell;
+	height: 100%;
+	position: relative;
+	vertical-align: middle;
+	width: 100%;
+	z-index: 2;
+}
+
+.img-helper-centered {
+	vertical-align: middle;
+}
+
+.img-centered {
+	vertical-align: middle;
+}
+
+.row-100 {
+	overflow:hidden;
+	height: 100%;
+}
+
+.lawyer-list-items {
+	margin-left: 10%;
+	font-size: 115%;
+}
+
+@media (min-device-width: 768px) {
+	.lawyer-list-items {
+		margin-left: 10%;
+		font-size: 125%;
+	}
+}
+
+@media (min-device-width: 480px) and (max-device-width: 767px) {
+	.lawyer-list-items {
+		margin-left: 10%;
+		font-size: 100%;
+	}
+}
+
+@media (min-device-width: 321px) and (max-device-width: 479px) {
+	.lawyer-list-items {
+		margin-left: 5%;
+		font-size: 85%;
+	}
+}
+
+@media (max-device-width: 320px) {
+	.lawyer-list-items {
+		margin-left: 2%;
+		font-size: 75%;
+	}
 }

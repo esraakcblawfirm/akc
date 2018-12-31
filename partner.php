@@ -16,17 +16,14 @@ if (!$_SESSION["lang"]) {
     <meta name="author" content="AKCBLAWFIRM"/>
     <meta name="description" content="Akcblawfirm">
     <!-- Document title -->
-    <title><?php echo $lang['title_workAreas']; ?></title>
+    <title><?php echo $lang['title_partners']; ?></title>
     <!-- Stylesheets & Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,800,700,600|Montserrat:400,500,600,700|Raleway:100,300,600,700,800"
           rel="stylesheet" type="text/css"/>
     <link href="css/plugins.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
-    <link href="css/plugins.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Charm|Courgette" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/lawyer-style.css" media="screen"/>
-
 </head>
 
 <body>
@@ -69,8 +66,8 @@ if (!$_SESSION["lang"]) {
                             <div class="topbar-dropdown">
                                 <a class="title"><i class="fa fa-globe"></i></a>
                                 <div class="dropdown-list">
-                                    <a class="list-entry" href="language/language.php?lang=tr&page=workArea">Türkçe</a>
-                                    <a class="list-entry" href="language/language.php?lang=en&page=workArea">English</a>
+                                    <a class="list-entry" href="language/language.php?lang=tr&page=partner">Türkçe</a>
+                                    <a class="list-entry" href="language/language.php?lang=en&page=partner">English</a>
                                 </div>
                             </div>
                         </li>
@@ -116,17 +113,15 @@ if (!$_SESSION["lang"]) {
          data-autoplay-timeout="2600" data-animate-in="fadeIn" data-animate-out="fadeOut" data-items="1"
          data-loop="true" data-autoplay="true">
 
-        <div class="slide background-overlay-one"
-             style="background-image:url('images/hakkimizda-vizyonumuz.png'); background-position: 50% 70% !important;
-                    border-bottom: 3px solid #1f1f1f;">
+        <div class="slide background-overlay-one" style="background-image:url('images/partner-page.jpg');">
             <div class="container">
                 <div class="slide-captions">
                     <!-- Captions -->
                     <h3 class="text-uppercase text-medium" style="color: #FFFFFF">
                         <span style="font-family: Myriad Pro; ">AKCBLAWFIRM</span>
                     </h3>
-                    <h3 style="font-family: Courgette; color: #e2ee1c; margin-left: 65%;  font-style: italic; font-size: xx-large">
-                        <?php echo $lang['workArea_yourSuccess']; ?>
+                    <h3 style="font-family: Courgette; color: #e2ee1c; margin-left: 65%;  font-style: italic; font-size: x-large">
+                        <?php echo $lang['partner_togetherStronger']; ?>
                     </h3>
                 </div>
             </div>
@@ -134,61 +129,29 @@ if (!$_SESSION["lang"]) {
     </div>
     <!-- end: SECTION IMAGE FULLSCREEN -->
 
-    <!-- Section 1 -->
-    <section id="section1" style="background-color: #EFEFEF;">
-        <div class="container-fluid">
+    <!-- CONTENT -->
+    <section id="content" style="background-color: #EFEFEF;">
+        <div class="container">
+            <h3 class="text-uppercase"><?php echo $lang['partners']; ?></h3>
             <div class="row">
-                <div class="col-md-6" style="min-height: available">
-                    <br/>
-                    <img src="images/bookcase-books-bookshelf.jpg" alt="Law Books" class="img-responsive">
+                <div class="col-md-6">
+                    <p>
+                        Partner - 1 Name<br/>
+                        Partner - 1 Address<br/>
+                    </p>
+                    <strong><a href="#">www.partner1.com</a></strong>
                 </div>
                 <div class="col-md-6">
-                    <h2><?php echo $lang['workareas']; ?></h2>
-                    <span class="lead"><?php echo $lang['workArea_detail_1']; ?><br/><br/></span>
-                    <div class="lawyer-list-items">
-                        <strong>- <?php echo $lang['workArea_internationalCommerce']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_internationalLaw']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_commercialLaw']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_contractsLaw']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_businessLaw']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_smaBanking']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_maritimeLawAndMaritimeCommerce']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_aeronauticsAndSpace']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_privateLawAndLawOfPersons']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_investmentLaw']; ?></strong>
-                    </div>
+                    <p>
+                        Partner - 2 Name<br/>
+                        Partner - 2 Address<br/>
+                    </p>
+                    <strong><a href="#">www.partner1.com</a></strong>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Section 2 -->
-    <section id="section2" style="background-color: #FFFFFF;">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6">
-                    <h2><?php echo $lang['workArea_industries']; ?></h2>
-                    <span class="lead"><?php echo $lang['workArea_detail_2']; ?><br/><br/></span>
-                    <div class="lawyer-list-items">
-                        <strong>- <?php echo $lang['workArea_internationalLegalIssues']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_europeanOfHumanRights']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_aviationAndAerospace']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_internationalCommercial']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_energy']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_internationalMaritimeAndMaritime']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_smeBankingAndFinance']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_compliance']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_arbitration']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_conciliation']; ?></strong>
-                    </div>
-                </div>
-                <div class="col-md-6" style="min-height: available">
-                    <br/>
-                    <img src="images/law-building.jpg" alt="Law Building" class="img-responsive">
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- end: CONTENT -->
 
     <!-- FOOTER -->
     <footer id="footer" class="background-dark text-grey">
@@ -241,7 +204,6 @@ if (!$_SESSION["lang"]) {
         </div>
     </footer>
     <!-- end: FOOTER -->
-
 </div>
 <!-- end: Wrapper -->
 

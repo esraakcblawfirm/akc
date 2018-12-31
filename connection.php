@@ -23,7 +23,8 @@ if (!$_SESSION["lang"]) {
     <link href="css/plugins.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Charm|Courgette" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/lawyer-style.css" media="screen"/>
 </head>
 
 <body>
@@ -96,7 +97,7 @@ if (!$_SESSION["lang"]) {
                                 </li>
                                 <li><a href="workArea.php"><?php echo $lang['workareas']; ?></a></li>
                                 <li class="dropdown"><a
-                                            href="cozum-ortaklarimiz.html"><?php echo $lang['partners']; ?></a>
+                                            href="partner.php"><?php echo $lang['partners']; ?></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="find-a-partner.html">Find A Partner</a></li>
                                         <li><a href="find-a-lawyer.html">Find A Lawyer</a></li>
@@ -113,63 +114,111 @@ if (!$_SESSION["lang"]) {
     </header>
     <!-- end: Header -->
 
+    <!-- SECTION IMAGE FULLSCREEN -->
+    <div id="slider" class="inspiro-slider arrows-large arrows-creative dots-creative" data-height-xs="360"
+         data-autoplay-timeout="2600" data-animate-in="fadeIn" data-animate-out="fadeOut" data-items="1"
+         data-loop="true" data-autoplay="true">
 
-    <!-- Page title -->
-    <section id="page-title" data-parallax-image="images/iletisim.png">
-        <div class="container">
-            <div class="page-title">
-                <h1><font face="Open Sans, Helvetica, Arial" color="#fff">İLETİŞİM</font></h1>
-                <span><font face="Open Sans, Helvetica, Arial" color="#fff"></font></span></div>
-            <div class="breadcrumb">
-                <ul>
-                    <li><a href="index.php">Anasayfa</a></li>
-                    <li class="active"><a href="#">İletişim</a></li>
-                </ul>
+        <div class="slide background-overlay-one" style="background-image:url('images/iletisim.png');">
+            <div class="container">
+                <div class="slide-captions">
+                    <!-- Captions -->
+                    <h3 class="text-uppercase text-medium" style="color: #FFFFFF">
+                        <span style="font-family: Myriad Pro; ">AKCBLAWFIRM</span>
+                    </h3>
+                    <h3 style="font-family: Courgette; color: #e2ee1c; margin-left: 70%;  font-style: italic; font-size: xx-large">
+                        <?php echo $lang['connection_title']; ?>
+                    </h3>
+                </div>
             </div>
         </div>
-    </section>
-    <!-- end: Page title -->
+    </div>
+    <!-- end: SECTION IMAGE FULLSCREEN -->
 
     <!-- CONTENT -->
-    <section>
+    <section id="content" style="background-color: #EFEFEF;">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h3 class="text-uppercase">İLETİŞİM</h3>
-                    <p>İletişim telefonlarımızdan bize ulaşabilir, bilgi alabilirsiniz. <br/>Email aracılığı ile destek
-                        talebinde bulunabilirsiniz.<br/</p><strong>email: info@akcblawfirm.com -
-                        esra.akcebe@outlook.com</strong>
-
+                    <h3 class="text-uppercase"><?php echo $lang['connection']; ?></h3>
+                    <p>
+                        <?php echo $lang['connection_detailsPart1']; ?><br/>
+                        <?php echo $lang['connection_detailsPart2']; ?><br/>
+                    </p>
+                    <strong>Email: info@akcblawfirm.com - esra.akcebe@outlook.com</strong>
                 </div>
                 <div class="col-md-6">
-                    <h3 class="text-uppercase">Adres</h3>
+                    <h3 class="text-uppercase"><?php echo $lang['address']; ?></h3>
                     <div class="row">
                         <div class="col-md-6">
                             <address>
-                                <strong>AKCBLAWFIRM</strong><br>
-                                Nöbethane Caddesi No: 28/10-11 <br>
-                                Sirkeci / İSTANBUL<br>
-                                <abbr title="Phone">T:</abbr> (0212) 511 5038
-                                <abbr title="Phone">T:</abbr> (0541) 715 1986
+                                <strong>AKCBLAWFIRM</strong>
+                                <br/><br/>
+                                Nöbethane Caddesi No: 28/10-11 <br/>
+                                Sirkeci / İSTANBUL <br/>
+                                <abbr title="Phone"><?php echo $lang['phoneShort']; ?></abbr> (0212) 511 5038
+                                <abbr title="Phone"><?php echo $lang['phoneShort']; ?></abbr> (0541) 715 1986
                             </address>
                         </div>
                         <div class="col-md-6">
                             <address>
-                                <strong>AKCBLAWFIRM USA</strong><br>
-                                203 Greenland Drive, Yorktown VA <br>
-                                Virgina / USA<br>
+                                <strong>AKCBLAWFIRM USA</strong>
+                                <br/><br/>
+                                203 Greenland Drive, Yorktown VA <br/>
+                                Virgina / USA <br/>
                                 <abbr title="email">E:</abbr> info@akcblawfirm.com
                             </address>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
     </section>
     <!-- end: CONTENT -->
 
+
+    <!-- GET FREE CONSULTATION -->
+    <section id="connection" data-parallax-image="images/iletisim-form.png">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8"></div>
+                <div class="col-md-4 form-colored text-light p-40">
+                    <div class="text-small"><?php echo $lang['form_email_title']; ?></div>
+                    <p><?php echo $lang['form_email_text']; ?></p>
+                    <form class="widget-contact-form" action="include/contact-form.php" role="form" method="post">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="name"><?php echo $lang['form_email_name']; ?></label>
+                                    <input type="text" aria-required="true" name="widget-contact-form-name"
+                                           class="form-control required name"
+                                           placeholder="<?php echo $lang['form_email_name']; ?>">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email"><?php echo $lang['form_email_address']; ?></label>
+                                    <input type="email" aria-required="true" name="widget-contact-form-email"
+                                           class="form-control required email"
+                                           placeholder="<?php echo $lang['form_email_address']; ?>">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message"><?php echo $lang['form_email_message']; ?></label>
+                                    <textarea type="text" name="widget-contact-form-message" rows="9"
+                                              class="form-control required"
+                                              placeholder="<?php echo $lang['form_email_message']; ?>"></textarea>
+                                </div>
+                                <div class="form-group text-center">
+                                    <button class="btn btn-form center" type="submit" id="form-submit" name="submit">
+                                        <?php echo $lang['form_email_btn']; ?>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- GET FREE CONSULTATION -->
 
     <!-- FOOTER -->
     <footer id="footer" class="background-dark text-grey">
@@ -178,48 +227,38 @@ if (!$_SESSION["lang"]) {
                 <div class="row">
                     <div class="col-md-3">
                         <div class="widget clearfix widget-categories">
-                            <h4 class="widget-title">LİNKLER</h4>
+                            <h4 class="widget-title"><?php echo $lang['links']; ?></h4>
                             <ul class="list list-arrow-icons">
-                                <li><a title="" href="workArea.php">Çalışma Alanlarımız</a></li>
-                                <li><a title="" href="cozum-ortaklarimiz.html">Çözüm Ortaklarımız</a></li>
-                                <li><a title="" href="connection.php">İletişim</a></li>
+                                <li><a title="" href="workArea.php"><?php echo $lang['workareassmall']; ?></a></li>
+                                <li><a title="" href="partner.php"><?php echo $lang['partnerssmall']; ?></a>
+                                </li>
+                                <li><a title="" href="connection.php"><?php echo $lang['connectionsmall']; ?></a></li>
                             </ul>
                         </div>
                     </div>
-
                     <div class="col-md-3">
                         <div class="widget clearfix widget-categories">
-                            <h4 class="widget-title">İÇERİK LİNKLERİ</h4>
+                            <h4 class="widget-title"><?php echo $lang['content']; ?></h4>
                             <ul class="list list-arrow-icons">
-                                <li><a href="purpose.php">Amacımız</a></li>
-                                <li><a href="membership.php">Üye Olunan Kuruluşlar</a></li>
-                                <li><a href="vision.php">Vizyonumuz</a></li>
-                                <li><a href="publication.php">Yayınlarımız</a></li>
+                                <li><a href="purpose.php"><?php echo $lang['purpose']; ?></a></li>
+                                <li><a href="membership.php"><?php echo $lang['members']; ?></a></li>
+                                <li><a href="vision.php"><?php echo $lang['vision']; ?></a></li>
+                                <li><a href="publication.php"><?php echo $lang['publications']; ?></a></li>
                             </ul>
                         </div>
                     </div>
-
                     <div class="col-md-3">
                         <div class="widget clearfix widget-categories">
-                            <h4 class="widget-title">ÇÖZÜM ORTAKLARIMIZ</h4>
+                            <h4 class="widget-title"><?php echo $lang['partners']; ?></h4>
                             <ul class="list list-arrow-icons">
-                                <li><a href="find-a-partner.html">Find A Partner</a>
-                                </li>
-                                <li><a href="find-a-lawyer.html">Find A Lawyer</a>
-                                </li>
-                                <li><a href="find-a-consulting.html">Find A Consulting</a>
-                                </li>
+                                <li><a href="find-a-partner.html">Find A Partner</a></li>
+                                <li><a href="find-a-lawyer.html">Find A Lawyer</a></li>
                             </ul>
                         </div>
                     </div>
-
                     <div class="col-md-3">
                         <img src="images/logo-white.png" alt="">
-
-
                     </div>
-
-
                 </div>
             </div>
         </div>
