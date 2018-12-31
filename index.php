@@ -8,7 +8,7 @@ if (!$_SESSION["lang"]) {
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
@@ -262,7 +262,7 @@ if (!$_SESSION["lang"]) {
                                            placeholder="<?php echo $lang['form_email_name']; ?>">
                                 </div>
                                 <div class="form-group">
-                                    <label for="email"><?php echo $lang['form_email_address']; ?></label>
+                                    <label for="email"><?php echo $lang['form_email_address_big']; ?></label>
                                     <input type="email" aria-required="true" name="widget-contact-form-email"
                                            class="form-control required email"
                                            placeholder="<?php echo $lang['form_email_address']; ?>">

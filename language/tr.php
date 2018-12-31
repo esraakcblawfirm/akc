@@ -66,6 +66,16 @@ $lang = array(
 
     "partner_togetherStronger" => "Birlikte Daha Güçlüyüz...",
 
+    "vision_title" => "VİZYONUMUZ",
+    "vision_slogan" => "Birlikte Düşünüp Yaratalım...",
+    "vision_detail" => "Mükemmel müşteri hizmetleri sunmak ve müşterilerin doğru fırsatları yakalamalarına yardımcı olmak için dünya çapında yeteneklerimizi kullanmak, uzun süreli ve kalıcı ilişkilerden faydalanmak dünya görüşümüzdür.<br/><br> İşimizin tadını çıkarın ve şirketteki görevimiz ne olursa olsun sıra dışı bir iş yapmaya kararlıyız.<br/><br> Yaptığımız her işte en yüksek kişisel, etik ve profesyonel standartları gözlemliyoruz ve her zaman dürüstlükle çalışıyoruz.",
+    "vision_button_text" => "BİRLİKTE DÜŞÜNÜP YARATALIM!",
+
+    "aim_title" => "AMACIMIZ",
+    "aim_slogan" => "Birlikte Düşünüp Yaratalım...",
+    "aim_detail" => "Dünyanın dört bir yanındaki insanlara ulaşmayı ve size ulaşmayı hedefledik. <br/><br> Tüm hukuki süreçte en verimli ve en doğru şekilde çözüm önerileri sunmak ve sizleri en iyi şekilde temsil etmek bizim görevimizdir. <br/><br> Bu görev doğrultusunda sizlerin amacına ulaşmak için tüm şeffaflığımızla sizlerleyiz.",
+    "aim_button_text" => "BİRLİKTE DÜŞÜNÜP YARATALIM!",
+
     "connection_title" => "Bize Ulaşın...",
     "connection_detailsPart1" => "İletişim telefonlarımızdan bize ulaşabilir, bilgi alabilirsiniz.",
     "connection_detailsPart2" => "Email aracılığı ile destek talebinde bulunabilirsiniz.",
@@ -73,6 +83,7 @@ $lang = array(
     "form_email_title" => "HEMEN MAİL YOLLA",
     "form_email_text" => "Hızlı bir şekilde mail yollayarak bilgi alabilirsiniz.",
     "form_email_name" => "Adınız ve Soyadınız",
+    "form_email_address_big" => "MAİL ADRESİNİZ",
     "form_email_address" => "Mail Adresiniz",
     "form_email_message" => "Mesajınız",
     "form_email_btn" => "Mail Gönder"

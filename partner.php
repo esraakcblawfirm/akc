@@ -8,7 +8,7 @@ if (!$_SESSION["lang"]) {
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -113,7 +113,7 @@ if (!$_SESSION["lang"]) {
          data-autoplay-timeout="2600" data-animate-in="fadeIn" data-animate-out="fadeOut" data-items="1"
          data-loop="true" data-autoplay="true">
 
-        <div class="slide background-overlay-one" style="background-image:url('images/partner-page.jpg');">
+        <div class="slide background-overlay-one" style="background-image:url('images/partner-page.jpg'); border-bottom: 3px solid #1f1f1f;">
             <div class="container">
                 <div class="slide-captions">
                     <!-- Captions -->

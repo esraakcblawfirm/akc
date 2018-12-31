@@ -66,6 +66,16 @@ $lang = array(
 
     "partner_togetherStronger" => "We are Stronger Together...",
 
+    "vision_title" => "OUR VISION",
+    "vision_slogan" => "We Think and Create Together...",
+    "vision_detail" => "Delivering excellent client service and using our global capabilities to help them pursue the right opportunities means they benefit from long and lasting relationships. <br/> <br/> We enjoy our work and are determined to do an outstanding job, whatever our role in the firm. <br/><br/> We observe the highest personal, ethical and professional standards in everything we do and operate with integrity at all times. ",
+    "vision_button_text" => "THINK AND CREATE TOGETHER!",
+
+    "aim_title" => "OUR AIM",
+    "aim_slogan" => "We Think and Create Together...",
+    "aim_detail" => "We aimed to reach out to you and reach out to people all over the world. <br/><br/> It is our duty to present the most efficient and most accurate solution proposal in the legal process and to represent you in the best possible way. <br/><br/> In line with this task, we are with you all our transparency to reach your goal.",
+    "aim_button_text" => "THINK AND CREATE TOGETHER!",
+
     "connection_title" => "Contact Us...",
     "connection_detailsPart1" => "You can reach us through our contact phones and get information.",
     "connection_detailsPart2" => "You can request support via email.",
@@ -73,8 +83,9 @@ $lang = array(
     "form_email_title" => "SEND AN EMAIL",
     "form_email_text" => "You can get information with sending an email to us.",
     "form_email_name" => "Name & Surname",
+    "form_email_address_big" => "YOUR EMAIL ADDRESS",
     "form_email_address" => "Your Email Address",
     "form_email_message" => "Your Message",
-    "form_email_btn" => "Send Email"
+    "form_email_btn" => "SEND EMAIL"
 );
 ?>

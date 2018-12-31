@@ -8,7 +8,7 @@ if (!$_SESSION["lang"]) {
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>

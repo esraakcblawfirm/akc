@@ -8,7 +8,7 @@ if (!$_SESSION["lang"]) {
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -114,42 +114,45 @@ if (!$_SESSION["lang"]) {
     <!-- end: Header -->
 
     <!-- SECTION IMAGE FULLSCREEN -->
-    <section class="fullscreen" data-parallax-image="images/hakkimizda-vizyonumuz.png">
-        <div class="container">
-            <div class="container-fullscreen">
-                <div class="text-middle">
-                    <div class="text-light" style="">
-                        <h4 class="text-uppercase m-b-0"><span  ">AKCBLAWFIRM</span></h4>
-                        <h1 class="text-uppercase text-large"><font color="#FFFFFF">BİRLİKTE</font> <br><font
-                                    color="#FFFFFF">DÜŞÜNÜP</font><br><font color="#FFFFFF">YARATALIM</font></h1>
-                        <a href="#" class="btn btn-red">KAPIMIZI AÇIN</a>
-                    </div>
+    <div id="slider" class="inspiro-slider arrows-large arrows-creative dots-creative" data-height-xs="360"
+         data-autoplay-timeout="2600" data-animate-in="fadeIn" data-animate-out="fadeOut" data-items="1"
+         data-loop="true" data-autoplay="true">
+
+        <div class="slide background-overlay-one" style="background-image:url('images/hakkimizda-vizyonumuz.png'); border-bottom: 3px solid #1f1f1f;">
+            <div class="container">
+                <div class="slide-captions">
+                    <!-- Captions -->
+                    <h3 class="text-uppercase text-medium" style="color: #FFFFFF">
+                        <span style="font-family: Myriad Pro; ">AKCBLAWFIRM</span>
+                    </h3>
+                    <h3 style="font-family: Courgette; color: #e2ee1c; margin-left: 52%;  font-style: italic; font-size: x-large">
+                        <?php echo $lang['vision_slogan']; ?>
+                    </h3>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!-- end: SECTION IMAGE FULLSCREEN -->
 
-    <!-- IMAGE BLOCK -->
-    <section id="image-block" class="image-block no-padding">
+
+    <!-- Section 1 -->
+    <section id="section1" style="background-color: #EFEFEF;">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6"
-                     style="height:609px;background:url(images/vizyonumuz-hakkimizda.png) 50% 50% / cover no-repeat;">
+                <div class="col-md-6" style="min-height: available">
+                    <img src="images/vizyonumuz-hakkimizda.png" alt="Law Books" class="img-responsive">
                 </div>
                 <div class="col-md-6">
-                    <div class="heading heading text-left">
-                        <h2>VİZYONUMUZ</h2>
-                        <span class="lead">Mükemmel müşteri hizmetleri sunmak ve müşterilerin doğru fırsatları yakalamalarına yardımcı olmak için dünya çapında yeteneklerimizi kullanmak, uzun süreli ve kalıcı ilişkilerden faydalanmak dünya görüşümüzdür.<br/><br> İşimizin tadını çıkarın ve şirketteki görevimiz ne olursa olsun sıra dışı bir iş yapmaya kararlıyız.<br/><br> Yaptığımız her işte en yüksek kişisel, etik ve profesyonel standartları gözlemliyoruz ve her zaman dürüstlükle çalışıyoruz. <br/>
-						
-					</span>
-                    </div>
-                    <a href="#" class="btn btn-outline btn-dark"><span>BİRLİKTE DÜŞÜNÜP YARATALIM!</span></a>
+                    <h2 class="text-uppercase"><?php echo $lang['vision_title']; ?></h2>
+                    <span class="lead"><?php echo $lang['vision_detail']; ?></span>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <a href="connection.php" class="btn btn-outline btn-dark"><span><?php echo $lang['vision_button_text']; ?></span></a>
                 </div>
             </div>
         </div>
     </section>
-    <!-- end: IMAGE BLOCK -->
 
     <!-- FOOTER -->
     <footer id="footer" class="background-dark text-grey">
