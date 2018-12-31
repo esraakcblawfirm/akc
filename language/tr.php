@@ -89,6 +89,12 @@ $lang = array(
     "publications_pub_5_title" => "5- Siyasi Parti Kısıtlamaları",
     "publications_pub_5_detail" => "Harvard Üniversitesi Hukuk Fakültesinden Takdir Mektubu gönderilmiştir.",
 
+    "membership_title" => "ÜYE OLUNAN KURULUŞLAR",
+    "membership_slogan" => "Üye Olunan Kuruluşlar...",
+    "membership_mem_1" => "1- İstanbul Barosu",
+    "membership_mem_2" => "2- Birleşik Hakemler Kurulu",
+    "membership_mem_3" => "3- Dış Ekonomik İlişkiler Kurulu (DEİK)",
+
     "connection_title" => "Bize Ulaşın...",
     "connection_detailsPart1" => "İletişim telefonlarımızdan bize ulaşabilir, bilgi alabilirsiniz.",
     "connection_detailsPart2" => "Email aracılığı ile destek talebinde bulunabilirsiniz.",

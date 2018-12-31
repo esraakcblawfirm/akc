@@ -89,6 +89,12 @@ $lang = array(
     "publications_pub_5_title" => "5- Prohibitions of Political Party",
     "publications_pub_5_detail" => "We have received Harvard Law School Appreciation of Letter",
 
+    "membership_title" => "OUR MEMBERSHIP ORGANIZATIONS",
+    "membership_slogan" => "Our Membership Organizations...",
+    "membership_mem_1" => "1- Istanbul Bar Association",
+    "membership_mem_2" => "2- The Chartered Institute of Arbitrators (CIArb)",
+    "membership_mem_3" => "3- Foreign Economic Relations Board  (FERB)",
+
     "connection_title" => "Contact Us...",
     "connection_detailsPart1" => "You can reach us through our contact phones and get information.",
     "connection_detailsPart2" => "You can request support via email.",

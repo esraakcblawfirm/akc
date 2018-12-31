@@ -23,7 +23,7 @@ if (!$_SESSION["lang"]) {
     <link href="css/plugins.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
-
+    <link rel="stylesheet" type="text/css" href="css/lawyer-style.css" media="screen"/>
 </head>
 
 <body>
@@ -68,8 +68,10 @@ if (!$_SESSION["lang"]) {
                             <div class="topbar-dropdown">
                                 <a class="title"><i class="fa fa-globe"></i></a>
                                 <div class="dropdown-list">
-                                    <a class = "list-entry" href="language/language.php?lang=tr&page=membership">Türkçe</a>
-                                    <a class = "list-entry" href="language/language.php?lang=en&page=membership">English</a>
+                                    <a class="list-entry"
+                                       href="language/language.php?lang=tr&page=membership">Türkçe</a>
+                                    <a class="list-entry"
+                                       href="language/language.php?lang=en&page=membership">English</a>
                                 </div>
                             </div>
                         </li>
@@ -112,41 +114,49 @@ if (!$_SESSION["lang"]) {
     </header>
     <!-- end: Header -->
 
+
     <!-- SECTION IMAGE FULLSCREEN -->
-    <section class="fullscreen" data-parallax-image="images/uye-olunan-kuruluslar-hakkimizda.png">
-        <div class="container">
-            <div class="container-fullscreen">
-                <div class="text-middle">
-                    <div class="text-light" style="">
-                        <h4 class="text-uppercase m-b-0"><font color="#FFCC00">AKCBLAWFIRM</font></h4>
-                        <h1 class="text-uppercase text-large"><font color="#FFFFFF">ÜYE OLUNAN KURULUŞLAR</font></h1>
-                        <a href="#" class="btn btn-red">KAPIMIZI AÇIN</a>
-                    </div>
+    <div id="slider" class="inspiro-slider arrows-large arrows-creative dots-creative" data-height-xs="360"
+         data-autoplay-timeout="2600" data-animate-in="fadeIn" data-animate-out="fadeOut" data-items="1"
+         data-loop="true" data-autoplay="true">
+
+        <div class="slide background-overlay-one"
+             style="background-image:url('images/uye-olunan-kuruluslar-hakkimizda.png'); border-bottom: 3px solid #1f1f1f;">
+            <div class="container">
+                <div class="slide-captions">
+                    <!-- Captions -->
+                    <h3 class="text-uppercase text-medium" style="color: #FFFFFF">
+                        <span style="font-family: Myriad Pro; ">AKCBLAWFIRM</span>
+                    </h3>
+                    <h3 style="font-family: Courgette; color: #e2ee1c; margin-left: 45%;  font-style: italic; font-size: xx-large">
+                        <?php echo $lang['membership_slogan']; ?>
+                    </h3>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!-- end: SECTION IMAGE FULLSCREEN -->
 
-    <!-- IMAGE BLOCK -->
-    <section id="image-block" class="image-block no-padding">
+
+    <!-- Section 1 -->
+    <section id="section1" style="background-color: #EFEFEF;">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6"
-                     style="height:609px;background:url(images/hakkimizda-uye-olunan-kuruluslar.png) 50% 50% / cover no-repeat;">
+                <div class="col-md-6" style="min-height: available">
+                    <img src="images/hakkimizda-uye-olunan-kuruluslar.png" alt="Law Books" class="img-responsive">
                 </div>
                 <div class="col-md-6">
-                    <div class="heading heading text-left">
-                        <h2>ÜYE OLUNAN KURULUŞLAR</h2>
-                        <span class="lead"><strong>1- İstanbul Barosu - 2011</strong><br/><strong>2- Birleşik Hakemler Kurulu</strong><br/>
-						
-					</span>
-                    </div>
+                    <br/><br/>
+                    <h2 class="text-uppercase"><?php echo $lang['membership_title']; ?></h2>
+                    <div class="lead lawyer-list-items">
+                        <strong><?php echo $lang['membership_mem_1']; ?></strong><br/><br/>
+                        <strong><?php echo $lang['membership_mem_2']; ?></strong><br/><br/>
+                        <strong><?php echo $lang['membership_mem_3']; ?></strong>
+					</div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- end: IMAGE BLOCK -->
 
     <!-- FOOTER -->
     <footer id="footer" class="background-dark text-grey">
