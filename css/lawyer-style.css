@@ -5,88 +5,128 @@ h3,
 h4,
 h5,
 h6 {
-font-family: 'PT Serif', serif;
+    font-family: 'PT Serif', serif;
 }
 
 h1,
 h2 {
-	font-weight: 700;
+    font-weight: 700;
 }
 
 .form-colored {
-	background-color: #c0d6e4 !important;
+    background-color: #c0d6e4 !important;
 }
 
 .btn-form {
-	background-color: #003366 !important;
+    background-color: #003366 !important;
 }
 
 .btn-form:hover {
-	background-color: #003399 !important;
+    background-color: #003399 !important;
 }
 
 .btn-form:active {
-	background-color: #003366 !important;
+    background-color: #003366 !important;
 }
 
 .btn-form:at-level {
-	background-color: #003366 !important;
+    background-color: #003366 !important;
 }
 
 .inspiro-slider .slide-special {
-	background-position: 50% 10%;
-	background-repeat: repeat-y;
-	background-size: cover;
-	display: table-cell;
-	height: 100%;
-	position: relative;
-	vertical-align: middle;
-	width: 100%;
-	z-index: 2;
+    background-position: 50% 10%;
+    background-repeat: repeat-y;
+    background-size: cover;
+    display: table-cell;
+    height: 100%;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+    z-index: 2;
 }
 
 .img-helper-centered {
-	vertical-align: middle;
+    vertical-align: middle;
 }
 
 .img-centered {
-	vertical-align: middle;
+    vertical-align: middle;
 }
 
 .row-100 {
-	overflow:hidden;
-	height: 100%;
+    overflow: hidden;
+    height: 100%;
 }
 
 .lawyer-list-items {
-	margin-left: 10%;
-	font-size: 115%;
+    margin-left: 10%;
+    font-size: 115%;
+}
+
+.slogan-for-connection {
+    margin-left: 70%;
+}
+
+.slogan-for-partner {
+    margin-left: 65%;
 }
 
 @media (min-device-width: 768px) {
-	.lawyer-list-items {
-		margin-left: 10%;
-		font-size: 125%;
-	}
+    .lawyer-list-items {
+        margin-left: 10%;
+        font-size: 125%;
+    }
+
+    .slogan-for-connection {
+        margin-left: 60%;
+    }
+
+    .slogan-for-partner {
+        margin-left: 60%;
+    }
 }
 
 @media (min-device-width: 480px) and (max-device-width: 767px) {
-	.lawyer-list-items {
-		margin-left: 10%;
-		font-size: 100%;
-	}
+    .lawyer-list-items {
+        margin-left: 10%;
+        font-size: 100%;
+    }
+
+    .slogan-for-connection {
+        margin-left: 60%;
+    }
+
+    .slogan-for-partner {
+        margin-left: 60%;
+    }
 }
 
 @media (min-device-width: 321px) and (max-device-width: 479px) {
-	.lawyer-list-items {
-		margin-left: 5%;
-		font-size: 85%;
-	}
+    .lawyer-list-items {
+        margin-left: 5%;
+        font-size: 85%;
+    }
+
+    .slogan-for-connection {
+        margin-left: 50%;
+    }
+
+    .slogan-for-partner {
+        margin-left: 40%;
+    }
 }
 
 @media (max-device-width: 320px) {
-	.lawyer-list-items {
-		margin-left: 2%;
-		font-size: 75%;
-	}
+    .lawyer-list-items {
+        margin-left: 2%;
+        font-size: 75%;
+    }
+
+    .slogan-for-connection{
+        margin-left: 40%;
+    }
+
+    .slogan-for-partner {
+        margin-left: 40%;
+    }
 }

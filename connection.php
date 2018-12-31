@@ -126,7 +126,7 @@ if (!$_SESSION["lang"]) {
                     <h3 class="text-uppercase text-medium" style="color: #FFFFFF">
                         <span style="font-family: Myriad Pro; ">AKCBLAWFIRM</span>
                     </h3>
-                    <h3 style="font-family: Courgette; color: #e2ee1c; margin-left: 70%;  font-style: italic; font-size: xx-large">
+                    <h3 class="slogan-for-connection" style="font-family: Courgette; color: #e2ee1c; font-style: italic; font-size: xx-large">
                         <?php echo $lang['connection_title']; ?>
                     </h3>
                 </div>
