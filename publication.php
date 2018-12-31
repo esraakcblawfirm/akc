@@ -114,42 +114,56 @@ if (!$_SESSION["lang"]) {
     </header>
     <!-- end: Header -->
 
+
     <!-- SECTION IMAGE FULLSCREEN -->
-    <section class="fullscreen" data-parallax-image="images/hakkimizda-yayinlarimiz.png">
-        <div class="container">
-            <div class="container-fullscreen">
-                <div class="text-middle">
-                    <div class="text-light" style="">
-                        <h4 class="text-uppercase m-b-0"><font color="#FFCC00">AKCBLAWFIRM</font></h4>
-                        <h1 class="text-uppercase text-large"><font color="#FFFFFF">YAYINLARIMIZ</font></h1>
-                        <a href="#" class="btn btn-red">KAPIMIZI AÇIN</a>
-                    </div>
+    <div id="slider" class="inspiro-slider arrows-large arrows-creative dots-creative" data-height-xs="360"
+         data-autoplay-timeout="2600" data-animate-in="fadeIn" data-animate-out="fadeOut" data-items="1"
+         data-loop="true" data-autoplay="true">
+
+        <div class="slide background-overlay-one"
+             style="background-image:url('images/hakkimizda-yayinlarimiz.png'); border-bottom: 3px solid #1f1f1f;">
+            <div class="container">
+                <div class="slide-captions">
+                    <!-- Captions -->
+                    <h3 class="text-uppercase text-medium" style="color: #FFFFFF">
+                        <span style="font-family: Myriad Pro; ">AKCBLAWFIRM</span>
+                    </h3>
+                    <h3 style="font-family: Courgette; color: #e2ee1c; margin-left: 60%;  font-style: italic; font-size: xx-large">
+                        <?php echo $lang['publications_slogan']; ?>
+                    </h3>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!-- end: SECTION IMAGE FULLSCREEN -->
 
-    <!-- IMAGE BLOCK -->
-    <section id="image-block" class="image-block no-padding">
+
+    <!-- Section 1 -->
+    <section id="section1" style="background-color: #EFEFEF;">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6"
-                     style="height:609px;background:url(images/yayinlarimiz-hakkimizda.png) 50% 50% / cover no-repeat;">
+                <div class="col-md-6" style="min-height: available">
+                    <img src="images/yayinlarimiz-hakkimizda.png" alt="Law Books" class="img-responsive">
                 </div>
                 <div class="col-md-6">
-                    <div class="heading heading text-left">
-                        <h2>YAYINLARIMIZ</h2>
-                        <span class="lead"><strong>1- Adil Yargılanma Hakkı</strong><br/>İstanbul Barosu Dergisi Temmuz-Ağutos Ayı 2014 <br/><strong>2- Doğrudan Yabancı Yatırımlar  için Türkiye’deki Yasal Alt Yapı</strong><br/>Acquisition International Global Medya Şirketi - Şirketlerin finansal sesi dergisi - Kasım 2013 sayfa.46<br/><strong>3- Markalar Sigortası</strong></br>
-                            <strong>4- Avukatlık Mesleği Riskler Sigortası</strong><br/>Harvard Üniversitesi Hukuk Fakültesinden Takdir Mektubu gönderilmiştir.<br/><strong>5- Siyasi Parti Kısıtlamaları</strong><br/>
-						
+                    <br/>
+                    <h2 class="text-uppercase"><?php echo $lang['publications_title']; ?></h2>
+                    <span class="lead">
+                        <strong><?php echo $lang['publications_pub_1_title']; ?></strong><br/>
+                        <?php echo $lang['publications_pub_1_detail']; ?><br/>
+                        <strong><?php echo $lang['publications_pub_2_title']; ?></strong><br/>
+                        <?php echo $lang['publications_pub_2_detail']; ?><br/>
+                        <strong><?php echo $lang['publications_pub_3_title']; ?></strong><br/>
+                        <?php echo $lang['publications_pub_3_detail']; ?><br/>
+                        <strong><?php echo $lang['publications_pub_4_title']; ?></strong><br/>
+                        <?php echo $lang['publications_pub_4_detail']; ?><br/>
+                        <strong><?php echo $lang['publications_pub_5_title']; ?></strong><br/>
+                        <?php echo $lang['publications_pub_5_detail']; ?><br/>
 					</span>
-                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- end: IMAGE BLOCK -->
 
     <!-- FOOTER -->
     <footer id="footer" class="background-dark text-grey">
