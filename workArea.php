@@ -177,7 +177,7 @@ if (!$_SESSION["lang"]) {
                 </div>
                 <div class="col-md-4" style="min-height: available">
                     <br/>
-                    <img src="images/law-building.jpg" alt="Law Building" class="img-responsive">
+                    <img src="images/SupremeCourtWestPediment.jpg" alt="Law Building" class="img-responsive">
                 </div>
             </div>
         </div>

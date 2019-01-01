@@ -5,12 +5,12 @@ $lang = array(
     "sloganUpper" => "INTERNATIONAL AND NATIONAL LAW & CONSULTANCY",
     "sloganGeneral" => "International and National Law & Consultancy",
 
-    "haber_1_title" => "Haber 1",
-    "haber_1_details" => "Habersdamldsakdlş kadklk alsşkd lsakdş laksşdksaşlkdlşa",
-    "haber_2_title" => "Haber 2",
-    "haber_2_details" => "asdmnsakdsadsaşlkdlsakldskaşlkd lşasdk skald aşls ",
-    "haber_3_title" => "Haber 3",
-    "haber_3_details" => "sadsaşlkdsakdksaşldksalkdşsakşdksakdşsakdşsakşdsa dlsak şskadşk a",
+    "haber_1_title" => "Coming Soon...",
+    "haber_1_details" => "Coming Soon...",
+    "haber_2_title" => "Coming Soon...",
+    "haber_2_details" => "Coming Soon...",
+    "haber_3_title" => "Coming Soon...",
+    "haber_3_details" => "Coming Soon...",
 
     "news" => "NEWS & ANNOUNCEMENTS",
     "title" => "AKCBLAWFIRM",

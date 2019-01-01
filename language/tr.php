@@ -5,12 +5,12 @@ $lang = array(
     "sloganUpper" => "ULUSAL VE ULUSLARARASI HUKUK & DANIŞMANLIK",
     "sloganGeneral" => "Ulusal ve Uluslararası Hukuk & Danışmanlık",
 
-    "haber_1_title" => "Haber 1",
-    "haber_1_details" => "Habersdamldsakdlş kadklk alsşkd lsakdş laksşdksaşlkdlşa",
-    "haber_2_title" => "Haber 2",
-    "haber_2_details" => "asdmnsakdsadsaşlkdlsakldskaşlkd lşasdk skald aşls ",
-    "haber_3_title" => "Haber 3",
-    "haber_3_details" => "sadsaşlkdsakdksaşldksalkdşsakşdksakdşsakdşsakşdsa dlsak şskadşk a",
+    "haber_1_title" => "Çok Yakında ...",
+    "haber_1_details" => "Çok Yakında ...",
+    "haber_2_title" => "Çok Yakında ...",
+    "haber_2_details" => "Çok Yakında ...",
+    "haber_3_title" => "Çok Yakında ...",
+    "haber_3_details" => "Çok Yakında ...",
 
     "news" => "HABERLER & DUYURULAR",
     "title" => "AKCBLAWFIRM",
