@@ -33,13 +33,13 @@ if (!$_SESSION["lang"]) {
 <body>
 <!-- Wrapper -->
 <div id="wrapper">
-    <div id="topbar" class="visible-md visible-lg">
+    <div id="topbar" class="visible-md visible-lg" style="background-color: #e7ebec;">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
                     <ul class="top-menu">
-                        <li><a href="#"><?php echo $lang['phone']; ?> +90 541 715 19 86</a></li>
-                        <li><a href="#">Email: info@akcblawfirm.com</a></li>
+                        <li><a href="#" style="color: #ca0027;"><?php echo $lang['phone']; ?> +90 541 715 19 86</a></li>
+                        <li><a href="#" style="color: #ca0027;">Email: info@akcblawfirm.com</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-6 hidden-xs">
@@ -111,11 +111,11 @@ if (!$_SESSION["lang"]) {
 
         <div class="slide background-overlay-one"
              style="background-image:url('images/hakkimizda-vizyonumuz.png'); background-position: 50% 70% !important;
-                    border-bottom: 3px solid #1f1f1f;">
+                    border-bottom: 2px solid #1f1f1f; border-top: 2px solid #1f1f1f;">
             <div class="container">
                 <div class="slide-captions">
                     <!-- Captions -->
-                    <h3 class="text-uppercase text-medium" style="color: #FFFFFF">
+                    <h3 class="text-uppercase text-medium" style="color: #ca0027">
                         <span style="font-family: 'Playfair Display', serif; ">AKCBLAWFIRM</span>
                     </h3>
                     <h4 style="font-family: 'Playfair Display', serif; color: #FFFFFF; font-size: x-large">
@@ -136,7 +136,7 @@ if (!$_SESSION["lang"]) {
                     <img src="images/bookcase-books-bookshelf.jpg" alt="Law Books" class="img-responsive">
                 </div>
                 <div class="col-md-8">
-                    <h3 style="font-weight: bold"><?php echo $lang['workareas']; ?></h3>
+                    <h3 style="font-weight: bold; color: #ca0027;"><?php echo $lang['workareas_title']; ?></h3>
                     <span><?php echo $lang['workArea_detail_1']; ?><br/><br/></span>
                     <div class="lawyer-list-items">
                         <strong>- <?php echo $lang['workArea_internationalCommerce']; ?></strong><br/>
@@ -160,7 +160,7 @@ if (!$_SESSION["lang"]) {
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-8">
-                    <h3 style="font-weight: bold"><?php echo $lang['workArea_industries']; ?></h3>
+                    <h3 style="font-weight: bold; color: #ca0027;"><?php echo $lang['workArea_industries']; ?></h3>
                     <span><?php echo $lang['workArea_detail_2']; ?><br/><br/></span>
                     <div class="lawyer-list-items">
                         <strong>- <?php echo $lang['workArea_internationalLegalIssues']; ?></strong><br/>

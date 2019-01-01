@@ -31,13 +31,13 @@ if (!$_SESSION["lang"]) {
 <body>
 <!-- Wrapper -->
 <div id="wrapper">
-    <div id="topbar" class="visible-md visible-lg">
+    <div id="topbar" class="visible-md visible-lg" style="background-color: #e7ebec;">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
                     <ul class="top-menu">
-                        <li><a href="#"><?php echo $lang['phone']; ?> +90 541 715 19 86</a></li>
-                        <li><a href="#">Email: info@akcblawfirm.com</a></li>
+                        <li><a href="#" style="color: #ca0027;"><?php echo $lang['phone']; ?> +90 541 715 19 86</a></li>
+                        <li><a href="#" style="color: #ca0027;">Email: info@akcblawfirm.com</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-6 hidden-xs">
@@ -112,11 +112,11 @@ if (!$_SESSION["lang"]) {
          data-autoplay-timeout="2600" data-animate-in="fadeIn" data-animate-out="fadeOut" data-items="1"
          data-loop="true" data-autoplay="true">
 
-        <div class="slide background-overlay-one" style="background-image:url('images/iletisim.png');">
+        <div class="slide background-overlay-one" style="background-image:url('images/connection.jpg'); background-position: 50% 8%; border-bottom: 2px solid #1f1f1f; border-top: 4px solid #1f1f1f;">
             <div class="container">
                 <div class="slide-captions">
                     <!-- Captions -->
-                    <h3 class="text-uppercase text-medium" style="color: #FFFFFF">
+                    <h3 class="text-uppercase text-medium" style="color: #ca0027">
                         <span style="font-family: 'Playfair Display', serif; ">AKCBLAWFIRM</span>
                     </h3>
                     <h4 style="font-family: 'Playfair Display', serif; color: #FFFFFF; font-size: x-large">
@@ -133,7 +133,7 @@ if (!$_SESSION["lang"]) {
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h3 class="text-uppercase"><?php echo $lang['connection']; ?></h3>
+                    <h3 class="text-uppercase" style="color: #ca0027;"><?php echo $lang['connection']; ?></h3>
                     <p>
                         <?php echo $lang['connection_detailsPart1']; ?><br/>
                         <?php echo $lang['connection_detailsPart2']; ?><br/>
@@ -141,7 +141,7 @@ if (!$_SESSION["lang"]) {
                     <strong>Email: info@akcblawfirm.com - esra.akcebe@outlook.com</strong>
                 </div>
                 <div class="col-md-6">
-                    <h3 class="text-uppercase"><?php echo $lang['address']; ?></h3>
+                    <h3 class="text-uppercase" style="color: #ca0027;"><?php echo $lang['address']; ?></h3>
                     <div class="row">
                         <div class="col-md-6">
                             <address>

@@ -29,13 +29,13 @@ if (!$_SESSION["lang"]) {
 
 <body>
 <div id="wrapper">
-    <div id="topbar" class="visible-md visible-lg">
+    <div id="topbar" class="visible-md visible-lg" style="background-color: #e7ebec;">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
                     <ul class="top-menu">
-                        <li><a href="#"><?php echo $lang['phone']; ?> +90 541 715 19 86</a></li>
-                        <li><a href="#">Email: info@akcblawfirm.com</a></li>
+                        <li><a href="#" style="color: #ca0027;"><?php echo $lang['phone']; ?> +90 541 715 19 86</a></li>
+                        <li><a href="#" style="color: #ca0027;">Email: info@akcblawfirm.com</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-6 hidden-xs">
@@ -104,11 +104,11 @@ if (!$_SESSION["lang"]) {
          data-autoplay-timeout="2600" data-animate-in="fadeIn" data-animate-out="fadeOut" data-items="1"
          data-loop="true" data-autoplay="true">
 
-        <div class="slide background-overlay-one" style="background-image:url('images/slider.png');  border-bottom: 3px solid #1f1f1f;">
+        <div class="slide background-overlay-one" style="background-image:url('images/slider.png');  border-bottom: 1px solid #1f1f1f; border-top: 2px solid #1f1f1f;">
             <div class="container">
                 <div class="slide-captions">
                     <!-- Captions -->
-                    <h3 class="text-uppercase text-medium" style="color: #FFFFFF;">
+                    <h3 class="text-uppercase text-medium" style="color: #ca0027;">
                         <span style="font-family: 'Playfair Display', serif; ">AKCBLAWFIRM</span>
                     </h3>
                     <p class="lead">
@@ -131,8 +131,8 @@ if (!$_SESSION["lang"]) {
     <section id="section2" class="p-t-100" style="background-color: #EFEFEF;">
         <div class="container">
             <div class="heading heading-center">
-                <h2>AKCBLAWFIRM</h2>
-                <span class="lead"><?php echo $lang['sloganGeneral']; ?></span>
+                <h2 style="color: #ca0027; font-family: 'Playfair Display', serif; ">AKCBLAWFIRM</h2>
+                <h4 style="font-family: 'Playfair Display', serif; "><?php echo $lang['sloganGeneral']; ?></h4>
             </div>
             <div class="row">
                 <div class="col-md-6">
@@ -157,7 +157,7 @@ if (!$_SESSION["lang"]) {
                     <div class="icon-box effect medium square color">
                         <a href="partner.php">
                             <h3 style="color: #ca0027"><?php echo $lang['partnerssmall']; ?></h3>
-                            <p><?php echo $lang['homepage_members']; ?></p>
+                            <p><?php echo $lang['homepage_partners']; ?></p>
                         </a>
                     </div>
                 </div>
@@ -177,7 +177,7 @@ if (!$_SESSION["lang"]) {
     <!-- ABOUT LAWYER -->
     <section id="section3" style="">
         <div class="container" style="">
-            <h3><?php echo $lang['news']; ?></h3>
+            <h3 style="color: #ca0027;"><?php echo $lang['news']; ?></h3>
             <br>
             <div class="row">
                 <div class="col-md-4">
@@ -216,7 +216,41 @@ if (!$_SESSION["lang"]) {
     <section id="section4" data-parallax-image="images/LawyerSendMessage.jpg" style="background-color: #EFEFEF;">
         <div class="container">
             <div class="row">
-                <div class="col-md-8"></div>
+                <div class="col-md-8" style="color: #FFFFFF; vertical-align: center">
+                    <div class="row">
+                        <h3 class="text-uppercase" style="color: #ca0027;"><?php echo $lang['connection']; ?></h3>
+                        <p style="color: #FFFFFF">
+                            <?php echo $lang['connection_detailsPart1']; ?><br/>
+                            <?php echo $lang['connection_detailsPart2']; ?><br/>
+                        </p>
+                        <strong>Email: info@akcblawfirm.com - esra.akcebe@outlook.com</strong>
+                    </div>
+                    <div class="row">
+                        <br/><br/><br/>
+                        <h3 class="text-uppercase" style="color: #ca0027;"><?php echo $lang['address']; ?></h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <address>
+                                    <strong>AKCBLAWFIRM</strong>
+                                    <br/><br/>
+                                    Nöbethane Caddesi No: 28/10-11 <br/>
+                                    Sirkeci / İSTANBUL <br/>
+                                    <abbr title="Phone"><?php echo $lang['phoneShort']; ?></abbr> (0212) 511 5038
+                                    <abbr title="Phone"><?php echo $lang['phoneShort']; ?></abbr> (0541) 715 1986
+                                </address>
+                            </div>
+                            <div class="col-md-6">
+                                <address>
+                                    <strong>AKCBLAWFIRM USA</strong>
+                                    <br/><br/>
+                                    203 Greenland Drive, Yorktown VA <br/>
+                                    Virgina / USA <br/>
+                                    <abbr title="email">E:</abbr> info@akcblawfirm.com
+                                </address>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-4 form-colored text-light p-40">
                     <div class="text-small"><?php echo $lang['form_email_title']; ?></div>
                     <p><?php echo $lang['form_email_text']; ?></p>

@@ -29,13 +29,13 @@ if (!$_SESSION["lang"]) {
 <body>
 <!-- Wrapper -->
 <div id="wrapper">
-    <div id="topbar" class="visible-md visible-lg">
+    <div id="topbar" class="visible-md visible-lg" style="background-color: #e7ebec;">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
                     <ul class="top-menu">
-                        <li><a href="#"><?php echo $lang['phone']; ?> +90 541 715 19 86</a></li>
-                        <li><a href="#">Email: info@akcblawfirm.com</a></li>
+                        <li><a href="#" style="color: #ca0027;"><?php echo $lang['phone']; ?> +90 541 715 19 86</a></li>
+                        <li><a href="#" style="color: #ca0027;">Email: info@akcblawfirm.com</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-6 hidden-xs">
@@ -67,8 +67,8 @@ if (!$_SESSION["lang"]) {
                             <div class="topbar-dropdown">
                                 <a class="title"><i class="fa fa-globe"></i></a>
                                 <div class="dropdown-list">
-                                    <a class="list-entry" href="language/language.php?lang=tr&page=purpose">Türkçe</a>
-                                    <a class="list-entry" href="language/language.php?lang=en&page=purpose">English</a>
+                                    <a class="list-entry" href="language/language.php?lang=tr&page=aboutUs">Türkçe</a>
+                                    <a class="list-entry" href="language/language.php?lang=en&page=aboutUs">English</a>
                                 </div>
                             </div>
                         </li>
@@ -110,11 +110,11 @@ if (!$_SESSION["lang"]) {
          data-loop="true" data-autoplay="true">
 
         <div class="slide background-overlay-one"
-             style="background-image:url('images/amacimiz-hakkimizda.png'); border-bottom: 3px solid #1f1f1f;">
+             style="background-image:url('images/amacimiz-hakkimizda.png'); border-bottom: 1px solid #1f1f1f; border-top: 2px solid #1f1f1f;">
             <div class="container">
                 <div class="slide-captions">
                     <!-- Captions -->
-                    <h3 class="text-uppercase text-medium" style="color: #FFFFFF">
+                    <h3 class="text-uppercase text-medium" style="color: #ca0027">
                         <span style="font-family: 'Playfair Display', serif; ">AKCBLAWFIRM</span>
                     </h3>
                     <h4 style="font-family: 'Playfair Display', serif; color: #FFFFFF; font-size: x-large">
@@ -135,7 +135,7 @@ if (!$_SESSION["lang"]) {
                     <img src="images/hakkimizda-amacimiz.png" alt="Law Books" class="img-responsive">
                 </div>
                 <div class="col-md-8">
-                    <h3 class="text-uppercase" style="font-weight: bold"><?php echo $lang['aim_title']; ?></h3>
+                    <h3 class="text-uppercase" style="font-weight: bold; color: #ca0027;"><?php echo $lang['aim_title']; ?></h3>
                     <span ><?php echo $lang['aim_detail']; ?></span>
                     <br/><br/>
                     <br/><br/><br/>
@@ -151,7 +151,7 @@ if (!$_SESSION["lang"]) {
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-8">
-                    <h3 class="text-uppercase" style="font-weight: bold"><?php echo $lang['vision_title']; ?></h3>
+                    <h3 class="text-uppercase" style="font-weight: bold; color: #ca0027;"><?php echo $lang['vision_title']; ?></h3>
                     <span class=""><?php echo $lang['vision_detail']; ?></span>
                     <br/>
                     <br/>
@@ -173,7 +173,7 @@ if (!$_SESSION["lang"]) {
                     <img src="images/library.jpg" alt="Law Books" class="img-responsive">
                 </div>
                 <div class="col-md-8">
-                    <h3  class="text-uppercase" style="font-weight: bold"><?php echo $lang['publications_title']; ?></h3>
+                    <h3  class="text-uppercase" style="font-weight: bold; color: #ca0027;"><?php echo $lang['publications_title']; ?></h3>
                     <span>
                         <strong><?php echo $lang['publications_pub_1_title']; ?></strong><br/>
                         <?php echo $lang['publications_pub_1_detail']; ?><br/>
