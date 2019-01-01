@@ -22,6 +22,7 @@ if (!$_SESSION["lang"]) {
     <link href="css/responsive.css" rel="stylesheet">
     <link href="css/color-variations/red-dark.css" rel="stylesheet" type="text/css" media="screen">
     <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/lawyer-style.css" media="screen"/>
 </head>
@@ -113,15 +114,12 @@ if (!$_SESSION["lang"]) {
             <div class="container">
                 <div class="slide-captions">
                     <!-- Captions -->
-                    <h3 class="text-uppercase text-medium" style="color: #CA0027; opacity: 0.6; text-align: center">
-                        <span style="font-family: Myriad Pro; ">AKCBLAWFIRM</span>
-                    </h3>
-                    <h3 style="color: #003366; text-align: center">
-                        <span style="font-family: Courgette; font-size: 80%; color: #CA0027; opacity: 0.5; text-align: center; font-style: italic"> <?php echo $lang['sloganUpper']; ?> </span>
+                    <h3 class="text-uppercase text-medium" style="color: #FFFFFF;">
+                        <span style="font-family: 'Playfair Display', serif; ">AKCBLAWFIRM</span>
                     </h3>
                     <p class="lead">
                         <div style="text-align: center;">
-                            <span style="font-family: Courgette; color: #ffffff; font-size: 144%; font-style: italic;">
+                            <span style="font-family: 'Playfair Display', serif; color: #FFFFFF; font-size: 144%;">
                                 <?php echo $lang['homePageText']; ?>
                             </span>
                         </div>

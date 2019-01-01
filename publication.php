@@ -20,6 +20,7 @@ if (!$_SESSION["lang"]) {
     <!-- Stylesheets & Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,800,700,600|Montserrat:400,500,600,700|Raleway:100,300,600,700,800"
           rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <link href="css/plugins.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
@@ -125,11 +126,11 @@ if (!$_SESSION["lang"]) {
                 <div class="slide-captions">
                     <!-- Captions -->
                     <h3 class="text-uppercase text-medium" style="color: #FFFFFF">
-                        <span style="font-family: Myriad Pro; ">AKCBLAWFIRM</span>
+                        <span style="font-family: 'Playfair Display', serif; ">AKCBLAWFIRM</span>
                     </h3>
-                    <h3 class="slogan-for-publications" style="font-family: Courgette; color: #e2ee1c; font-style: italic; font-size: xx-large">
+                    <h4 style="font-family: 'Playfair Display', serif; color: #FFFFFF; font-size: x-large">
                         <?php echo $lang['publications_slogan']; ?>
-                    </h3>
+                    </h4>
                 </div>
             </div>
         </div>

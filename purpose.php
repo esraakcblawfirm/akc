@@ -23,6 +23,7 @@ if (!$_SESSION["lang"]) {
     <link href="css/plugins.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 </head>
 
 <body>
@@ -120,11 +121,11 @@ if (!$_SESSION["lang"]) {
                 <div class="slide-captions">
                     <!-- Captions -->
                     <h3 class="text-uppercase text-medium" style="color: #FFFFFF">
-                        <span style="font-family: Myriad Pro; ">AKCBLAWFIRM</span>
+                        <span style="font-family: 'Playfair Display', serif; ">AKCBLAWFIRM</span>
                     </h3>
-                    <h3 style="font-family: Courgette; color: #e2ee1c; margin-left: 52%;  font-style: italic; font-size: x-large">
+                    <h4 style="font-family: 'Playfair Display', serif; color: #FFFFFF; font-size: x-large">
                         <?php echo $lang['aim_slogan']; ?>
-                    </h3>
+                    </h4>
                 </div>
             </div>
         </div>
