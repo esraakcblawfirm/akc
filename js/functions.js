@@ -2008,14 +2008,14 @@ var INSPIRO = {},
 
                 $contactForm.each(function () {
                     var elem = $(this),
-                        elemSuccessMessage = elem.attr('data-success-message') || "We have <strong>successfully</strong> received your Message and will get Back to you as soon as possible.";
+                        elemSuccessMessage = elem.attr('data-success-message') || "Mesajınız Başarıyla Gönderilmiştir. En kısa süre içerisinde tarafınıza dönüş yapılacaktır.";
 
                     elem.validate({
                         submitHandler: function (form) {
                             var button = $(form).find('button#form-submit'),
                                 buttonText = button.html();
 
-                            button.html('<i class="fa fa-refresh fa-spin"></i> Sending...');
+                            button.html('<i class="fa fa-refresh fa-spin"></i> Gönderiliyor...');
 
                             $(form).ajaxSubmit({
                                 success: function (text) {
