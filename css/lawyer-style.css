@@ -71,6 +71,10 @@ h2 {
     margin-left: 65%;
 }
 
+.slogan-for-publications {
+    margin-left: 60%;
+}
+
 @media (min-device-width: 768px) {
     .lawyer-list-items {
         margin-left: 10%;
@@ -82,6 +86,10 @@ h2 {
     }
 
     .slogan-for-partner {
+        margin-left: 60%;
+    }
+
+    .slogan-for-publications {
         margin-left: 60%;
     }
 }
@@ -97,6 +105,10 @@ h2 {
     }
 
     .slogan-for-partner {
+        margin-left: 60%;
+    }
+
+    .slogan-for-publications {
         margin-left: 60%;
     }
 }

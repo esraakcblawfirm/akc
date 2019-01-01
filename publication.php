@@ -23,6 +23,7 @@ if (!$_SESSION["lang"]) {
     <link href="css/plugins.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/lawyer-style.css" media="screen"/>
 
 </head>
 
@@ -128,7 +129,7 @@ if (!$_SESSION["lang"]) {
                     <h3 class="text-uppercase text-medium" style="color: #FFFFFF">
                         <span style="font-family: Myriad Pro; ">AKCBLAWFIRM</span>
                     </h3>
-                    <h3 style="font-family: Courgette; color: #e2ee1c; margin-left: 60%;  font-style: italic; font-size: xx-large">
+                    <h3 class="slogan-for-publications" style="font-family: Courgette; color: #e2ee1c; font-style: italic; font-size: xx-large">
                         <?php echo $lang['publications_slogan']; ?>
                     </h3>
                 </div>
