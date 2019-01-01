@@ -14,23 +14,23 @@ h2 {
 }
 
 .form-colored {
-    background-color: #c0d6e4 !important;
+    background-color: #89a19e !important;
 }
 
 .btn-form {
-    background-color: #003366 !important;
+    background-color: #525c68 !important;
 }
 
 .btn-form:hover {
-    background-color: #003399 !important;
+    background-color: #13433e !important;
 }
 
 .btn-form:active {
-    background-color: #003366 !important;
+    background-color: #13433e !important;
 }
 
 .btn-form:at-level {
-    background-color: #003366 !important;
+    background-color: #13433e !important;
 }
 
 .inspiro-slider .slide-special {
@@ -78,7 +78,7 @@ h2 {
 @media (min-device-width: 768px) {
     .lawyer-list-items {
         margin-left: 10%;
-        font-size: 125%;
+        font-size: 80%;
     }
 
     .slogan-for-connection {
@@ -97,7 +97,7 @@ h2 {
 @media (min-device-width: 480px) and (max-device-width: 767px) {
     .lawyer-list-items {
         margin-left: 10%;
-        font-size: 100%;
+        font-size: 80%;
     }
 
     .slogan-for-connection {
@@ -116,7 +116,7 @@ h2 {
 @media (min-device-width: 321px) and (max-device-width: 479px) {
     .lawyer-list-items {
         margin-left: 5%;
-        font-size: 85%;
+        font-size: 75%;
     }
 
     .slogan-for-connection {
@@ -131,7 +131,7 @@ h2 {
 @media (max-device-width: 320px) {
     .lawyer-list-items {
         margin-left: 2%;
-        font-size: 75%;
+        font-size: 70%;
     }
 
     .slogan-for-connection{

@@ -16,16 +16,14 @@ if (!$_SESSION["lang"]) {
     <meta name="author" content="AKCBLAWFIRM"/>
     <meta name="description" content="Akcblawfirm">
     <!-- Document title -->
-    <title><?php echo $lang['title_vision']; ?></title>
+    <title><?php echo $lang['title_aim']; ?></title>
     <!-- Stylesheets & Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,800,700,600|Montserrat:400,500,600,700|Raleway:100,300,600,700,800"
           rel="stylesheet" type="text/css"/>
     <link href="css/plugins.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/lawyer-style.css" media="screen"/>
 </head>
 
 <body>
@@ -69,8 +67,8 @@ if (!$_SESSION["lang"]) {
                             <div class="topbar-dropdown">
                                 <a class="title"><i class="fa fa-globe"></i></a>
                                 <div class="dropdown-list">
-                                    <a class = "list-entry" href="language/language.php?lang=tr&page=vision">Türkçe</a>
-                                    <a class = "list-entry" href="language/language.php?lang=en&page=vision">English</a>
+                                    <a class="list-entry" href="language/language.php?lang=tr&page=purpose">Türkçe</a>
+                                    <a class="list-entry" href="language/language.php?lang=en&page=purpose">English</a>
                                 </div>
                             </div>
                         </li>
@@ -86,13 +84,7 @@ if (!$_SESSION["lang"]) {
                         <nav>
                             <ul>
                                 <li><a href="index.php"><?php echo $lang['mainpage']; ?></a></li>
-                                <li class="dropdown"><a href="vision.php"><?php echo $lang['about']; ?></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="vision.php"><?php echo $lang['vision']; ?></a></li>
-                                        <li><a href="purpose.php"><?php echo $lang['purpose']; ?></a></li>
-                                        <li><a href="publication.php"><?php echo $lang['publications']; ?></a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="aboutUs.php"><?php echo $lang['about']; ?></a></li>
                                 <li><a href="workArea.php"><?php echo $lang['workareas']; ?></a></li>
                                 <li class="dropdown"><a
                                             href="partner.php"><?php echo $lang['partners']; ?></a>
@@ -117,7 +109,8 @@ if (!$_SESSION["lang"]) {
          data-autoplay-timeout="2600" data-animate-in="fadeIn" data-animate-out="fadeOut" data-items="1"
          data-loop="true" data-autoplay="true">
 
-        <div class="slide background-overlay-one" style="background-image:url('images/hakkimizda-vizyonumuz.png'); border-bottom: 3px solid #1f1f1f;">
+        <div class="slide background-overlay-one"
+             style="background-image:url('images/amacimiz-hakkimizda.png'); border-bottom: 3px solid #1f1f1f;">
             <div class="container">
                 <div class="slide-captions">
                     <!-- Captions -->
@@ -125,7 +118,7 @@ if (!$_SESSION["lang"]) {
                         <span style="font-family: 'Playfair Display', serif; ">AKCBLAWFIRM</span>
                     </h3>
                     <h4 style="font-family: 'Playfair Display', serif; color: #FFFFFF; font-size: x-large">
-                        <?php echo $lang['vision_slogan']; ?>
+                        <?php echo $lang['aim_slogan']; ?>
                     </h4>
                 </div>
             </div>
@@ -138,16 +131,59 @@ if (!$_SESSION["lang"]) {
     <section id="section1" style="background-color: #EFEFEF;">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6" style="min-height: available">
-                    <img src="images/vizyonumuz-hakkimizda.png" alt="Law Books" class="img-responsive">
+                <div class="col-md-4" style="min-height: available">
+                    <img src="images/hakkimizda-amacimiz.png" alt="Law Books" class="img-responsive">
                 </div>
-                <div class="col-md-6">
-                    <h2 class="text-uppercase"><?php echo $lang['vision_title']; ?></h2>
-                    <span class="lead"><?php echo $lang['vision_detail']; ?></span>
+                <div class="col-md-8">
+                    <h3 class="text-uppercase" style="font-weight: bold"><?php echo $lang['aim_title']; ?></h3>
+                    <span ><?php echo $lang['aim_detail']; ?></span>
+                    <br/><br/>
+                    <br/><br/><br/>
+                    <a href="connection.php"
+                       class="btn btn-outline btn-dark"><span><?php echo $lang['aim_button_text']; ?></span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2 -->
+    <section id="section2" style="background-color: #FFFFFF;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8">
+                    <h3 class="text-uppercase" style="font-weight: bold"><?php echo $lang['vision_title']; ?></h3>
+                    <span class=""><?php echo $lang['vision_detail']; ?></span>
                     <br/>
                     <br/>
                     <br/>
                     <a href="connection.php" class="btn btn-outline btn-dark"><span><?php echo $lang['vision_button_text']; ?></span></a>
+                </div>
+                <div class="col-md-4" style="min-height: available">
+                    <img src="images/aaron-mello.jpg" alt="Law Books" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3 -->
+    <section id="section3" style="background-color: #EFEFEF;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4" style="min-height: available">
+                    <img src="images/library.jpg" alt="Law Books" class="img-responsive">
+                </div>
+                <div class="col-md-8">
+                    <h3  class="text-uppercase" style="font-weight: bold"><?php echo $lang['publications_title']; ?></h3>
+                    <span>
+                        <strong><?php echo $lang['publications_pub_1_title']; ?></strong><br/>
+                        <?php echo $lang['publications_pub_1_detail']; ?><br/>
+                        <strong><?php echo $lang['publications_pub_2_title']; ?></strong><br/>
+                        <?php echo $lang['publications_pub_2_detail']; ?><br/>
+                        <strong><?php echo $lang['publications_pub_3_title']; ?></strong><br/>
+                        <strong><?php echo $lang['publications_pub_4_title']; ?></strong><br/>
+                        <strong><?php echo $lang['publications_pub_5_title']; ?></strong><br/>
+                        <?php echo $lang['publications_pub_5_detail']; ?><br/>
+					</span>
                 </div>
             </div>
         </div>
@@ -158,28 +194,18 @@ if (!$_SESSION["lang"]) {
         <div class="footer-content">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3">
-                        <div class="widget clearfix widget-categories">
-                            <h4 class="widget-title"><?php echo $lang['links']; ?></h4>
-                            <ul class="list list-arrow-icons">
-                                <li><a title="" href="workArea.php"><?php echo $lang['workareassmall']; ?></a></li>
-                                <li><a title="" href="partner.php"><?php echo $lang['partnerssmall']; ?></a>
-                                </li>
-                                <li><a title="" href="connection.php"><?php echo $lang['connectionsmall']; ?></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
+                    <div class="col-md-5">
                         <div class="widget clearfix widget-categories">
                             <h4 class="widget-title"><?php echo $lang['content']; ?></h4>
                             <ul class="list list-arrow-icons">
-                                <li><a href="purpose.php"><?php echo $lang['purpose']; ?></a></li>
-                                <li><a href="vision.php"><?php echo $lang['vision']; ?></a></li>
-                                <li><a href="publication.php"><?php echo $lang['publications']; ?></a></li>
+                                <li><a title="" href="workArea.php"><?php echo $lang['workareassmall']; ?></a></li>
+                                <li><a title="" href="partner.php"><?php echo $lang['partnerssmall']; ?></a></li>
+                                <li><a title="" href="connection.php"><?php echo $lang['connectionsmall']; ?></a></li>
+                                <li><a title="" href="connection.php"><?php echo $lang['about']; ?></a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <div class="widget clearfix widget-categories">
                             <h4 class="widget-title"><?php echo $lang['partners']; ?></h4>
                             <ul class="list list-arrow-icons">
@@ -215,9 +241,5 @@ if (!$_SESSION["lang"]) {
 
 <!--Template functions-->
 <script src="js/functions.js"></script>
-
-
 </body>
-
 </html>
-

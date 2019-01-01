@@ -5,6 +5,14 @@ $lang = array(
     "sloganUpper" => "INTERNATIONAL AND NATIONAL LAW & CONSULTANCY",
     "sloganGeneral" => "International and National Law & Consultancy",
 
+    "haber_1_title" => "Haber 1",
+    "haber_1_details" => "Habersdamldsakdlş kadklk alsşkd lsakdş laksşdksaşlkdlşa",
+    "haber_2_title" => "Haber 2",
+    "haber_2_details" => "asdmnsakdsadsaşlkdlsakldskaşlkd lşasdk skald aşls ",
+    "haber_3_title" => "Haber 3",
+    "haber_3_details" => "sadsaşlkdsakdksaşldksalkdşsakşdksakdşsakdşsakşdsa dlsak şskadşk a",
+
+    "news" => "NEWS & ANNOUNCEMENTS",
     "title" => "AKCBLAWFIRM",
     "title_workAreas" => "AKCBLAWFIRM - Our Work Areas",
     "title_vision" => "AKCBLAWFIRM - Our Vision",
@@ -36,7 +44,7 @@ $lang = array(
 
     "homepage_workAreas" => "Perform your processes in a legal basis with our law firm.",
     "homepage_partners" => "We are with you with our solution partners.",
-    "homepage_publications" => "We offer you more services with our publications.",
+    "homepage_publications" => "We are stronger together.",
     "homepage_connection" => "Contact information can be found here.",
     "homepage_thinktogether_title" => "Think & Create Together",
     "homepage_thinktogether_details" => "AKCB Law is an international law firm that focuses on our \"clients centricity\" at the center of every service it offers. We always get our greatest strength from our goal of being together with our clients. We take steps with you and decide together what will be important to you in the future.",

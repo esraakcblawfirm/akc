@@ -87,13 +87,7 @@ if (!$_SESSION["lang"]) {
                         <nav>
                             <ul>
                                 <li><a href="index.php"><?php echo $lang['mainpage']; ?></a></li>
-                                <li class="dropdown"><a href="vision.php"><?php echo $lang['about']; ?></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="vision.php"><?php echo $lang['vision']; ?></a></li>
-                                        <li><a href="purpose.php"><?php echo $lang['purpose']; ?></a></li>
-                                        <li><a href="publication.php"><?php echo $lang['publications']; ?></a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="aboutUs.php"><?php echo $lang['about']; ?></a></li>
                                 <li><a href="workArea.php"><?php echo $lang['workareas']; ?></a></li>
                                 <li class="dropdown"><a
                                             href="partner.php"><?php echo $lang['partners']; ?></a>
@@ -177,7 +171,7 @@ if (!$_SESSION["lang"]) {
 
 
     <!-- GET FREE CONSULTATION -->
-    <section id="connection" data-parallax-image="images/iletisim-form.png">
+    <section id="connection" data-parallax-image="images/LawyerSendMessage.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-md-8"></div>
@@ -224,28 +218,18 @@ if (!$_SESSION["lang"]) {
         <div class="footer-content">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3">
-                        <div class="widget clearfix widget-categories">
-                            <h4 class="widget-title"><?php echo $lang['links']; ?></h4>
-                            <ul class="list list-arrow-icons">
-                                <li><a title="" href="workArea.php"><?php echo $lang['workareassmall']; ?></a></li>
-                                <li><a title="" href="partner.php"><?php echo $lang['partnerssmall']; ?></a>
-                                </li>
-                                <li><a title="" href="connection.php"><?php echo $lang['connectionsmall']; ?></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
+                    <div class="col-md-5">
                         <div class="widget clearfix widget-categories">
                             <h4 class="widget-title"><?php echo $lang['content']; ?></h4>
                             <ul class="list list-arrow-icons">
-                                <li><a href="purpose.php"><?php echo $lang['purpose']; ?></a></li>
-                                <li><a href="vision.php"><?php echo $lang['vision']; ?></a></li>
-                                <li><a href="publication.php"><?php echo $lang['publications']; ?></a></li>
+                                <li><a title="" href="workArea.php"><?php echo $lang['workareassmall']; ?></a></li>
+                                <li><a title="" href="partner.php"><?php echo $lang['partnerssmall']; ?></a></li>
+                                <li><a title="" href="connection.php"><?php echo $lang['connectionsmall']; ?></a></li>
+                                <li><a title="" href="connection.php"><?php echo $lang['about']; ?></a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <div class="widget clearfix widget-categories">
                             <h4 class="widget-title"><?php echo $lang['partners']; ?></h4>
                             <ul class="list list-arrow-icons">
