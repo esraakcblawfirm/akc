@@ -1,5 +1,10 @@
 <?php
 $lang = array(
+    "logoWhite" => "logo_White.png",
+    "logoBlack" => "logo_Black.png",
+    "sloganUpper" => "ULUSAL VE ULUSLARARASI HUKUK & DANIŞMANLIK",
+    "sloganGeneral" => "Ulusal ve Uluslararası Hukuk & Danışmanlık",
+
     "title" => "AKCBLAWFIRM",
     "title_workAreas" => "AKCBLAWFIRM - Çalışma Alanlarımız",
     "title_vision" => "AKCBLAWFIRM - Vizyonumuz",
@@ -37,7 +42,7 @@ $lang = array(
     "homepage_thinktogether_details" => "Müşteri odaklılık yaptığımız her şeyin merkezinde yer aldı. En büyük gücümüzün her zaman müşterilerimizle birlikte olma hırsımız olduğuna inanıyoruz. Onlara adım atıyor ve gelecekte onlar için neyin önemli olacağına karar veriyoruz.",
     "homepage_purpose_details" => "Dünyanın dört bir yanındaki insanlara ulaşmayı ve size ulaşmayı hedefledik.",
     "homepage_publication_details" => "Yayınlarımıza buradan ulaşabilirsiniz.",
-    "homepage_member_details" => "Üyesi olduğumuz kuruluşları buradan görebilirsiniz.",
+    "homepage_vision_details" => "Vizyonumuza buradan ulaşabilirsiniz.",
 
     "workArea_detail_1" => "Uluslararası ticari veya ticari işlemleri yöneten yasal kurallar, sözleşmeler, anlaşmalar, yerel mevzuat ve ticari gümrükler veya kullanımları üzerinde tarafınıza temsil edilmekteyiz. Avukatlık Büromuz tarafından, tüm ticari işlemlerinizi hukuki zeminde gerçekleştirin. Birden fazla ülkenin unsurları söz konusu olduğunda uluslararası nitelik kazanmaya hak kazanın.",
     "workArea_detail_2" => "Hukuk Büromuz, hukuki ve sivil haklar, ekonomik ve sosyal haklar, devletler ve devlet dışı aktörlere de hesap verebilirlik konularını kapsayan hukuki çözümler sunulmaktadır. Hukuk büromuz, uluslararası sözleşmeler ve BM Güvenlik Konseyi kararları ile ilgili olarak sizi temsil ediyor, izleme mekanizmaları, uluslararası komisyonları, uluslararası mahkemeleri ve hatta bölgesel insan hakları mahkemeleri ve Uluslararası Ceza Mahkemesi gibi daimi mahkemeleri bile beraberinde getirdik.  Uluslararası yasal konulara katkıda bulunarak da çözümler sunmaktayız.",

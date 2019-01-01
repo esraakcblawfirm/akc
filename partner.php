@@ -57,8 +57,8 @@ if (!$_SESSION["lang"]) {
         <div id="header-wrap">
             <div class="container">
                 <div id="logo">
-                    <a href="index.php" class="logo" data-dark-logo="images/logo-black.png">
-                        <img src="images/logo-black.png" alt="Akcblawfirm Logo">
+                    <a href="index.php" class="logo" data-dark-logo="images/<?php echo $lang['logoBlack']; ?>">
+                        <img src="images/<?php echo $lang['logoBlack']; ?>" alt="Akcblawfirm Logo">
                     </a>
                 </div>
                 <div class="header-extras">
@@ -87,7 +87,6 @@ if (!$_SESSION["lang"]) {
                                         <li><a href="vision.php"><?php echo $lang['vision']; ?></a></li>
                                         <li><a href="purpose.php"><?php echo $lang['purpose']; ?></a></li>
                                         <li><a href="publication.php"><?php echo $lang['publications']; ?></a></li>
-                                        <li><a href="membership.php"><?php echo $lang['members']; ?></a></li>
                                     </ul>
                                 </li>
                                 <li><a href="workArea.php"><?php echo $lang['workareas']; ?></a></li>
@@ -175,7 +174,6 @@ if (!$_SESSION["lang"]) {
                             <h4 class="widget-title"><?php echo $lang['content']; ?></h4>
                             <ul class="list list-arrow-icons">
                                 <li><a href="purpose.php"><?php echo $lang['purpose']; ?></a></li>
-                                <li><a href="membership.php"><?php echo $lang['members']; ?></a></li>
                                 <li><a href="vision.php"><?php echo $lang['vision']; ?></a></li>
                                 <li><a href="publication.php"><?php echo $lang['publications']; ?></a></li>
                             </ul>
@@ -191,7 +189,7 @@ if (!$_SESSION["lang"]) {
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <img src="images/logo-white.png" alt="">
+                        <img src="images/<?php echo $lang['logoWhite']; ?>" alt="">
                     </div>
                 </div>
             </div>

@@ -1,5 +1,10 @@
 <?php
 $lang = array(
+    "logoWhite" => "logo_White_EN.png",
+    "logoBlack" => "logo_Black_EN.png",
+    "sloganUpper" => "INTERNATIONAL AND NATIONAL LAW & CONSULTANCY",
+    "sloganGeneral" => "International and National Law & Consultancy",
+
     "title" => "AKCBLAWFIRM",
     "title_workAreas" => "AKCBLAWFIRM - Our Work Areas",
     "title_vision" => "AKCBLAWFIRM - Our Vision",
@@ -37,7 +42,7 @@ $lang = array(
     "homepage_thinktogether_details" => "Client focus has been central to everything we do. We believe our greatest strength lies in the ambition to be with our customers always. We keeping step with them and deciding what will become important for them in the future too.",
     "homepage_purpose_details" => "We aimed to reach out to people all over the world.",
     "homepage_publication_details" => "You can access our publications from here.",
-    "homepage_member_details" => "You can see our membership organizations from here.",
+    "homepage_vision_details" => "You can see our vision from here.",
 
     "workArea_detail_1" => "We are being represent to your side on the body of legal rules, conventions, treaties, domestic legislation and commercial customs or usages, that governs international commercial or business transactions.  By Our Law Firm make a real you’re all the commercial transactions in the legal ground. You will qualify to be international if elements of more than one country are involved.",
     "workArea_detail_2" => "Our Law Firm is being provided  legal solutions on the field of  encompasses a broad range of civil and political rights, economic and social rights, and the accountability for their violation by states and non-state actors alike. Our Law firm are representing to you on the treaties, conventions, and also UN Security Council resolutions have given rise to monitoring mechanisms, commissions, ad hoc tribunals, and even permanent courts, such as the regional human rights courts and the International Criminal Court, all of which contribute to the international legal issues.",

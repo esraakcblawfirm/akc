@@ -42,7 +42,6 @@ if (!$_SESSION["lang"]) {
                         <ul>
                             <li class="social-facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
                             <li class="social-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li class="social-google"><a href="#"><i class="fa fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -55,8 +54,8 @@ if (!$_SESSION["lang"]) {
         <div id="header-wrap">
             <div class="container">
                 <div id="logo">
-                    <a href="index.php" class="logo" data-dark-logo="images/logo-black.png">
-                        <img src="images/logo-black.png" alt="Akcblawfirm Logo">
+                    <a href="index.php" class="logo" data-dark-logo="images/<?php echo $lang['logoBlack']; ?>">
+                        <img src="images/<?php echo $lang['logoBlack']; ?>" alt="Akcblawfirm Logo">
                     </a>
                 </div>
                 <div class="header-extras">
@@ -85,7 +84,6 @@ if (!$_SESSION["lang"]) {
                                         <li><a href="vision.php"><?php echo $lang['vision']; ?></a></li>
                                         <li><a href="purpose.php"><?php echo $lang['purpose']; ?></a></li>
                                         <li><a href="publication.php"><?php echo $lang['publications']; ?></a></li>
-                                        <li><a href="membership.php"><?php echo $lang['members']; ?></a></li>
                                     </ul>
                                 </li>
                                 <li><a href="workArea.php"><?php echo $lang['workareas']; ?></a></li>
@@ -119,7 +117,7 @@ if (!$_SESSION["lang"]) {
                         <span style="font-family: Myriad Pro; ">AKCBLAWFIRM</span>
                     </h3>
                     <h3 style="color: #003366; text-align: center">
-                        <span style="font-family: Courgette; font-size: 80%; color: #CA0027; opacity: 0.5; text-align: center; font-style: italic"> ULUSAL VE ULUSLARARASI HUKUK VE DANIŞMANLIK </span>
+                        <span style="font-family: Courgette; font-size: 80%; color: #CA0027; opacity: 0.5; text-align: center; font-style: italic"> <?php echo $lang['sloganUpper']; ?> </span>
                     </h3>
                     <p class="lead">
                         <div style="text-align: center;">
@@ -142,7 +140,7 @@ if (!$_SESSION["lang"]) {
         <div class="container">
             <div class="heading heading-center">
                 <h2>AKCBLAWFIRM</h2>
-                <span class="lead">Ulusal ve Uluslararası Hukuk ve Danışmanlık</span>
+                <span class="lead"><?php echo $lang['sloganGeneral']; ?></span>
             </div>
             <div class="row">
                 <div class="col-md-6">
@@ -223,15 +221,14 @@ if (!$_SESSION["lang"]) {
                             </a>
                         </div>
                         <div class="col-md-4">
-                            <a href="membership.php">
+                            <a href="vision.php">
                                 <div class="team-member">
                                     <div class="team-image">
-                                        <img src="images/uye-olunan-kuruluslar-anasayfa.png">
+                                        <img src="images/vizyonumuz-hakkimizda.png">
                                     </div>
                                     <div class="team-desc">
-                                        <h3><?php echo $lang['members']; ?></h3>
-                                        <p><?php echo $lang['homepage_member_details']; ?></p>
-
+                                        <h3><?php echo $lang['vision']; ?></h3>
+                                        <p><?php echo $lang['homepage_vision_details']; ?></p>
                                     </div>
                                 </div>
                             </a>
@@ -308,7 +305,6 @@ if (!$_SESSION["lang"]) {
                             <h4 class="widget-title"><?php echo $lang['content']; ?></h4>
                             <ul class="list list-arrow-icons">
                                 <li><a href="purpose.php"><?php echo $lang['purpose']; ?></a></li>
-                                <li><a href="membership.php"><?php echo $lang['members']; ?></a></li>
                                 <li><a href="vision.php"><?php echo $lang['vision']; ?></a></li>
                                 <li><a href="publication.php"><?php echo $lang['publications']; ?></a></li>
                             </ul>
@@ -324,7 +320,7 @@ if (!$_SESSION["lang"]) {
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <img src="images/logo-white.png" alt="">
+                        <img src="images/<?php echo $lang['logoWhite']; ?>" alt="">
                     </div>
                 </div>
             </div>
