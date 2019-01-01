@@ -40,7 +40,7 @@ if (!$_SESSION["lang"]) {
                 <div class="col-sm-6 hidden-xs">
                     <div class="social-icons social-icons-colored-hover">
                         <ul>
-                            <li class="social-facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li class="social-linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
                             <li class="social-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
                         </ul>
                     </div>

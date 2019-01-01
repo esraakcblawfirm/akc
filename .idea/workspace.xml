@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="53079045-c153-4a6e-8b95-ec55cfdf5c32" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/connection.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/en.php" beforeDir="false" afterPath="$PROJECT_DIR$/language/en.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/tr.php" beforeDir="false" afterPath="$PROJECT_DIR$/language/tr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partner.php" beforeDir="false" afterPath="$PROJECT_DIR$/partner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publication.php" beforeDir="false" afterPath="$PROJECT_DIR$/publication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purpose.php" beforeDir="false" afterPath="$PROJECT_DIR$/purpose.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vision.php" beforeDir="false" afterPath="$PROJECT_DIR$/vision.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workArea.php" beforeDir="false" afterPath="$PROJECT_DIR$/workArea.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="119" column="177" selection-start-line="119" selection-start-column="177" selection-end-line="119" selection-end-column="177" />
+            <state relative-caret-position="111">
+              <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="107" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -134,8 +138,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>upper</find>
-      <find>text-upper</find>
       <find>&lt;html lang=&quot;en&quot;&gt;</find>
       <find>vision</find>
       <find>vision_tit</find>
@@ -164,6 +166,8 @@
       <find>instag</find>
       <find>logo</find>
       <find>Ulusal ve</find>
+      <find>faceboo</find>
+      <find>faceb</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -229,15 +233,15 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/membership.php" />
         <option value="$PROJECT_DIR$/css/lawyer-style.css" />
-        <option value="$PROJECT_DIR$/partner.php" />
+        <option value="$PROJECT_DIR$/language/en.php" />
+        <option value="$PROJECT_DIR$/language/tr.php" />
+        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/publication.php" />
         <option value="$PROJECT_DIR$/connection.php" />
         <option value="$PROJECT_DIR$/vision.php" />
         <option value="$PROJECT_DIR$/purpose.php" />
         <option value="$PROJECT_DIR$/workArea.php" />
-        <option value="$PROJECT_DIR$/language/en.php" />
-        <option value="$PROJECT_DIR$/language/tr.php" />
-        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/partner.php" />
       </list>
     </option>
   </component>
@@ -283,7 +287,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546356036036" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546357739685" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/php/php.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -335,7 +339,7 @@
       <workItem from="1546118013123" duration="20000" />
       <workItem from="1546118058734" duration="20291000" />
       <workItem from="1546163100604" duration="25062000" />
-      <workItem from="1546237991992" duration="22053000" />
+      <workItem from="1546237991992" duration="22764000" />
     </task>
     <task id="LOCAL-00001" summary="Index Page is completed and headers and footers are added for all pages.">
       <created>1546170766635</created>
@@ -414,11 +418,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546355637320</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="version - 2 completed.">
+      <created>1546356086060</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1546356086060</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67426000" />
+    <option name="totallyTimeSpent" value="68137000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -431,9 +442,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3704698" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3704698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -449,7 +459,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329429" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.45827234" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.45827234" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3287234" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.329429" />
@@ -723,8 +733,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="119" column="177" selection-start-line="119" selection-start-column="177" selection-end-line="119" selection-end-column="177" />
+        <state relative-caret-position="111">
+          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="107" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
