@@ -14,23 +14,30 @@ h2 {
 }
 
 .form-colored {
-    background-color: #89a19e !important;
+    background-color: #e2252b !important;
+    border-radius: 8px;
 }
 
 .btn-form {
-    background-color: #525c68 !important;
+    background-color: #FFF !important;
+    border-color: #FFF !important;
+    color: #e2252b;
 }
 
 .btn-form:hover {
-    background-color: #13433e !important;
+    background-color: #F0D0D0 !important;
+    border-color: #F0D0D0 !important;
+    color: #FF1027;
 }
 
 .btn-form:active {
-    background-color: #13433e !important;
+    background-color: #F0D0D0 !important;
+    border-color: #F0D0D0 !important;
 }
 
 .btn-form:at-level {
-    background-color: #13433e !important;
+    background-color: #F0D0D0 !important;
+    border-color: #F0D0D0 !important;
 }
 
 .inspiro-slider .slide-special {

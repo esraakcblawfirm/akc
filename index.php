@@ -253,27 +253,27 @@ if (!$_SESSION["lang"]) {
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 form-colored text-light p-40">
-                    <h3 style="color: #ca0027 !important;"><?php echo $lang['form_email_title']; ?></h3>
-                    <p><?php echo $lang['form_email_text']; ?></p>
+                <div class="col-md-4 form-colored text-light p-20" style="padding-bottom: 10px !important; padding-top: 40px !important; padding-left: 35px !important; padding-right: 35px !important;">
+                    <h3 style="color: #FFF !important;"><?php echo $lang['form_email_title']; ?></h3>
+                    <p style="color: #FFF !important;;"><?php echo $lang['form_email_text']; ?></p>
                     <form class="widget-contact-form" action="include/contact-form.php" role="form" method="post">
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label for="name"><?php echo $lang['form_email_name']; ?></label>
+                                    <label for="name" style="color: #FFF !important;;"><?php echo $lang['form_email_name']; ?></label>
                                     <input type="text" aria-required="true" name="widget-contact-form-name"
                                            class="form-control required name"
                                            placeholder="<?php echo $lang['form_email_name']; ?>">
                                 </div>
                                 <div class="form-group">
-                                    <label for="email"><?php echo $lang['form_email_address_big']; ?></label>
+                                    <label style="color: #FFF !important;;" for="email"><?php echo $lang['form_email_address_big']; ?></label>
                                     <input type="email" aria-required="true" name="widget-contact-form-email"
                                            class="form-control required email"
                                            placeholder="<?php echo $lang['form_email_address']; ?>">
                                 </div>
                                 <div class="form-group">
-                                    <label for="message"><?php echo $lang['form_email_message']; ?></label>
-                                    <textarea type="text" name="widget-contact-form-message" rows="9"
+                                    <label style="color: #FFF !important;" for="message"><?php echo $lang['form_email_message']; ?></label>
+                                    <textarea type="text" name="widget-contact-form-message" rows="6"
                                               class="form-control required"
                                               placeholder="<?php echo $lang['form_email_message']; ?>"></textarea>
                                 </div>
