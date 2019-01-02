@@ -23,6 +23,7 @@ $lang = array(
     "title_partners" => "AKCBLAWFIRM - Our Partners",
     "phone" => "Phone:",
     "phoneShort" => "P:",
+    "email" => "Email:",
     "address" => "Address",
     "mainpage" => "Home Page",
     "about" => "About Us",
@@ -112,6 +113,11 @@ $lang = array(
     "connection_title" => "Contact Us...",
     "connection_detailsPart1" => "You can reach us through our contact phones and get information.",
     "connection_detailsPart2" => "You can request support via email.",
+
+    "partner_1_title" => "MONTENEGRO-PODRORICA",
+    "partner_1_details" => "Montenegro, due to its location, is your new gateway to Europe and has been the focus of many foreign investors. Montenegro is a member of the IMF, the World Bank and the European Investment Bank and It counts the days for EU membership. We offer our legal and investment services and invite our investors to Montenegro with the development of the economy.",
+    "partner_2_title" => "GONKA & PARTNERS",
+    "partner_2_details" => "We offer you all legal services with our international partnership in the world.",
 
     "form_email_title" => "SEND AN EMAIL",
     "form_email_text" => "You can get information with sending an email to us.",

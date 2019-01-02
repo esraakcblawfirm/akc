@@ -67,8 +67,8 @@ if (!$_SESSION["lang"]) {
                             <div class="topbar-dropdown">
                                 <a class="title"><i class="fa fa-globe"></i></a>
                                 <div class="dropdown-list">
-                                    <a class="list-entry" href="language/language.php?lang=tr&page=partner">Türkçe</a>
-                                    <a class="list-entry" href="language/language.php?lang=en&page=partner">English</a>
+                                    <a class="list-entry" href="language/language.php?lang=tr">Türkçe</a>
+                                    <a class="list-entry" href="language/language.php?lang=en">English</a>
                                 </div>
                             </div>
                         </li>
@@ -87,8 +87,8 @@ if (!$_SESSION["lang"]) {
                                 <li class="dropdown"><a
                                             href="partner.php"><?php echo $lang['partners']; ?></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="find-a-partner.html">Find A Partner</a></li>
-                                        <li><a href="find-a-lawyer.html">Find A Lawyer</a></li>
+                                        <li><a href="partner.php"><?php echo $lang['partner_1_title']; ?></a></li>
+                                        <li><a href="partner.php"><?php echo $lang['partner_2_title']; ?></a></li>
                                     </ul>
                                 </li>
                                 <li><a href="connection.php"><?php echo $lang['connection']; ?></a></li>
@@ -107,7 +107,8 @@ if (!$_SESSION["lang"]) {
          data-autoplay-timeout="2600" data-animate-in="fadeIn" data-animate-out="fadeOut" data-items="1"
          data-loop="true" data-autoplay="true">
 
-        <div class="slide background-overlay-one" style="background-image:url('images/partner-page.jpg'); border-bottom: 1px solid #1f1f1f; border-top: 2px solid #1f1f1f;">
+        <div class="slide background-overlay-one"
+             style="background-image:url('images/partner-page.jpg'); border-bottom: 1px solid #1f1f1f; border-top: 2px solid #1f1f1f;">
             <div class="container">
                 <div class="slide-captions">
                     <!-- Captions -->
@@ -128,19 +129,14 @@ if (!$_SESSION["lang"]) {
         <div class="container">
             <h3 class="text-uppercase" style="color: #ca0027;"><?php echo $lang['partners']; ?></h3>
             <div class="row">
-                <div class="col-md-6">
-                    <p>
-                        Partner - 1 Name<br/>
-                        Partner - 1 Address<br/>
-                    </p>
-                    <strong><a href="#">www.partner1.com</a></strong>
+                <div class="col-md-5">
+                    <h3><?php echo $lang['partner_1_title']; ?></h3>
+                    <p><?php echo $lang['partner_1_details']; ?></p>
                 </div>
-                <div class="col-md-6">
-                    <p>
-                        Partner - 2 Name<br/>
-                        Partner - 2 Address<br/>
-                    </p>
-                    <strong><a href="#">www.partner1.com</a></strong>
+                <div class="col-md-2"></div>
+                <div class="col-md-5">
+                    <h3><?php echo $lang['partner_2_title']; ?></h3>
+                    <p><?php echo $lang['partner_2_details']; ?></p>
                 </div>
             </div>
         </div>
@@ -152,23 +148,35 @@ if (!$_SESSION["lang"]) {
         <div class="footer-content">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-md-3">
                         <div class="widget clearfix widget-categories">
                             <h4 class="widget-title"><?php echo $lang['content']; ?></h4>
                             <ul class="list list-arrow-icons">
                                 <li><a title="" href="workArea.php"><?php echo $lang['workareassmall']; ?></a></li>
                                 <li><a title="" href="partner.php"><?php echo $lang['partnerssmall']; ?></a></li>
                                 <li><a title="" href="connection.php"><?php echo $lang['connectionsmall']; ?></a></li>
-                                <li><a title="" href="connection.php"><?php echo $lang['about']; ?></a></li>
+                                <li><a title="" href="about.php"><?php echo $lang['about']; ?></a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
+                        <div class="widget clearfix widget-categories">
+                            <a href="#section3" class="goToSection">
+                                <h4 class="widget-title"><?php echo $lang['news']; ?></h4>
+                                <ul class="list list-arrow-icons">
+                                    <li><a href="#section3" class="goToSection"><?php echo $lang['haber_1_title']; ?></a></li>
+                                    <li><a href="#new1" class="goToSection"><?php echo $lang['haber_2_title']; ?></a></li>
+                                    <li><a href="#new2" class="goToSection"><?php echo $lang['haber_3_title']; ?></a></li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
                         <div class="widget clearfix widget-categories">
                             <h4 class="widget-title"><?php echo $lang['partners']; ?></h4>
                             <ul class="list list-arrow-icons">
-                                <li><a href="find-a-partner.html">Find A Partner</a></li>
-                                <li><a href="find-a-lawyer.html">Find A Lawyer</a></li>
+                                <li><a href="partner.php"><?php echo $lang['partner_1_title']; ?></a></li>
+                                <li><a href="partner.php"><?php echo $lang['partner_2_title']; ?></a></li>
                             </ul>
                         </div>
                     </div>

@@ -42,6 +42,7 @@ if (!$_SESSION["lang"]) {
                     <div class="social-icons social-icons-colored-hover">
                         <ul>
                             <li class="social-linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li class="social-linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
                             <li class="social-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
                         </ul>
                     </div>
@@ -85,8 +86,8 @@ if (!$_SESSION["lang"]) {
                                 <li class="dropdown"><a
                                             href="partner.php"><?php echo $lang['partners']; ?></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="find-a-partner.html">Find A Partner</a></li>
-                                        <li><a href="find-a-lawyer.html">Find A Lawyer</a></li>
+                                        <li><a href="partner.php"><?php echo $lang['partner_1_title']; ?></a></li>
+                                        <li><a href="partner.php"><?php echo $lang['partner_2_title']; ?></a></li>
                                     </ul>
                                 </li>
                                 <li><a href="connection.php"><?php echo $lang['connection']; ?></a></li>
@@ -179,7 +180,7 @@ if (!$_SESSION["lang"]) {
         <div class="container" style="">
             <h3 style="color: #ca0027;"><?php echo $lang['news']; ?></h3>
             <br>
-            <div class="row">
+            <div class="row" id="new1">
                 <div class="col-md-4">
                     <img src="images/haber1.jpg" class="img-responsive">
                 </div>
@@ -189,7 +190,7 @@ if (!$_SESSION["lang"]) {
                 </div>
             </div>
             <hr/>
-            <div class="row">
+            <div class="row" id="new2">
                 <div class="col-md-8">
                     <h4><?php echo $lang['haber_2_title']; ?></h4>
                     <p><?php echo $lang['haber_2_details']; ?></p>
@@ -199,7 +200,7 @@ if (!$_SESSION["lang"]) {
                 </div>
             </div>
             <hr/>
-            <div class="row">
+            <div class="row" id="new3">
                 <div class="col-md-4">
                     <img src="images/haber3.jpg" class="img-responsive">
                 </div>
@@ -231,28 +232,29 @@ if (!$_SESSION["lang"]) {
                         <div class="row">
                             <div class="col-md-6">
                                 <address>
-                                    <strong>AKCBLAWFIRM</strong>
+                                    <strong>AKCBLAWFIRM İSTANBUL</strong>
                                     <br/><br/>
                                     Nöbethane Caddesi No: 28/10-11 <br/>
                                     Sirkeci / İSTANBUL <br/>
-                                    <abbr title="Phone"><?php echo $lang['phoneShort']; ?></abbr> (0212) 511 5038
-                                    <abbr title="Phone"><?php echo $lang['phoneShort']; ?></abbr> (0541) 715 1986
+                                    <span style="color: #FFFFFF;"><?php echo $lang['phone']; ?></span> +90 (0541) 715 1986 <br/>
+                                    <span style="color: #FFFFFF;"><?php echo $lang['email']; ?></span> info@akcblawfirm.com
                                 </address>
                             </div>
                             <div class="col-md-6">
                                 <address>
-                                    <strong>AKCBLAWFIRM USA</strong>
+                                    <strong>AKCBLAWFIRM VIRGINIA</strong>
                                     <br/><br/>
                                     203 Greenland Drive, Yorktown VA <br/>
                                     Virgina / USA <br/>
-                                    <abbr title="email">E:</abbr> info@akcblawfirm.com
+                                    <span style="color: #FFFFFF;"><?php echo $lang['phone']; ?></span> +90 (0541) 715 1986 <br/>
+                                    <span style="color: #FFFFFF;"><?php echo $lang['email']; ?></span> info@akcblawfirm.com
                                 </address>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 form-colored text-light p-40">
-                    <div class="text-small"><?php echo $lang['form_email_title']; ?></div>
+                    <h3 style="color: #ca0027 !important;"><?php echo $lang['form_email_title']; ?></h3>
                     <p><?php echo $lang['form_email_text']; ?></p>
                     <form class="widget-contact-form" action="include/contact-form.php" role="form" method="post">
                         <div class="row">
@@ -294,7 +296,7 @@ if (!$_SESSION["lang"]) {
         <div class="footer-content">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-md-3">
                         <div class="widget clearfix widget-categories">
                             <h4 class="widget-title"><?php echo $lang['content']; ?></h4>
                             <ul class="list list-arrow-icons">
@@ -305,12 +307,24 @@ if (!$_SESSION["lang"]) {
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
+                        <div class="widget clearfix widget-categories">
+                            <a href="#section3" class="goToSection">
+                                <h4 class="widget-title"><?php echo $lang['news']; ?></h4>
+                                <ul class="list list-arrow-icons">
+                                    <li><a href="#section3" class="goToSection"><?php echo $lang['haber_1_title']; ?></a></li>
+                                    <li><a href="#new1" class="goToSection"><?php echo $lang['haber_2_title']; ?></a></li>
+                                    <li><a href="#new2" class="goToSection"><?php echo $lang['haber_3_title']; ?></a></li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
                         <div class="widget clearfix widget-categories">
                             <h4 class="widget-title"><?php echo $lang['partners']; ?></h4>
                             <ul class="list list-arrow-icons">
-                                <li><a href="find-a-partner.html">Find A Partner</a></li>
-                                <li><a href="find-a-lawyer.html">Find A Lawyer</a></li>
+                                <li><a href="partner.php"><?php echo $lang['partner_1_title']; ?></a></li>
+                                <li><a href="partner.php"><?php echo $lang['partner_2_title']; ?></a></li>
                             </ul>
                         </div>
                     </div>

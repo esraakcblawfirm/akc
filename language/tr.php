@@ -23,6 +23,7 @@ $lang = array(
     "title_partners" => "AKCBLAWFIRM - Çözüm Ortaklarımız",
     "phone" => "Telefon:",
     "phoneShort" => "T:",
+    "email" => "Mail:",
     "address" => "Adres",
     "mainpage" => "Anasayfa",
     "about" => "Hakkımızda",
@@ -112,6 +113,11 @@ $lang = array(
     "connection_title" => "Bize Ulaşın...",
     "connection_detailsPart1" => "İletişim telefonlarımızdan bize ulaşabilir, bilgi alabilirsiniz.",
     "connection_detailsPart2" => "Email aracılığı ile destek talebinde bulunabilirsiniz.",
+
+    "partner_1_title" => "MONTENEGRO-PODRORICA",
+    "partner_1_details" => "Montenegro, konumu gereği Avrupa’ya açılan yeni kapınız olup, birçok yatırımcının odak noktası olmuştur. Montenegro IMF, Dünya Bankası ve Avrupa Yatırım Bankası üyesi olup, Avrupa Birliği üyeliği için gün saymaktadır. Hukuki ve yatırım hizmetlerimizi sizlere sunuyoruz ve ekonominin gelişmesiyle birlikte siz yatırımcılarımızı Montenegro’ya davet ediyoruz.",
+    "partner_2_title" => "GONKA & PARTNERS",
+    "partner_2_details" => "Dünyadaki uluslararası ortaklığımız ile sizlere tüm hukuki hizmeti sunarız.",
 
     "form_email_title" => "HEMEN MAİL YOLLA",
     "form_email_text" => "Hızlı bir şekilde mail yollayarak bilgi alabilirsiniz.",
