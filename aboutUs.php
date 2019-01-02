@@ -204,12 +204,12 @@ if (!$_SESSION["lang"]) {
                     </div>
                     <div class="col-md-3">
                         <div class="widget clearfix widget-categories">
-                            <a href="#section3" class="goToSection">
+                            <a href="http://www.akcblawfirm.com/index.php#section3">
                                 <h4 class="widget-title"><?php echo $lang['news']; ?></h4>
                                 <ul class="list list-arrow-icons">
-                                    <li><a href="#section3" class="goToSection"><?php echo $lang['haber_1_title']; ?></a></li>
-                                    <li><a href="#new1" class="goToSection"><?php echo $lang['haber_2_title']; ?></a></li>
-                                    <li><a href="#new2" class="goToSection"><?php echo $lang['haber_3_title']; ?></a></li>
+                                    <li><a href="http://www.akcblawfirm.com/index.php#section3"><?php echo $lang['haber_1_title']; ?></a></li>
+                                    <li><a href="http://www.akcblawfirm.com/index.php#new1"><?php echo $lang['haber_2_title']; ?></a></li>
+                                    <li><a href="http://www.akcblawfirm.com/index.php#new2"><?php echo $lang['haber_3_title']; ?></a></li>
                                 </ul>
                             </a>
                         </div>
