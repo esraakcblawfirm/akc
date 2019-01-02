@@ -27,7 +27,7 @@ if (!$_SESSION["lang"]) {
     <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/lawyer-style.css" media="screen"/>
-
+    <link rel="shortcut icon" href="images/fav_ico_epn_icon.ico" />
 </head>
 
 <body>

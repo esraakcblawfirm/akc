@@ -24,6 +24,7 @@ if (!$_SESSION["lang"]) {
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link rel="shortcut icon" href="images/fav_ico_epn_icon.ico" />
 </head>
 
 <body>
