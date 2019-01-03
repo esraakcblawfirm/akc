@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53079045-c153-4a6e-8b95-ec55cfdf5c32" name="Default Changelist" comment="">
+    <list default="true" id="53079045-c153-4a6e-8b95-ec55cfdf5c32" name="Default Changelist" comment="Version - 14 - Corrections about phone">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutUs.php" beforeDir="false" afterPath="$PROJECT_DIR$/aboutUs.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/connection.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/en.php" beforeDir="false" afterPath="$PROJECT_DIR$/language/en.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/tr.php" beforeDir="false" afterPath="$PROJECT_DIR$/language/tr.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partner.php" beforeDir="false" afterPath="$PROJECT_DIR$/partner.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workArea.php" beforeDir="false" afterPath="$PROJECT_DIR$/workArea.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+            <state relative-caret-position="190">
+              <caret line="249" column="91" selection-start-line="249" selection-start-column="91" selection-end-line="249" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -49,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/workArea.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="527">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -58,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aboutUs.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="442">
               <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="67" />
             </state>
           </provider>
@@ -67,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/language/en.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
+            <state relative-caret-position="425">
               <caret line="25" column="6" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="6" />
             </state>
           </provider>
@@ -75,16 +71,14 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/language/tr.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-153" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/partner.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="136" column="117" lean-forward="true" selection-start-line="136" selection-start-column="117" selection-end-line="136" selection-end-column="117" />
+              <caret line="139" column="38" lean-forward="true" selection-start-line="139" selection-start-column="38" selection-end-line="139" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -101,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/connection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="159" column="82" selection-start-line="159" selection-start-column="82" selection-end-line="159" selection-end-column="82" />
+            <state relative-caret-position="289">
+              <caret line="158" column="90" selection-start-line="158" selection-start-column="90" selection-end-line="158" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -111,8 +105,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#1abc9c</find>
-      <find>çalışma</find>
       <find>industri</find>
       <find>#</find>
       <find>workarea</find>
@@ -141,6 +133,8 @@
       <find>email</find>
       <find>e</find>
       <find>&lt;li&gt;&lt;a href=&quot;www.alteravitam.com&quot;&gt;&lt;?php echo $lang['partner_1_title']; ?&gt;&lt;/a&gt;&lt;/li&gt;</find>
+      <find>address</find>
+      <find>www.</find>
     </findStrings>
     <replaceStrings>
       <replace>uye-olunan-kuruluslar.php</replace>
@@ -213,10 +207,10 @@
         <option value="$PROJECT_DIR$/js/functions.js" />
         <option value="$PROJECT_DIR$/css/lawyer-style.css" />
         <option value="$PROJECT_DIR$/aboutUs.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/workArea.php" />
         <option value="$PROJECT_DIR$/language/tr.php" />
         <option value="$PROJECT_DIR$/language/en.php" />
+        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/connection.php" />
         <option value="$PROJECT_DIR$/partner.php" />
       </list>
@@ -225,10 +219,9 @@
   <component name="PhpDebugGeneral" xdebug_debug_port="9001" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -236,7 +229,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -253,12 +245,18 @@
             <path>
               <item name="akc" type="b2602c69:ProjectViewProjectNode" />
               <item name="akc" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="akc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="akc" type="462c0819:PsiDirectoryNode" />
               <item name="language" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -319,7 +317,8 @@
       <workItem from="1546237991992" duration="40579000" />
       <workItem from="1546435949458" duration="12337000" />
       <workItem from="1546497135435" duration="6000" />
-      <workItem from="1546543046623" duration="926000" />
+      <workItem from="1546543046623" duration="1599000" />
+      <workItem from="1546550547156" duration="306000" />
     </task>
     <task id="LOCAL-00001" summary="Index Page is completed and headers and footers are added for all pages.">
       <created>1546170766635</created>
@@ -482,11 +481,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546463404258</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Version - 13 - Partner details are changed.">
+      <created>1546544036833</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1546544036833</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99221000" />
+    <option name="totallyTimeSpent" value="100200000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -501,7 +507,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30268458" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3067114" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -517,10 +523,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329429" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49798658" visible="true" weight="0.4070278" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49731544" visible="true" weight="0.4070278" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49932885" weight="0.32796487" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50201344" side_tool="true" visible="true" weight="0.4070278" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5026846" side_tool="true" visible="true" weight="0.4070278" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="12" weight="0.329429" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -631,7 +637,9 @@
     <MESSAGE value="Version - 10 - Connection Form Changes." />
     <MESSAGE value="Version - 11 - Linked in adresses" />
     <MESSAGE value="Version - 12 - Favicon is added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Version - 12 - Favicon is added." />
+    <MESSAGE value="Version - 13 - Partner details are changed." />
+    <MESSAGE value="Version - 14 - Corrections about phone" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version - 14 - Corrections about phone" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/resimler/logo.png" />
@@ -732,6 +740,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/workArea.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aboutUs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/language/en.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/language/tr.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177786">
@@ -739,50 +771,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/language/tr.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workArea.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aboutUs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/language/en.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="6" />
+        <state relative-caret-position="190">
+          <caret line="249" column="91" selection-start-line="249" selection-start-column="91" selection-end-line="249" selection-end-column="91" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/connection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="159" column="82" selection-start-line="159" selection-start-column="82" selection-end-line="159" selection-end-column="82" />
+        <state relative-caret-position="289">
+          <caret line="158" column="90" selection-start-line="158" selection-start-column="90" selection-end-line="158" selection-end-column="90" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/partner.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="136" column="117" lean-forward="true" selection-start-line="136" selection-start-column="117" selection-end-line="136" selection-end-column="117" />
+          <caret line="139" column="38" lean-forward="true" selection-start-line="139" selection-start-column="38" selection-end-line="139" selection-end-column="38" />
         </state>
       </provider>
     </entry>

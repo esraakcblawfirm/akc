@@ -134,13 +134,12 @@ if (!$_SESSION["lang"]) {
                 <div class="col-md-5">
                     <h3><?php echo $lang['partner_1_title']; ?></h3>
                     <p><?php echo $lang['partner_1_details']; ?></p>
-                    <p><?php echo $lang['email']; ?> <a href="http://www.alteravitam.com">www.alteravitam.com</a></p>
+                    <p><a href="http://www.alteravitam.com">www.alteravitam.com</a></p>
                 </div>
                 <div class="col-md-2"></div>
                 <div class="col-md-5">
                     <h3><?php echo $lang['partner_2_title']; ?></h3>
                     <p><?php echo $lang['partner_2_details']; ?></p>
-                    <p><?php echo $lang['phone']; ?> +1 (201) 899-6194</p>
                 </div>
             </div>
         </div>

@@ -156,7 +156,7 @@ if (!$_SESSION["lang"]) {
                                 <br/><br/>
                                 203 Greenland Drive, Yorktown VA <br/>
                                 Virgina / USA <br/>
-                                <?php echo $lang['phoneShort']; ?> +90 (0541) 715 1986 <br/>
+                                <?php echo $lang['phoneShort']; ?> +1 (201) 899-6194 <br/>
                                 <?php echo $lang['email']; ?> info@akcblawfirm.com
                             </address>
                         </div>
