@@ -89,7 +89,7 @@ if (!$_SESSION["lang"]) {
                                 <li class="dropdown"><a
                                             href="partner.php"><?php echo $lang['partners']; ?></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="partner.php"><?php echo $lang['partner_1_title']; ?></a></li>
+                                        <li><a href="http://www.alteravitam.com"><?php echo $lang['partner_1_title']; ?></a></li>
                                         <li><a href="partner.php"><?php echo $lang['partner_2_title']; ?></a></li>
                                     </ul>
                                 </li>
@@ -142,21 +142,22 @@ if (!$_SESSION["lang"]) {
                     <div class="row">
                         <div class="col-md-6">
                             <address>
-                                <strong>AKCBLAWFIRM</strong>
+                                <strong>AKCBLAWFIRM ISTANBUL</strong>
                                 <br/><br/>
                                 Nöbethane Caddesi No: 28/10-11 <br/>
                                 Sirkeci / İSTANBUL <br/>
-                                <abbr title="Phone"><?php echo $lang['phoneShort']; ?></abbr> (0212) 511 5038
-                                <abbr title="Phone"><?php echo $lang['phoneShort']; ?></abbr> (0541) 715 1986
+                                <?php echo $lang['phoneShort']; ?> +90 (0541) 715 1986 <br/>
+                                <?php echo $lang['email']; ?> info@akcblawfirm.com
                             </address>
                         </div>
                         <div class="col-md-6">
                             <address>
-                                <strong>AKCBLAWFIRM USA</strong>
+                                <strong>AKCBLAWFIRM VIRGINA</strong>
                                 <br/><br/>
                                 203 Greenland Drive, Yorktown VA <br/>
                                 Virgina / USA <br/>
-                                <abbr title="email">E:</abbr> info@akcblawfirm.com
+                                <?php echo $lang['phoneShort']; ?> +90 (0541) 715 1986 <br/>
+                                <?php echo $lang['email']; ?> info@akcblawfirm.com
                             </address>
                         </div>
                     </div>
@@ -242,7 +243,7 @@ if (!$_SESSION["lang"]) {
                         <div class="widget clearfix widget-categories">
                             <h4 class="widget-title"><?php echo $lang['partners']; ?></h4>
                             <ul class="list list-arrow-icons">
-                                <li><a href="partner.php"><?php echo $lang['partner_1_title']; ?></a></li>
+                                <li><a href="http://www.alteravitam.com"><?php echo $lang['partner_1_title']; ?></a></li>
                                 <li><a href="partner.php"><?php echo $lang['partner_2_title']; ?></a></li>
                             </ul>
                         </div>

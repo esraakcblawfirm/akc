@@ -89,7 +89,7 @@ if (!$_SESSION["lang"]) {
                                 <li class="dropdown"><a
                                             href="partner.php"><?php echo $lang['partners']; ?></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="partner.php"><?php echo $lang['partner_1_title']; ?></a></li>
+                                        <li><a href="http://www.alteravitam.com"><?php echo $lang['partner_1_title']; ?></a></li>
                                         <li><a href="partner.php"><?php echo $lang['partner_2_title']; ?></a></li>
                                     </ul>
                                 </li>
@@ -134,11 +134,13 @@ if (!$_SESSION["lang"]) {
                 <div class="col-md-5">
                     <h3><?php echo $lang['partner_1_title']; ?></h3>
                     <p><?php echo $lang['partner_1_details']; ?></p>
+                    <p><?php echo $lang['email']; ?> <a href="http://www.alteravitam.com">www.alteravitam.com</a></p>
                 </div>
                 <div class="col-md-2"></div>
                 <div class="col-md-5">
                     <h3><?php echo $lang['partner_2_title']; ?></h3>
                     <p><?php echo $lang['partner_2_details']; ?></p>
+                    <p><?php echo $lang['phone']; ?> +1 (201) 899-6194</p>
                 </div>
             </div>
         </div>
@@ -177,7 +179,7 @@ if (!$_SESSION["lang"]) {
                         <div class="widget clearfix widget-categories">
                             <h4 class="widget-title"><?php echo $lang['partners']; ?></h4>
                             <ul class="list list-arrow-icons">
-                                <li><a href="partner.php"><?php echo $lang['partner_1_title']; ?></a></li>
+                                <li><a href="http://www.alteravitam.com"><?php echo $lang['partner_1_title']; ?></a></li>
                                 <li><a href="partner.php"><?php echo $lang['partner_2_title']; ?></a></li>
                             </ul>
                         </div>
