@@ -43,6 +43,8 @@ $lang = array(
     "aboutUsSmallText" => "We aimed to reach out to people all over the world and reach to you.",
     "links" => "LINKS",
     "content" => "CONTENTS",
+    "seePublication" => "Read More",
+    "searchSlogan" => "Find a Lawyer",
 
     "homepage_workAreas" => "Perform your processes in a legal basis with our law firm.",
     "homepage_partners" => "We are with you with our solution partners.",
@@ -93,9 +95,9 @@ $lang = array(
 
     "publications_slogan" => "Publications...",
     "publications_title" => "PUBLICATIONS",
-    "publications_pub_1_title" => "1- Right to a Fair Trial",
+    "publications_pub_1_title" => "1- Right to a Fair Trial   ",
     "publications_pub_1_detail" => "Published in Istanbul Bar Association Magazine July-August 2014 ",
-    "publications_pub_2_title" => "2- The Juridical Infrastructure for Foreign Investors in Turkey",
+    "publications_pub_2_title" => "2- The Juridical Infrastructure for Foreign Investors in Turkey   ",
     "publications_pub_2_detail" => "Published in the Acquisition International Global Media Limited, The voice of Corporate Finance November 2013/p.46",
     "publications_pub_3_title" => "3- The Trademark	Insurance",
     "publications_pub_3_detail" => "",

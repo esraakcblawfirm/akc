@@ -43,6 +43,8 @@ $lang = array(
     "aboutUsSmallText" => "Dünyanın dört bir yanındaki insanlara ulaşmayı ve size ulaşmayı hedefledik.",
     "links" => "BAĞLANTILAR",
     "content" => "İÇERİKLER",
+    "seePublication" => "Devamını Okuyunuz",
+    "searchSlogan" => "Avukatınızı Bulun",
 
     "homepage_workAreas" => "Avukatlık büromuz ile işlemlerinizi hukuki zeminde gerçekleştirin.",
     "homepage_partners" => "Çözüm ortaklarımız ile sizin yanınızdayız.",
@@ -93,9 +95,9 @@ $lang = array(
 
     "publications_slogan" => "Yayınlarımız...",
     "publications_title" => "YAYINLARIMIZ",
-    "publications_pub_1_title" => "1- Adil Yargılanma Hakkı",
+    "publications_pub_1_title" => "1- Adil Yargılanma Hakkı   ",
     "publications_pub_1_detail" => "İstanbul Barosu Dergisi Temmuz-Ağutos Ayı 2014",
-    "publications_pub_2_title" => "2- Doğrudan Yabancı Yatırımlar için Türkiye’deki Yasal Alt Yapı",
+    "publications_pub_2_title" => "2- Doğrudan Yabancı Yatırımlar için Türkiye’deki Yasal Alt Yapı   ",
     "publications_pub_2_detail" => "Acquisition International Global Medya Şirketi- Şirketlerin finansal sesi dergisi- Kasım 2013 sayfa.46",
     "publications_pub_3_title" => "3- Markalar Sigortası",
     "publications_pub_3_detail" => "",

@@ -13651,4 +13651,20 @@ body.device-xs .col-md-3 .flickr-widget img {
 .list-icon-colored > li > i {
   color: #ca0027 !important; }
 
+.imageForAboutUs {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background: white url(../images/harvardv3.png) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+@media (max-device-width: 1000px) {
+  .imageForAboutUs {
+    background-image: none;
+  }
+}
+
 /*# sourceMappingURL=colors.css.map */

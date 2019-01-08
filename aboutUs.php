@@ -68,8 +68,8 @@ if (!$_SESSION["lang"]) {
                             <div class="topbar-dropdown">
                                 <a class="title"><i class="fa fa-globe"></i></a>
                                 <div class="dropdown-list">
-                                    <a class="list-entry" href="language/language.php?lang=tr">Türkçe</a>
-                                    <a class="list-entry" href="language/language.php?lang=en">English</a>
+                                    <a class="list-entry" href="language/language.php?lang=tr&page=aboutUs">Türkçe</a>
+                                    <a class="list-entry" href="language/language.php?lang=en&page=aboutUs">English</a>
                                 </div>
                             </div>
                         </li>
@@ -167,20 +167,20 @@ if (!$_SESSION["lang"]) {
     <!-- Section 3 -->
     <section id="section3" style="background-color: #EFEFEF;">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-4" style="min-height: available">
+            <div class="row" style="display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display:         flex; flex-wrap: wrap;">
+                <div class="col-md-4" style="display: flex; flex-direction: column;">
                     <img src="images/library.jpg" alt="Law Books" class="img-responsive">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 imageForAboutUs" style="display: flex; flex-direction: column;">
                     <h3  class="text-uppercase" style="font-weight: bold; color: #ca0027;"><?php echo $lang['publications_title']; ?></h3>
                     <span>
-                        <strong><?php echo $lang['publications_pub_1_title']; ?></strong><br/>
+                        <strong><?php echo $lang['publications_pub_1_title']; ?> &nbsp;&nbsp;&nbsp; (<a style="color: blue" href="https://jurix.com.tr/article/16477"><?php echo $lang['seePublication']; ?></a>)</strong><br/>
                         <?php echo $lang['publications_pub_1_detail']; ?><br/>
-                        <strong><?php echo $lang['publications_pub_2_title']; ?></strong><br/>
+                        <strong><?php echo $lang['publications_pub_2_title']; ?> &nbsp;&nbsp;&nbsp; (<a style="color: blue" href="https://issuu.com/aiglobalmedia/docs/acquisition_international_november_/46"><?php echo $lang['seePublication']; ?></a>)</strong><br/>
                         <?php echo $lang['publications_pub_2_detail']; ?><br/>
-                        <strong><?php echo $lang['publications_pub_3_title']; ?></strong><br/>
-                        <strong><?php echo $lang['publications_pub_4_title']; ?></strong><br/>
-                        <strong><?php echo $lang['publications_pub_5_title']; ?></strong><br/>
+                        <strong><?php echo $lang['publications_pub_3_title']; ?>   </strong><br/>
+                        <strong><?php echo $lang['publications_pub_4_title']; ?>   </strong><br/>
+                        <strong><?php echo $lang['publications_pub_5_title']; ?>   </strong><br/>
                         <?php echo $lang['publications_pub_5_detail']; ?><br/>
 					</span>
                 </div>
@@ -218,7 +218,7 @@ if (!$_SESSION["lang"]) {
                     </div>
                     <div class="col-md-3">
                         <div class="widget clearfix widget-categories">
-                            <h4 class="widget-title"><?php echo $lang['partners']; ?></h4>
+                            <a href="partner.php"><h4 class="widget-title"><?php echo $lang['partners']; ?></h4></a>
                             <ul class="list list-arrow-icons">
                                 <li><a href="http://www.alteravitam.com"><?php echo $lang['partner_1_title']; ?></a></li>
                                 <li><a href="partner.php"><?php echo $lang['partner_2_title']; ?></a></li>

@@ -69,8 +69,8 @@ if (!$_SESSION["lang"]) {
                             <div class="topbar-dropdown">
                                 <a class="title"><i class="fa fa-globe"></i></a>
                                 <div class="dropdown-list">
-                                    <a class="list-entry" href="language/language.php?lang=tr">Türkçe</a>
-                                    <a class="list-entry" href="language/language.php?lang=en">English</a>
+                                    <a class="list-entry" href="language/language.php?lang=tr&page=partner">Türkçe</a>
+                                    <a class="list-entry" href="language/language.php?lang=en&page=partner">English</a>
                                 </div>
                             </div>
                         </li>
@@ -142,6 +142,26 @@ if (!$_SESSION["lang"]) {
                     <p><?php echo $lang['partner_2_details']; ?></p>
                 </div>
             </div>
+            <div class="row" style="align-content: center;">
+                <div class="col-md-7"></div>
+                <div class="col-md-4 form-colored text-light p-20" style="padding-bottom: 10px !important; padding-top: 20px !important; padding-left: 20px !important; padding-right: 20px !important;">
+                    <h3 style="color: #FFF !important; font-weight: bolder;"><?php echo $lang['searchSlogan']; ?></h3>
+                    <form onsubmit="myFunction()">
+                        <div class="row">
+                            <div class="col-md-9">
+                                    <input type="text" aria-required="true" name="widget-form-search"
+                                           class="form-control required name">
+                            </div>
+                            <div class="col-md-3">
+                                <button class="btn btn-form" style="margin: 0; font-size: 16px; max-width: 58px">
+                                    <i class="fa fa-search fa-1x" style="color: #CA0027 !important;" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
         </div>
     </section>
     <!-- end: CONTENT -->
@@ -176,7 +196,7 @@ if (!$_SESSION["lang"]) {
                     </div>
                     <div class="col-md-3">
                         <div class="widget clearfix widget-categories">
-                            <h4 class="widget-title"><?php echo $lang['partners']; ?></h4>
+                            <a href="partner.php"><h4 class="widget-title"><?php echo $lang['partners']; ?></h4></a>
                             <ul class="list list-arrow-icons">
                                 <li><a href="http://www.alteravitam.com"><?php echo $lang['partner_1_title']; ?></a></li>
                                 <li><a href="partner.php"><?php echo $lang['partner_2_title']; ?></a></li>
@@ -209,6 +229,9 @@ if (!$_SESSION["lang"]) {
 
 <!--Template functions-->
 <script src="js/functions.js"></script>
+<script language="JavaScript">
+    $('form').submit(false);
+</script>
 
 
 </body>

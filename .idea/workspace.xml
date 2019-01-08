@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53079045-c153-4a6e-8b95-ec55cfdf5c32" name="Default Changelist" comment="Version - 14 - Corrections about phone">
+    <list default="true" id="53079045-c153-4a6e-8b95-ec55cfdf5c32" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aboutUs.php" beforeDir="false" afterPath="$PROJECT_DIR$/aboutUs.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/language/en.php" beforeDir="false" afterPath="$PROJECT_DIR$/language/en.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/language/tr.php" beforeDir="false" afterPath="$PROJECT_DIR$/language/tr.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partner.php" beforeDir="false" afterPath="$PROJECT_DIR$/partner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workArea.php" beforeDir="false" afterPath="$PROJECT_DIR$/workArea.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,70 +20,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="249" column="91" selection-start-line="249" selection-start-column="91" selection-end-line="249" selection-end-column="91" />
+            <state relative-caret-position="324">
+              <caret line="324" column="28" selection-start-line="324" selection-start-column="28" selection-end-line="324" selection-end-column="116" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/plugins.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="26088" selection-start-line="13" selection-start-column="26088" selection-end-line="13" selection-end-column="26088" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/lawyer-style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workArea.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aboutUs.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/language/en.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="6" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/language/tr.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/partner.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="139" column="38" lean-forward="true" selection-start-line="139" selection-start-column="38" selection-end-line="139" selection-end-column="38" />
+            <state relative-caret-position="140">
+              <caret line="155" column="109" selection-start-line="155" selection-start-column="109" selection-end-line="155" selection-end-column="109" />
+              <folding>
+                <element signature="n#style#0;n#h3#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,17 +44,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177786">
-              <caret line="10458" column="1" selection-start-line="10458" selection-start-column="1" selection-end-line="10458" selection-end-column="1" />
+            <state relative-caret-position="242">
+              <caret line="13666" column="3" lean-forward="true" selection-start-line="13666" selection-start-column="3" selection-end-line="13666" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/connection.php">
+        <entry file="file://$PROJECT_DIR$/css/lawyer-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="158" column="90" selection-start-line="158" selection-start-column="90" selection-end-line="158" selection-end-column="90" />
+            <state relative-caret-position="17">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -105,25 +63,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>industri</find>
-      <find>#</find>
-      <find>workarea</find>
-      <find>Playfair</find>
-      <find>homepage_</find>
-      <find>Success</find>
-      <find>have su</find>
-      <find>successfully</find>
-      <find>sending</find>
-      <find>&quot;P:&quot;</find>
-      <find>color: #ca0027;</find>
-      <find>form_email_title</find>
-      <find>form_</find>
-      <find>&quot;#section</find>
-      <find>goToSection</find>
-      <find>section3</find>
-      <find>#section</find>
-      <find>index.php#</find>
-      <find>button</find>
       <find>linkedin</find>
       <find>&lt;a href=&quot;part</find>
       <find>&lt;li&gt;&lt;a href=&quot;partner.php&quot;&gt;&lt;?php echo $lang['partner_1_title']; ?&gt;&lt;/a&gt;&lt;/li&gt;</find>
@@ -135,9 +74,27 @@
       <find>&lt;li&gt;&lt;a href=&quot;www.alteravitam.com&quot;&gt;&lt;?php echo $lang['partner_1_title']; ?&gt;&lt;/a&gt;&lt;/li&gt;</find>
       <find>address</find>
       <find>www.</find>
+      <find>türk</find>
+      <find>publications_pub_2_title</find>
+      <find>publications_pub_1_title</find>
+      <find>fa-</find>
+      <find>form</find>
+      <find>ca</find>
+      <find>ca00</find>
+      <find>partner_1</find>
+      <find>türkçe</find>
+      <find>searchslo</find>
+      <find>url</find>
+      <find>background</find>
+      <find>background-image</find>
+      <find>harvard</find>
+      <find>back</find>
+      <find>button</find>
+      <find>index</find>
+      <find>&lt;a href=&quot;partner.php&quot;&gt;&lt;h4 class=&quot;widget-title&quot;&gt;&lt;?php echo $lang['partners']; ?&gt;&lt;/h4&gt;&lt;/a&gt;</find>
+      <find>&lt;h4 class=&quot;widget-title&quot;&gt;&lt;?php echo $lang['partners']; ?&gt;&lt;/h4&gt;</find>
     </findStrings>
     <replaceStrings>
-      <replace>uye-olunan-kuruluslar.php</replace>
       <replace>vizyonumuz.php</replace>
       <replace>yayinlarimiz.php</replace>
       <replace>index</replace>
@@ -167,6 +124,7 @@
       <replace>#ca0027</replace>
       <replace>&lt;li&gt;&lt;a href=&quot;www.alteravitam.com&quot;&gt;&lt;?php echo $lang['partner_1_title']; ?&gt;&lt;/a&gt;&lt;/li&gt;</replace>
       <replace>&lt;li&gt;&lt;a href=&quot;http://www.alteravitam.com&quot;&gt;&lt;?php echo $lang['partner_1_title']; ?&gt;&lt;/a&gt;&lt;/li&gt;</replace>
+      <replace>&lt;a href=&quot;partner.php&quot;&gt;&lt;h4 class=&quot;widget-title&quot;&gt;&lt;?php echo $lang['partners']; ?&gt;&lt;/h4&gt;&lt;/a&gt;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\tolga.tuna\Desktop\akc\fonts</dir>
@@ -203,15 +161,15 @@
         <option value="$PROJECT_DIR$/publication.php" />
         <option value="$PROJECT_DIR$/vision.php" />
         <option value="$PROJECT_DIR$/purpose.php" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/functions.js" />
         <option value="$PROJECT_DIR$/css/lawyer-style.css" />
-        <option value="$PROJECT_DIR$/aboutUs.php" />
-        <option value="$PROJECT_DIR$/workArea.php" />
-        <option value="$PROJECT_DIR$/language/tr.php" />
         <option value="$PROJECT_DIR$/language/en.php" />
+        <option value="$PROJECT_DIR$/language/tr.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/connection.php" />
+        <option value="$PROJECT_DIR$/aboutUs.php" />
+        <option value="$PROJECT_DIR$/workArea.php" />
         <option value="$PROJECT_DIR$/partner.php" />
       </list>
     </option>
@@ -219,9 +177,10 @@
   <component name="PhpDebugGeneral" xdebug_debug_port="9001" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -245,6 +204,11 @@
             <path>
               <item name="akc" type="b2602c69:ProjectViewProjectNode" />
               <item name="akc" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="akc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="akc" type="462c0819:PsiDirectoryNode" />
               <item name="include" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -262,7 +226,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546463408313" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546944459879" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/php/php.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -318,7 +282,11 @@
       <workItem from="1546435949458" duration="12337000" />
       <workItem from="1546497135435" duration="6000" />
       <workItem from="1546543046623" duration="1599000" />
-      <workItem from="1546550547156" duration="306000" />
+      <workItem from="1546550547156" duration="832000" />
+      <workItem from="1546583833915" duration="1032000" />
+      <workItem from="1546600234799" duration="598000" />
+      <workItem from="1546887879790" duration="6532000" />
+      <workItem from="1546927753345" duration="8697000" />
     </task>
     <task id="LOCAL-00001" summary="Index Page is completed and headers and footers are added for all pages.">
       <created>1546170766635</created>
@@ -488,11 +456,25 @@
       <option name="project" value="LOCAL" />
       <updated>1546544036833</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Version - 14 - Corrections about phone and partners.">
+      <created>1546550876063</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1546550876063</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Version - 15 - Connection page correction about language selection.">
+      <created>1546551302049</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1546551302049</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100200000" />
+    <option name="totallyTimeSpent" value="117585000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -504,10 +486,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3067114" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25746268" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -523,10 +505,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329429" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49731544" visible="true" weight="0.4070278" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4946695" visible="true" weight="0.29468086" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49932885" weight="0.32796487" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5026846" side_tool="true" visible="true" weight="0.4070278" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5053305" side_tool="true" visible="true" weight="0.29468086" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="12" weight="0.329429" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -615,7 +597,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Index Page is completed and headers and footers are added for all pages." />
     <MESSAGE value="Page Titles and top-bars are edited." />
     <MESSAGE value="workArea page is completed." />
     <MESSAGE value="Extra font is removed." />
@@ -639,7 +620,9 @@
     <MESSAGE value="Version - 12 - Favicon is added." />
     <MESSAGE value="Version - 13 - Partner details are changed." />
     <MESSAGE value="Version - 14 - Corrections about phone" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version - 14 - Corrections about phone" />
+    <MESSAGE value="Version - 14 - Corrections about phone and partners." />
+    <MESSAGE value="Version - 15 - Connection page correction about language selection." />
+    <option name="LAST_COMMIT_MESSAGE" value="Version - 15 - Connection page correction about language selection." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/resimler/logo.png" />
@@ -733,13 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/lawyer-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/workArea.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -747,48 +723,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aboutUs.php">
+    <entry file="file://$PROJECT_DIR$/connection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="67" />
+        <state relative-caret-position="1258">
+          <caret line="74" column="35" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/language/en.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="6" />
+        <state relative-caret-position="222">
+          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/language/tr.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177786">
-          <caret line="10458" column="1" selection-start-line="10458" selection-start-column="1" selection-end-line="10458" selection-end-column="1" />
+        <state relative-caret-position="208">
+          <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/aboutUs.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="249" column="91" selection-start-line="249" selection-start-column="91" selection-end-line="249" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="158" column="90" selection-start-line="158" selection-start-column="90" selection-end-line="158" selection-end-column="90" />
+        <state relative-caret-position="69">
+          <caret line="189" selection-start-line="189" selection-end-line="189" />
+          <folding>
+            <element signature="n#style#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#8518#8524#0#HTML" expanded="true" />
+            <element signature="e#8524#8530#0#HTML" expanded="true" />
+            <element signature="e#8530#8536#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#strong#0;n#span#0;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#8821#8827#0#HTML" expanded="true" />
+            <element signature="e#8827#8833#0#HTML" expanded="true" />
+            <element signature="e#8833#8839#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#strong#1;n#span#0;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/partner.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="139" column="38" lean-forward="true" selection-start-line="139" selection-start-column="38" selection-end-line="139" selection-end-column="38" />
+        <state relative-caret-position="140">
+          <caret line="155" column="109" selection-start-line="155" selection-start-column="109" selection-end-line="155" selection-end-column="109" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/lawyer-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="13666" column="3" lean-forward="true" selection-start-line="13666" selection-start-column="3" selection-end-line="13666" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="324" column="28" selection-start-line="324" selection-start-column="28" selection-end-line="324" selection-end-column="116" />
         </state>
       </provider>
     </entry>
