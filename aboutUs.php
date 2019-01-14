@@ -174,9 +174,9 @@ if (!$_SESSION["lang"]) {
                 <div class="col-md-8 imageForAboutUs" style="display: flex; flex-direction: column;">
                     <h3  class="text-uppercase" style="font-weight: bold; color: #ca0027;"><?php echo $lang['publications_title']; ?></h3>
                     <span>
-                        <strong><?php echo $lang['publications_pub_1_title']; ?> &nbsp;&nbsp;&nbsp; (<a style="color: blue" href="https://jurix.com.tr/article/16477"><?php echo $lang['seePublication']; ?></a>)</strong><br/>
+                        <strong><?php echo $lang['publications_pub_1_title']; ?> &nbsp;&nbsp;&nbsp; (<a style="color: blue" target="_blank" href="https://jurix.com.tr/article/16477"><?php echo $lang['seePublication']; ?></a>)</strong><br/>
                         <?php echo $lang['publications_pub_1_detail']; ?><br/>
-                        <strong><?php echo $lang['publications_pub_2_title']; ?> &nbsp;&nbsp;&nbsp; (<a style="color: blue" href="https://issuu.com/aiglobalmedia/docs/acquisition_international_november_/46"><?php echo $lang['seePublication']; ?></a>)</strong><br/>
+                        <strong><?php echo $lang['publications_pub_2_title']; ?> &nbsp;&nbsp;&nbsp; (<a style="color: blue" target="_blank" href="https://issuu.com/aiglobalmedia/docs/acquisition_international_november_/46"><?php echo $lang['seePublication']; ?></a>)</strong><br/>
                         <?php echo $lang['publications_pub_2_detail']; ?><br/>
                         <strong><?php echo $lang['publications_pub_3_title']; ?>   </strong><br/>
                         <strong><?php echo $lang['publications_pub_4_title']; ?>   </strong><br/>
