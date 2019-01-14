@@ -144,8 +144,9 @@ if (!$_SESSION["lang"]) {
             </div>
             <div class="row" style="align-content: center;">
                 <div class="col-md-7"></div>
-                <div class="col-md-4 form-colored text-light p-20" style="padding-bottom: 10px !important; padding-top: 20px !important; padding-left: 20px !important; padding-right: 20px !important;">
-                    <h3 style="color: #FFF !important; font-weight: bolder;"><?php echo $lang['searchSlogan']; ?></h3>
+                <div class="col-md-4 text-light p-20" style="padding-bottom: 10px !important; padding-top: 20px !important; padding-left: 20px !important; padding-right: 20px !important;">
+                    <h3 style="color: #000 !important; font-weight: bolder; margin-bottom: 5px;"><?php echo $lang['searchSlogan']; ?></h3>
+                    <div style="border-top: rgba(0, 0, 0, 0.1) 2px solid; padding-bottom: 10px; padding-left: 10px; margin-right: 7px;"></div>
                     <form onsubmit="myFunction()">
                         <div class="row">
                             <div class="col-md-9">
