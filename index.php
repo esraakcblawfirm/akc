@@ -140,16 +140,30 @@ if (!$_SESSION["lang"]) {
                 <div class="col-md-6">
                     <div class="icon-box effect medium square color">
                         <a href="aboutUs.php">
-                            <h3 style="color: #ca0027"><?php echo $lang['about']; ?></h3>
-                            <p><?php echo $lang['aboutUsSmallText']; ?></p>
+                            <div class="row">
+                                <div class="col-md-1" style="margin-right: 0">
+                                    <img src="images/square.png" style="max-width: 60px"/>
+                                </div>
+                                <div class="col-md-11" style="padding-left: 0">
+                                    <h3 style="color: #ca0027"><?php echo $lang['about']; ?></h3>
+                                    <p><?php echo $lang['aboutUsSmallText']; ?></p>
+                                </div>
+                            </div>
                         </a>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="icon-box effect medium square color">
                         <a href="workArea.php">
-                            <h3 style="color: #ca0027"><?php echo $lang['workareassmall']; ?></h3>
-                            <p><?php echo $lang['homepage_workAreas']; ?></p>
+                            <div class="row">
+                                <div class="col-md-1" style="margin-right: 0">
+                                    <img src="images/square.png" style="max-width: 60px"/>
+                                </div>
+                                <div class="col-md-11" style="padding-left: 0">
+                                    <h3 style="color: #ca0027"><?php echo $lang['workareassmall']; ?></h3>
+                                    <p><?php echo $lang['homepage_workAreas']; ?></p>
+                                </div>
+                            </div>
                         </a>
                     </div>
                 </div>
@@ -158,16 +172,30 @@ if (!$_SESSION["lang"]) {
                 <div class="col-md-6">
                     <div class="icon-box effect medium square color">
                         <a href="partner.php">
-                            <h3 style="color: #ca0027"><?php echo $lang['partnerssmall']; ?></h3>
-                            <p><?php echo $lang['homepage_partners']; ?></p>
+                            <div class="row">
+                                <div class="col-md-1" style="margin-right: 0">
+                                    <img src="images/square.png" style="max-width: 60px"/>
+                                </div>
+                                <div class="col-md-11" style="padding-left: 0">
+                                    <h3 style="color: #ca0027"><?php echo $lang['partnerssmall']; ?></h3>
+                                    <p><?php echo $lang['homepage_partners']; ?></p>
+                                </div>
+                            </div>
                         </a>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="icon-box effect medium square color">
                         <a href="connection.php">
-                            <h3 style="color: #ca0027"><?php echo $lang['connectionsmall']; ?></h3>
-                            <p><?php echo $lang['homepage_connection']; ?></p>
+                            <div class="row">
+                                <div class="col-md-1" style="margin-right: 0">
+                                    <img src="images/square.png" style="max-width: 60px"/>
+                                </div>
+                                <div class="col-md-11" style="padding-left: 0">
+                                    <h3 style="color: #ca0027"><?php echo $lang['connectionsmall']; ?></h3>
+                                    <p><?php echo $lang['homepage_connection']; ?></p>
+                                </div>
+                            </div>
                         </a>
                     </div>
                 </div>
