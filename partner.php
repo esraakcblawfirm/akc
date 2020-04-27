@@ -83,7 +83,7 @@ if (!$_SESSION["lang"]) {
                     <div class="container">
                         <nav>
                             <ul>
-                                <li><a href="index.php"><?php echo $lang['mainpage']; ?></a></li>
+                                <li><a href="index.php"><?php echo $lang['header_mainpage']; ?></a></li>
                                 <li><a href="aboutUs.php"><?php echo $lang['about']; ?></a></li>
                                 <li><a href="workArea.php"><?php echo $lang['workareas']; ?></a></li>
                                 <li class="dropdown"><a

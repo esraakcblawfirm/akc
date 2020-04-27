@@ -81,7 +81,7 @@ if (!$_SESSION["lang"]) {
                     <div class="container">
                         <nav>
                             <ul>
-                                <li><a href="index.php"><?php echo $lang['mainpage']; ?></a></li>
+                                <li><a href="index.php"><?php echo $lang['header_mainpage']; ?></a></li>
                                 <li><a href="aboutUs.php"><?php echo $lang['about']; ?></a></li>
                                 <li><a href="workArea.php"><?php echo $lang['workareas']; ?></a></li>
                                 <li class="dropdown"><a
@@ -203,44 +203,6 @@ if (!$_SESSION["lang"]) {
         </div>
     </section>
     <!-- end: PRACTICE AREAS -->
-
-    <!-- ABOUT LAWYER -->
-    <section id="section3" style="">
-        <div class="container" style="">
-            <h3 style="color: #ca0027;"><?php echo $lang['news']; ?></h3>
-            <br>
-            <div class="row" id="new1">
-                <div class="col-md-4">
-                    <img src="images/haber1.jpg" class="img-responsive">
-                </div>
-                <div class="col-md-8">
-                    <h4><?php echo $lang['haber_1_title']; ?></h4>
-                    <p><?php echo $lang['haber_1_details']; ?></p>
-                </div>
-            </div>
-            <hr/>
-            <div class="row" id="new2">
-                <div class="col-md-8">
-                    <h4><?php echo $lang['haber_2_title']; ?></h4>
-                    <p><?php echo $lang['haber_2_details']; ?></p>
-                </div>
-                <div class="col-md-4">
-                    <img src="images/haber2.jpg" class="img-responsive">
-                </div>
-            </div>
-            <hr/>
-            <div class="row" id="new3">
-                <div class="col-md-4">
-                    <img src="images/haber3.jpg" class="img-responsive">
-                </div>
-                <div class="col-md-8">
-                    <h4><?php echo $lang['haber_3_title']; ?></h4>
-                    <p><?php echo $lang['haber_3_details']; ?></p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end: ABOUT LAWYER -->
 
     <!-- GET FREE CONSULTATION -->
     <section id="section4" data-parallax-image="images/LawyerSendMessage.jpg" style="background-color: #EFEFEF;">

@@ -5,14 +5,6 @@ $lang = array(
     "sloganUpper" => "ULUSAL VE ULUSLARARASI HUKUK & DANIŞMANLIK",
     "sloganGeneral" => "Ulusal ve Uluslararası Hukuk & Danışmanlık",
 
-    "haber_1_title" => "Çok Yakında ...",
-    "haber_1_details" => "Çok Yakında ...",
-    "haber_2_title" => "Çok Yakında ...",
-    "haber_2_details" => "Çok Yakında ...",
-    "haber_3_title" => "Çok Yakında ...",
-    "haber_3_details" => "Çok Yakında ...",
-
-    "news" => "HABERLER & DUYURULAR",
     "title" => "AKCBLAWFIRM",
     "title_workAreas" => "AKCBLAWFIRM - Çalışma Alanlarımız",
     "title_vision" => "AKCBLAWFIRM - Vizyonumuz",
@@ -21,11 +13,13 @@ $lang = array(
     "title_membership" => "AKCBLAWFIRM - Üye Olunan Kuruluşlar",
     "title_connection" => "AKCBLAWFIRM - İletişim",
     "title_partners" => "AKCBLAWFIRM - Çözüm Ortaklarımız",
+
+    "header_mainpage" => "Anasayfa",
+
     "phone" => "Telefon:",
     "phoneShort" => "T:",
     "email" => "Mail:",
     "address" => "Adres",
-    "mainpage" => "Anasayfa",
     "about" => "Hakkımızda",
     "publications" => "Yayınlarımız",
     "vision" => "Vizyonumuz",

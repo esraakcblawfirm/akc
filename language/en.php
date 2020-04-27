@@ -5,14 +5,6 @@ $lang = array(
     "sloganUpper" => "INTERNATIONAL AND NATIONAL LAW & CONSULTANCY",
     "sloganGeneral" => "International and National Law & Consultancy",
 
-    "haber_1_title" => "Coming Soon...",
-    "haber_1_details" => "Coming Soon...",
-    "haber_2_title" => "Coming Soon...",
-    "haber_2_details" => "Coming Soon...",
-    "haber_3_title" => "Coming Soon...",
-    "haber_3_details" => "Coming Soon...",
-
-    "news" => "NEWS & ANNOUNCEMENTS",
     "title" => "AKCBLAWFIRM",
     "title_workAreas" => "AKCBLAWFIRM - Our Work Areas",
     "title_vision" => "AKCBLAWFIRM - Our Vision",
@@ -21,11 +13,13 @@ $lang = array(
     "title_membership" => "AKCBLAWFIRM - Our Membership Organizations",
     "title_connection" => "AKCBLAWFIRM - Connection",
     "title_partners" => "AKCBLAWFIRM - Our Partners",
+
+    "header_mainpage" => "Home Page",
+
     "phone" => "Phone:",
     "phoneShort" => "P:",
     "email" => "Email:",
     "address" => "Address",
-    "mainpage" => "Home Page",
     "about" => "About Us",
     "publications" => "Our Publications",
     "vision" => "Our Vision",
