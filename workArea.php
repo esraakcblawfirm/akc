@@ -140,16 +140,24 @@ if (!$_SESSION["lang"]) {
                     <h3 style="font-weight: bold; color: #ca0027;"><?php echo $lang['workareas_title']; ?></h3>
                     <span><?php echo $lang['workArea_detail_1']; ?><br/><br/></span>
                     <div class="lawyer-list-items">
-                        <strong>- <?php echo $lang['workArea_internationalCommerce']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_internationalLaw']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_commercialLaw']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_contractsLaw']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_businessLaw']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_smaBanking']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_maritimeLawAndMaritimeCommerce']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_aeronauticsAndSpace']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_privateLawAndLawOfPersons']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_investmentLaw']; ?></strong>
+                        <strong>- <?php echo $lang['workArea_Area1']; ?></strong><br/>
+                        <strong>- <?php echo $lang['workArea_Area2']; ?></strong><br/>
+                        <strong>- <?php echo $lang['workArea_Area3']; ?></strong><br/>
+                        <strong>- <?php echo $lang['workArea_Area4']; ?></strong><br/>
+                        <strong>- <?php echo $lang['workArea_Area5']; ?></strong><br/>
+                        <strong>- <?php echo $lang['workArea_Area6']; ?></strong><br/>
+                        <strong>- <?php echo $lang['workArea_Area7']; ?></strong><br/>
+                        <strong>- <?php echo $lang['workArea_Area8']; ?></strong><br/>
+                        <strong>- <?php echo $lang['workArea_Area9']; ?></strong><br/>
+                        <strong>- <?php echo $lang['workArea_Area10']; ?></strong><br/>
+                        <strong>- <?php echo $lang['workArea_Area11']; ?></strong><br/>
+                        <strong>- <?php echo $lang['workArea_Area12']; ?></strong><br/>
+                        <strong>- <?php echo $lang['workArea_Area13']; ?></strong><br/>
+                        <strong>- <?php echo $lang['workArea_Area14']; ?></strong><br/>
+                        <strong>- <?php echo $lang['workArea_Area15']; ?></strong><br/>
+                        <strong>- <?php echo $lang['workArea_Area16']; ?></strong><br/>
+                        <strong>- <?php echo $lang['workArea_Area17']; ?></strong><br/>
+                        <strong>- <?php echo $lang['workArea_Area18']; ?></strong>
                     </div>
                 </div>
             </div>
@@ -163,17 +171,37 @@ if (!$_SESSION["lang"]) {
                 <div class="col-md-8">
                     <h3 style="font-weight: bold; color: #ca0027;"><?php echo $lang['workArea_industries']; ?></h3>
                     <span><?php echo $lang['workArea_detail_2']; ?><br/><br/></span>
-                    <div class="lawyer-list-items">
-                        <strong>- <?php echo $lang['workArea_internationalLegalIssues']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_europeanOfHumanRights']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_aviationAndAerospace']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_internationalCommercial']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_energy']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_internationalMaritimeAndMaritime']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_smeBankingAndFinance']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_compliance']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_arbitration']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_conciliation']; ?></strong>
+                    <div class="lawyer-list-items" style="margin-left: 2%;">
+                        <strong> <?php echo $lang['workArea_Sector1']; ?></strong><br/>
+                        <p class="sector-paragraph"><?php echo $lang['workArea_Sector1_details']; ?></p>
+                        <strong> <?php echo $lang['workArea_Sector2']; ?></strong><br/>
+                        <p class="sector-paragraph"><?php echo $lang['workArea_Sector2_details']; ?></p>
+                        <strong> <?php echo $lang['workArea_Sector3']; ?></strong><br/>
+                        <p class="sector-paragraph"><?php echo $lang['workArea_Sector3_details']; ?></p>
+                        <strong> <?php echo $lang['workArea_Sector4']; ?></strong><br/>
+                        <p class="sector-paragraph"><?php echo $lang['workArea_Sector4_details']; ?></p>
+                        <strong> <?php echo $lang['workArea_Sector5']; ?></strong><br/>
+                        <p class="sector-paragraph"><?php echo $lang['workArea_Sector5_details']; ?></p>
+                        <strong> <?php echo $lang['workArea_Sector6']; ?></strong><br/>
+                        <p class="sector-paragraph"><?php echo $lang['workArea_Sector6_details']; ?></p>
+                        <strong> <?php echo $lang['workArea_Sector7']; ?></strong><br/>
+                        <p class="sector-paragraph"><?php echo $lang['workArea_Sector7_details']; ?></p>
+                        <strong> <?php echo $lang['workArea_Sector8']; ?></strong><br/>
+                        <p class="sector-paragraph"><?php echo $lang['workArea_Sector8_details']; ?></p>
+                        <strong> <?php echo $lang['workArea_Sector9']; ?></strong><br/>
+                        <p class="sector-paragraph"><?php echo $lang['workArea_Sector9_details']; ?></p>
+                        <strong> <?php echo $lang['workArea_Sector10']; ?></strong><br/>
+                        <p class="sector-paragraph"><?php echo $lang['workArea_Sector10_details']; ?></p>
+                        <strong> <?php echo $lang['workArea_Sector11']; ?></strong><br/>
+                        <p class="sector-paragraph"><?php echo $lang['workArea_Sector11_details']; ?></p>
+                        <strong> <?php echo $lang['workArea_Sector12']; ?></strong><br/>
+                        <p class="sector-paragraph"><?php echo $lang['workArea_Sector12_details']; ?></p>
+                        <strong> <?php echo $lang['workArea_Sector13']; ?></strong><br/>
+                        <p class="sector-paragraph"><?php echo $lang['workArea_Sector13_details']; ?></p>
+                        <strong> <?php echo $lang['workArea_Sector14']; ?></strong><br/>
+                        <p class="sector-paragraph"><?php echo $lang['workArea_Sector14_details']; ?></p>
+                        <strong> <?php echo $lang['workArea_Sector15']; ?></strong><br/>
+                        <p class="sector-paragraph"><?php echo $lang['workArea_Sector15_details']; ?></p>
                     </div>
                 </div>
                 <div class="col-md-4" style="min-height: available">
