@@ -129,7 +129,7 @@ if (!$_SESSION["lang"]) {
     <!-- end: SECTION IMAGE FULLSCREEN -->
 
     <!-- Section 1 -->
-    <section id="section1" style="background-color: #EFEFEF;">
+    <section id="section1" style="background-color: #EFEFEF; font-size: 12px; text-align: justify;">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4" style="min-height: available">
@@ -139,6 +139,8 @@ if (!$_SESSION["lang"]) {
                 <div class="col-md-8">
                     <h3 style="font-weight: bold; color: #ca0027;"><?php echo $lang['workareas_title']; ?></h3>
                     <span><?php echo $lang['workArea_detail_1']; ?><br/><br/></span>
+                    <span><?php echo $lang['workArea_detail_2']; ?><br/><br/></span>
+                    <span><?php echo $lang['workArea_detail_3']; ?><br/><br/></span>
                     <div class="lawyer-list-items">
                         <strong>- <?php echo $lang['workArea_Area1']; ?></strong><br/>
                         <strong>- <?php echo $lang['workArea_Area2']; ?></strong><br/>
@@ -165,12 +167,12 @@ if (!$_SESSION["lang"]) {
     </section>
 
     <!-- Section 2 -->
-    <section id="section2" style="background-color: #FFFFFF;">
+    <section id="section2" style="background-color: #FFFFFF; font-size: 12px; text-align: justify;">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-8">
                     <h3 style="font-weight: bold; color: #ca0027;"><?php echo $lang['workArea_industries']; ?></h3>
-                    <span><?php echo $lang['workArea_detail_2']; ?><br/><br/></span>
+                    <span><?php echo $lang['workArea_Sector_detail']; ?><br/><br/></span>
                     <div class="lawyer-list-items" style="margin-left: 2%;">
                         <strong> <?php echo $lang['workArea_Sector1']; ?></strong><br/>
                         <p class="sector-paragraph"><?php echo $lang['workArea_Sector1_details']; ?></p>

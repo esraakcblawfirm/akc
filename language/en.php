@@ -50,10 +50,11 @@ $lang = array(
     "homepage_publication_details" => "You can access our publications from here.",
     "homepage_vision_details" => "You can see our vision from here.",
 
-    "workArea_detail_1" => "We are being represent to your side on the body of legal rules, conventions, treaties, domestic legislation and commercial customs or usages, that governs international commercial or business transactions.  By Our Law Firm make a real you’re all the commercial transactions in the legal ground. You will qualify to be international if elements of more than one country are involved.",
-    "workArea_detail_2" => "Our Law Firm is being provided  legal solutions on the field of  encompasses a broad range of civil and political rights, economic and social rights, and the accountability for their violation by states and non-state actors alike. Our Law firm are representing to you on the treaties, conventions, and also UN Security Council resolutions have given rise to monitoring mechanisms, commissions, ad hoc tribunals, and even permanent courts, such as the regional human rights courts and the International Criminal Court, all of which contribute to the international legal issues.",
     "workArea_yourSuccess" => "Your Success...",
     "workArea_industries" => "OUR INDUSTRIES",
+    "workArea_detail_1" => "",
+    "workArea_detail_2" => "",
+    "workArea_detail_3" => "",
 
     "workArea_Area1" => "",
     "workArea_Area2" => "",
@@ -74,6 +75,7 @@ $lang = array(
     "workArea_Area17" => "",
     "workArea_Area18" => "",
 
+    "workArea_Sector_detail" => "Our Law Firm is being provided  legal solutions on the field of  encompasses a broad range of civil and political rights, economic and social rights, and the accountability for their violation by states and non-state actors alike. Our Law firm are representing to you on the treaties, conventions, and also UN Security Council resolutions have given rise to monitoring mechanisms, commissions, ad hoc tribunals, and even permanent courts, such as the regional human rights courts and the International Criminal Court, all of which contribute to the international legal issues.",
     "workArea_Sector1" => "",
     "workArea_Sector1_details" => "",
     "workArea_Sector2" => "",
@@ -144,6 +146,20 @@ $lang = array(
     "partner_1_details" => "Montenegro, due to its location, is your new gateway to Europe and has been the focus of many foreign investors. Montenegro is a member of the IMF, the World Bank and the European Investment Bank and It counts the days for EU membership. We offer our legal and investment services and invite our investors to Montenegro with the development of the economy.",
     "partner_2_title" => "GONKA & PARTNERS",
     "partner_2_details" => "We offer you all legal services with our international partnership in the world.",
+
+    "solution_methods_main_title" => "",
+    "solution_methods_subtitle_1" => "",
+    "solution_methods_details_1_1" => "",
+    "solution_methods_details_1_2" => "",
+    "solution_methods_subtitle_2" => "",
+    "solution_methods_details_2_1" => "",
+    "solution_methods_details_2_2" => "",
+
+    "consultancy_main_title" => "",
+    "consultancy_subtitle_1" => "",
+    "consultancy_details_1" => "",
+    "consultancy_subtitle_2" => "",
+    "consultancy_details_2" => "",
 
     "form_email_title" => "SEND AN EMAIL",
     "form_email_text" => "You can get information with sending an email to us.",

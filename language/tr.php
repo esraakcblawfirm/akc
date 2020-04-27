@@ -50,11 +50,12 @@ $lang = array(
     "homepage_publication_details" => "Yayınlarımıza buradan ulaşabilirsiniz.",
     "homepage_vision_details" => "Vizyonumuza buradan ulaşabilirsiniz.",
 
-    "workArea_detail_1" => "Uluslararası ticari veya ticari işlemleri yöneten yasal kurallar, sözleşmeler, anlaşmalar, yerel mevzuat ve ticari gümrükler veya kullanımları üzerinde tarafınıza temsil edilmekteyiz. Avukatlık Büromuz tarafından, tüm ticari işlemlerinizi hukuki zeminde gerçekleştirin. Birden fazla ülkenin unsurları söz konusu olduğunda uluslararası nitelik kazanmaya hak kazanın.",
-    "workArea_detail_2" => "Hukuk Büromuz, hukuki ve sivil haklar, ekonomik ve sosyal haklar, devletler ve devlet dışı aktörlere de hesap verebilirlik konularını kapsayan hukuki çözümler sunulmaktadır. Hukuk büromuz, uluslararası sözleşmeler ve BM Güvenlik Konseyi kararları ile ilgili olarak sizi temsil ediyor, izleme mekanizmaları, uluslararası komisyonları, uluslararası mahkemeleri ve hatta bölgesel insan hakları mahkemeleri ve Uluslararası Ceza Mahkemesi gibi daimi mahkemeleri bile beraberinde getirdik.  Uluslararası yasal konulara katkıda bulunarak da çözümler sunmaktayız.",
     "workArea_yourSuccess" => "Sizin Başarınız...",
     "workArea_industries" => "SEKTÖRLERİMİZ",
 
+    "workArea_detail_1" => "Sizlerle birlikte attığımız her adım; hukuki güvenceyle işlerinizi büyütmenize, ilişkilerinizi güçlendirmenize ve tüm süreçlerde haklarınızı korumanıza yardımcı olacaktır.",
+    "workArea_detail_2" => "AKCB Hukuk, bireylere, şirketlere, tüm kurum ve kuruluşlara hizmet veren uluslararası bir hukuk bürosudur. Hukuk büromuzun size sağladığı özel konumla, en karmaşık yasal zorluklarınızın çözümlenmesinde sizlere benzersiz hizmet sunmaktayız. ",
+    "workArea_detail_3" => "Doğrudan yabancı yatırım hukuku ve özel sermaye yatırımları, şirket birleşme ve devralma, ortak girişimler, start-up ve girişimcilik hukuku, sermaye piyasası ve borsa işlemleri, rekabet hukuku, gayrimenkul yatırımları, mevzuata uyum işlemleri, kamulaştırma ve özelleştirme, banka ve finans hukuku, enerji mevzuatı, altyapı yatırımları, doğal kaynaklar,  ticari ve idari davalar, uluslararası davalar ve uyuşmazlıklar, iş davaları, vergi uyuşmazlıkları, alternatif uyuşmazlık ve çözüm yöntemleri, uluslarası tahkim,  takip ve yargılama konuları gibi birçok alanda danışmanlık ve avukatlık hizmeti ver-mekteyiz. Bütün bu hizmetlerimizi güvenilir çözüm yöntemlerimiz ve olanaklarımızla sağlamaktayız.",
     "workArea_Area1" => "Ticaret ve Uluslararası Ticaret Hukuku",
     "workArea_Area2" => "Sigorta Hukuku",
     "workArea_Area3" => "Şirketler Hukuku",
@@ -74,6 +75,7 @@ $lang = array(
     "workArea_Area17" => "Sözleşmeler Hukuku",
     "workArea_Area18" => "Uluslar arası Hukuk ve İnsan Hakları Hukuku ve Göçmenlik Hukuku",
 
+    "workArea_Sector_detail" => "Hukuk Büromuz, hukuki ve sivil haklar, ekonomik ve sosyal haklar, devletler ve devlet dışı aktörlere de hesap verebilirlik konularını kapsayan hukuki çözümler sunulmaktadır. Hukuk büromuz, uluslararası sözleşmeler ve BM Güvenlik Konseyi kararları ile ilgili olarak sizi temsil ediyor, izleme mekanizmaları, uluslararası komisyonları, uluslararası mahkemeleri ve hatta bölgesel insan hakları mahkemeleri ve Uluslararası Ceza Mahkemesi gibi daimi mahkemeleri bile beraberinde getirdik.  Uluslararası yasal konulara katkıda bulunarak da çözümler sunmaktayız.",
     "workArea_Sector1" => "Enerji ve Doğal Kaynaklar:",
     "workArea_Sector1_details" => "Dünyada ve Türkiye’de önemli bir yere sahip olan enerji ve doğal kaynaklar sektörü gelişmekte ve serbestleşmektedir. Bütün bu süreçte Petrol & Doğal Gaz, Güneş Enerjisi, Jeotermal Enerji, Hidroelektrik Enerji gibi revaçta olan alanlarda avukatlık ve hukuki danışmanlık hizmeti vermekteyiz.",
     "workArea_Sector2" => "Havacılık ve Uzay:",
@@ -144,6 +146,20 @@ $lang = array(
     "partner_1_details" => "Montenegro, konumu gereği Avrupa’ya açılan yeni kapınız olup, birçok yatırımcının odak noktası olmuştur. Montenegro IMF, Dünya Bankası ve Avrupa Yatırım Bankası üyesi olup, Avrupa Birliği üyeliği için gün saymaktadır. Hukuki ve yatırım hizmetlerimizi sizlere sunuyoruz ve ekonominin gelişmesiyle birlikte siz yatırımcılarımızı Montenegro’ya davet ediyoruz.",
     "partner_2_title" => "GONKA & PARTNERS",
     "partner_2_details" => "Dünyadaki uluslararası ortaklığımız ile sizlere tüm hukuki hizmeti sunarız.",
+
+    "solution_methods_main_title" => "ÇÖZÜM YÖNTEMLERİ",
+    "solution_methods_subtitle_1" => "Yargı Yolları",
+    "solution_methods_details_1_1" => "Uluslararası ve Türk Yargı sisteminde hak arama özgürlüğü ve adil yargılanma ilkesi öncülüğünde hak sahipleri olarak sizleri taleplerinize ulaştırmayı sağlayarak avukatlık hizmetimizi sunmaktayız. Ülkemizde farklı yargı kollarına mensup mahkemelerinin faaliyette bulunması nedeniyle, her yargı ko-luna ait mahkemelerde hukuki uyuşmazlıklarınızı çözerek uygulanmasını sağlamaktayız. ",
+    "solution_methods_details_1_2" => "Bunların yanı sıra, sizleri Uluslararası Mahkemelerde temsil kabiliyetimiz ile Uluslararası Ceza Mahkemesi, Uluslararası Deniz Hukuku Mahkemesi ve Avrupa İnsan Hakları Mahkemesi başta olmak üzere, uluslararası yargı yollarında da sizlerle birlikteyiz. ",
+    "solution_methods_subtitle_2" => "Alternatif Uyuşmazlık Çözüm Yöntemleri",
+    "solution_methods_details_2_1" => "Alternatif Uyuşmazlık Çözüm Yöntemleri; temeli Anglo-Sakson Sistemi’ne dayanmakta olan pragmatist bir kurumdur.  Bu kurum, Kıta Avrupa’sında da gelişimini sürdürerek ve giderek yaygınlaşarak küresel bir mekanizma olmuştur. Küresel mekanizmada önemli bir yere sahip olan Alternatif uyuş-mazlık çözüm yöntemlerinin en bilineni ise Tahkim tarafları buluşturan öncül bir sistem olarak yer almıştır. Amerika ve Büyük Britanya’nın öncüsü de olduğu tahkim yolu ilk defa 1872 yılı Alabama Davasında büyük rol oynamış ve giderek tüm dünyada en verimli çözüm yöntemi olmuştur.",
+    "solution_methods_details_2_2" => "Alternatif Uyuşmazlık Çözüm Yöntemleri; Türkiye’de tahkimin gelişmesi ve diğer alternatif çözüm uyuşmazlıklarından biri olan Arabuluculuk siste-minin de yasallaşmasıyla birlikte yargısal sisteme kıyasen seçimlik bir yol olarak işlerlik kazanmıştır. Kişilerin serbest iradelerinin bir bütünü olarak da tanımladığımız alternatif çözüm uyuşmazlıkları hukuk sistemimizde önder hale gelmiştir. Uzlaşma temeline dayanan Alternatif Uyuşmazlık Çözüm Yöntemlerinde temel olarak “kazan- kazan” yaklaşımı uygulanmaktadır.  Bu yöntemler arasında hukuki müzakereler, uzlaşma, hakem heyeti, sulh, arabuluculuk, tahkim genel olarak sayılabilir. ",
+
+    "consultancy_main_title" => "DANIŞMANLIK",
+    "consultancy_subtitle_1" => "Hukuki Danışmanlık",
+    "consultancy_details_1" => "Hizmet Politikamız; çeşitlilik, odaklılık, sürdürülebilirlik, şeffaflık ve sosyal sorumluluk çerçevesinde cinsiyet, dil, din, etnik köken ve her türlü ay-rımcılığa karşı olmaktır. Odak noktamız müvekkillerimize en başından ve sonuna kadar hukuki danışmanlık vermekteyiz.",
+    "consultancy_subtitle_2" => "Yatırım ve Finansal Danışmanlık",
+    "consultancy_details_2" => "İş piyasasının artmasıyla birlikte; rekabet ortamında sizleri koruyarak devralma ve birleşme, özelleştirme, finansman kaynağı bulma, ortak girişim (Joint Venture) ve teşvik sistemini hukuki zeminde uygulanmasını sağlamaktayız.",
 
     "form_email_title" => "HEMEN MAİL YOLLA",
     "form_email_text" => "Hızlı bir şekilde mail yollayarak bilgi alabilirsiniz.",
