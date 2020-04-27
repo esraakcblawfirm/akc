@@ -2,7 +2,7 @@
 session_start();
 $lang = strip_tags($_GET["lang"]);
 $page = strip_tags($_GET["page"]);
-if ($lang == "tr" || $lang == "en") {
+if ($lang == "tr" || $lang == "en" || $lang == "de" || $lang == "fr") {
     $_SESSION["lang"] = $lang;
     if (strlen($page) > 0) {
         header("Location:../".$page.".php");

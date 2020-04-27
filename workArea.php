@@ -70,8 +70,10 @@ if (!$_SESSION["lang"]) {
                             <div class="topbar-dropdown">
                                 <a class="title"><i class="fa fa-globe"></i></a>
                                 <div class="dropdown-list">
-                                    <a class="list-entry" href="language/language.php?lang=tr">Türkçe</a>
-                                    <a class="list-entry" href="language/language.php?lang=en">English</a>
+                                    <a class="list-entry" href="language/language.php?lang=tr&page=workArea">Türkçe</a>
+                                    <a class="list-entry" href="language/language.php?lang=en&page=workArea">English</a>
+                                    <a class="list-entry" href="language/language.php?lang=de&page=workArea">Deutsch</a>
+                                    <a class="list-entry" href="language/language.php?lang=fr&page=workArea">Français</a>
                                 </div>
                             </div>
                         </li>

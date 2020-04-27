@@ -69,6 +69,8 @@ if (!$_SESSION["lang"]) {
                                 <div class="dropdown-list">
                                     <a class="list-entry" href="language/language.php?lang=tr">Türkçe</a>
                                     <a class="list-entry" href="language/language.php?lang=en">English</a>
+                                    <a class="list-entry" href="language/language.php?lang=de">Deutsch</a>
+                                    <a class="list-entry" href="language/language.php?lang=fr">Français</a>
                                 </div>
                             </div>
                         </li>
