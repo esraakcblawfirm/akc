@@ -20,13 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53079045-c153-4a6e-8b95-ec55cfdf5c32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/language/de.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/fr.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aboutUs.php" beforeDir="false" afterPath="$PROJECT_DIR$/aboutUs.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/connection.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/language.php" beforeDir="false" afterPath="$PROJECT_DIR$/language/language.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/language/en.php" beforeDir="false" afterPath="$PROJECT_DIR$/language/en.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/language/tr.php" beforeDir="false" afterPath="$PROJECT_DIR$/language/tr.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partner.php" beforeDir="false" afterPath="$PROJECT_DIR$/partner.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workArea.php" beforeDir="false" afterPath="$PROJECT_DIR$/workArea.php" afterDir="false" />
     </list>
@@ -50,7 +49,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546944466338" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/language" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -100,7 +100,10 @@
       <workItem from="1546887879790" duration="6532000" />
       <workItem from="1546927753345" duration="8958000" />
       <workItem from="1547491856257" duration="2788000" />
-      <workItem from="1588025896290" duration="4661000" />
+      <workItem from="1588025896290" duration="4767000" />
+      <workItem from="1588582387242" duration="5140000" />
+      <workItem from="1589291778919" duration="1461000" />
+      <workItem from="1595494220517" duration="595000" />
     </task>
     <task id="LOCAL-00001" summary="Index Page is completed and headers and footers are added for all pages.">
       <created>1546170766635</created>
@@ -326,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588030211103</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="language files were added.">
+      <created>1588030776103</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1588030776103</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -368,7 +378,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="membership is completed." />
     <MESSAGE value="media support is added." />
     <MESSAGE value="version - 1 completed." />
     <MESSAGE value="version - 2 completed." />
@@ -393,28 +402,33 @@
     <MESSAGE value="Simple changes for Header and news parts removed" />
     <MESSAGE value="Sector list changed." />
     <MESSAGE value="WorkArea arranged consultancy and solution methods are added." />
-    <option name="LAST_COMMIT_MESSAGE" value="WorkArea arranged consultancy and solution methods are added." />
+    <MESSAGE value="language files were added." />
+    <option name="LAST_COMMIT_MESSAGE" value="language files were added." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-485" y="-1327" key="CommitChangelistDialog2" timestamp="1588030210936">
+    <state x="-485" y="-1327" key="CommitChangelistDialog2" timestamp="1588030775951">
       <screen x="-1120" y="-1417" width="2560" height="1417" />
     </state>
-    <state x="-485" y="-1327" key="CommitChangelistDialog2/-1120.-1417.2560.1417/0.23.1680.975@-1120.-1417.2560.1417" timestamp="1588030210936" />
+    <state x="-485" y="-1327" key="CommitChangelistDialog2/-1120.-1417.2560.1417/0.23.1680.975@-1120.-1417.2560.1417" timestamp="1588030775951" />
     <state x="417" y="85" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1588026610168" />
-    <state x="0" y="0" width="1680" height="1050" maximized="true" key="DiffContextDialog" timestamp="1588030258600">
+    <state x="0" y="0" width="1680" height="1050" maximized="true" key="DiffContextDialog" timestamp="1588585250108">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="0" y="0" width="1680" height="1050" maximized="true" key="DiffContextDialog/0.23.1680.975@0.23.1680.975" timestamp="1588026788474" />
-    <state x="-450" y="-1087" key="Vcs.Push.Dialog.v2" timestamp="1588030212402">
+    <state x="0" y="0" width="1680" height="1050" maximized="true" key="DiffContextDialog/0.23.1680.975@0.23.1680.975" timestamp="1588585250108" />
+    <state x="621" y="-999" key="RollbackChangesDialog" timestamp="1588030758808">
       <screen x="-1120" y="-1417" width="2560" height="1417" />
     </state>
-    <state x="-450" y="-1087" key="Vcs.Push.Dialog.v2/-1120.-1417.2560.1417/0.23.1680.975@-1120.-1417.2560.1417" timestamp="1588030212402" />
-    <state x="440" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1588026612381" />
-    <state x="-302" y="-1240" width="924" height="1060" key="find.popup" timestamp="1588030581886">
+    <state x="621" y="-999" key="RollbackChangesDialog/-1120.-1417.2560.1417/0.23.1680.975@-1120.-1417.2560.1417" timestamp="1588030758808" />
+    <state x="-450" y="-1087" key="Vcs.Push.Dialog.v2" timestamp="1588030777369">
       <screen x="-1120" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="-450" y="-1087" key="Vcs.Push.Dialog.v2/-1120.-1417.2560.1417/0.23.1680.975@-1120.-1417.2560.1417" timestamp="1588030777369" />
+    <state x="440" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1588026612381" />
+    <state x="537" y="145" width="606" height="729" key="find.popup" timestamp="1589292133027">
+      <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="-302" y="-1240" width="924" height="1060" key="find.popup/-1120.-1417.2560.1417/0.23.1680.975@-1120.-1417.2560.1417" timestamp="1588030581886" />
-    <state x="537" y="145" width="606" height="729" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1588027450654" />
+    <state x="537" y="145" width="606" height="729" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1589292133027" />
     <state x="465" y="-1058" width="670" height="676" key="search.everywhere.popup" timestamp="1588030033266">
       <screen x="-1120" y="-1417" width="2560" height="1417" />
     </state>

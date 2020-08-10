@@ -72,8 +72,8 @@ if (!$_SESSION["lang"]) {
                                 <div class="dropdown-list">
                                     <a class="list-entry" href="language/language.php?lang=tr&page=workArea">Türkçe</a>
                                     <a class="list-entry" href="language/language.php?lang=en&page=workArea">English</a>
-                                    <a class="list-entry" href="language/language.php?lang=de&page=workArea">Deutsch</a>
-                                    <a class="list-entry" href="language/language.php?lang=fr&page=workArea">Français</a>
+                                    <!-- <a class="list-entry" href="language/language.php?lang=de&page=workArea">Deutsch</a> -->
+                                    <!-- <a class="list-entry" href="language/language.php?lang=fr&page=workArea">Français</a> -->
                                 </div>
                             </div>
                         </li>
@@ -89,10 +89,9 @@ if (!$_SESSION["lang"]) {
                                 <li><a href="index.php"><?php echo $lang['header_mainpage']; ?></a></li>
                                 <li><a href="aboutUs.php"><?php echo $lang['about']; ?></a></li>
                                 <li><a href="workArea.php"><?php echo $lang['workareas']; ?></a></li>
-                                <li class="dropdown"><a
-                                            href="partner.php"><?php echo $lang['partners']; ?></a>
+                                <li class="dropdown"><a href="partner.php"><?php echo $lang['partners']; ?></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="http://www.alteravitam.com"><?php echo $lang['partner_1_title']; ?></a></li>
+                                        <li><a href="partner.php"><?php echo $lang['partner_1_title']; ?></a></li>
                                         <li><a href="partner.php"><?php echo $lang['partner_2_title']; ?></a></li>
                                     </ul>
                                 </li>
@@ -143,25 +142,29 @@ if (!$_SESSION["lang"]) {
                     <span><?php echo $lang['workArea_detail_1']; ?><br/><br/></span>
                     <span><?php echo $lang['workArea_detail_2']; ?><br/><br/></span>
                     <span><?php echo $lang['workArea_detail_3']; ?><br/><br/></span>
-                    <div class="lawyer-list-items">
-                        <strong>- <?php echo $lang['workArea_Area1']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_Area2']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_Area3']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_Area4']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_Area5']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_Area6']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_Area7']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_Area8']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_Area9']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_Area10']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_Area11']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_Area12']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_Area13']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_Area14']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_Area15']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_Area16']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_Area17']; ?></strong><br/>
-                        <strong>- <?php echo $lang['workArea_Area18']; ?></strong>
+                    <div class = "row">
+                        <div class="col-md-6">
+                            <strong>- <?php echo $lang['workArea_Area1']; ?></strong><br/>
+                            <strong>- <?php echo $lang['workArea_Area2']; ?></strong><br/>
+                            <strong>- <?php echo $lang['workArea_Area3']; ?></strong><br/>
+                            <strong>- <?php echo $lang['workArea_Area4']; ?></strong><br/>
+                            <strong>- <?php echo $lang['workArea_Area5']; ?></strong><br/>
+                            <strong>- <?php echo $lang['workArea_Area6']; ?></strong><br/>
+                            <strong>- <?php echo $lang['workArea_Area7']; ?></strong><br/>
+                            <strong>- <?php echo $lang['workArea_Area8']; ?></strong><br/>
+                            <strong>- <?php echo $lang['workArea_Area9']; ?></strong>
+                        </div>
+                        <div class="col-md-6">
+                            <strong>- <?php echo $lang['workArea_Area10']; ?></strong><br/>
+                            <strong>- <?php echo $lang['workArea_Area11']; ?></strong><br/>
+                            <strong>- <?php echo $lang['workArea_Area12']; ?></strong><br/>
+                            <strong>- <?php echo $lang['workArea_Area13']; ?></strong><br/>
+                            <strong>- <?php echo $lang['workArea_Area14']; ?></strong><br/>
+                            <strong>- <?php echo $lang['workArea_Area15']; ?></strong><br/>
+                            <strong>- <?php echo $lang['workArea_Area16']; ?></strong><br/>
+                            <strong>- <?php echo $lang['workArea_Area17']; ?></strong><br/>
+                            <strong>- <?php echo $lang['workArea_Area18']; ?></strong>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -175,7 +178,7 @@ if (!$_SESSION["lang"]) {
                 <div class="col-md-8">
                     <h3 style="font-weight: bold; color: #ca0027;"><?php echo $lang['workArea_industries']; ?></h3>
                     <span><?php echo $lang['workArea_Sector_detail']; ?><br/><br/></span>
-                    <div class="lawyer-list-items" style="margin-left: 2%;">
+                    <div style="margin-left: 2%;">
                         <strong> <?php echo $lang['workArea_Sector1']; ?></strong><br/>
                         <p class="sector-paragraph"><?php echo $lang['workArea_Sector1_details']; ?></p>
                         <strong> <?php echo $lang['workArea_Sector2']; ?></strong><br/>
@@ -248,7 +251,7 @@ if (!$_SESSION["lang"]) {
                         <div class="widget clearfix widget-categories">
                             <a href="partner.php"><h4 class="widget-title"><?php echo $lang['partners']; ?></h4></a>
                             <ul class="list list-arrow-icons">
-                                <li><a href="http://www.alteravitam.com"><?php echo $lang['partner_1_title']; ?></a></li>
+                                <li><a href="partner.php"><?php echo $lang['partner_1_title']; ?></a></li>
                                 <li><a href="partner.php"><?php echo $lang['partner_2_title']; ?></a></li>
                             </ul>
                         </div>

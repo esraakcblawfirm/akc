@@ -71,8 +71,8 @@ if (!$_SESSION["lang"]) {
                                 <div class="dropdown-list">
                                     <a class="list-entry" href="language/language.php?lang=tr&page=partner">Türkçe</a>
                                     <a class="list-entry" href="language/language.php?lang=en&page=partner">English</a>
-                                    <a class="list-entry" href="language/language.php?lang=de&page=partner">Deutsch</a>
-                                    <a class="list-entry" href="language/language.php?lang=fr&page=partner">Français</a>
+                                    <!-- <a class="list-entry" href="language/language.php?lang=de&page=partner">Deutsch</a> -->
+                                    <!-- <a class="list-entry" href="language/language.php?lang=fr&page=partner">Français</a> -->
                                 </div>
                             </div>
                         </li>
@@ -88,10 +88,9 @@ if (!$_SESSION["lang"]) {
                                 <li><a href="index.php"><?php echo $lang['header_mainpage']; ?></a></li>
                                 <li><a href="aboutUs.php"><?php echo $lang['about']; ?></a></li>
                                 <li><a href="workArea.php"><?php echo $lang['workareas']; ?></a></li>
-                                <li class="dropdown"><a
-                                            href="partner.php"><?php echo $lang['partners']; ?></a>
+                                <li class="dropdown"><a href="partner.php"><?php echo $lang['partners']; ?></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="http://www.alteravitam.com"><?php echo $lang['partner_1_title']; ?></a></li>
+                                        <li><a href="partner.php"><?php echo $lang['partner_1_title']; ?></a></li>
                                         <li><a href="partner.php"><?php echo $lang['partner_2_title']; ?></a></li>
                                     </ul>
                                 </li>
@@ -136,7 +135,6 @@ if (!$_SESSION["lang"]) {
                 <div class="col-md-5">
                     <h3><?php echo $lang['partner_1_title']; ?></h3>
                     <p><?php echo $lang['partner_1_details']; ?></p>
-                    <p><a href="http://www.alteravitam.com">www.alteravitam.com</a></p>
                 </div>
                 <div class="col-md-2"></div>
                 <div class="col-md-5">
@@ -201,7 +199,7 @@ if (!$_SESSION["lang"]) {
                         <div class="widget clearfix widget-categories">
                             <a href="partner.php"><h4 class="widget-title"><?php echo $lang['partners']; ?></h4></a>
                             <ul class="list list-arrow-icons">
-                                <li><a href="http://www.alteravitam.com"><?php echo $lang['partner_1_title']; ?></a></li>
+                                <li><a href="partner.php"><?php echo $lang['partner_1_title']; ?></a></li>
                                 <li><a href="partner.php"><?php echo $lang['partner_2_title']; ?></a></li>
                             </ul>
                         </div>

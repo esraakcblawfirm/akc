@@ -71,8 +71,8 @@ if (!$_SESSION["lang"]) {
                                 <div class="dropdown-list">
                                     <a class="list-entry" href="language/language.php?lang=tr&page=connection">Türkçe</a>
                                     <a class="list-entry" href="language/language.php?lang=en&page=connection">English</a>
-                                    <a class="list-entry" href="language/language.php?lang=de&page=connection">Deutsch</a>
-                                    <a class="list-entry" href="language/language.php?lang=fr&page=connection">Français</a>
+                                    <!-- <a class="list-entry" href="language/language.php?lang=de&page=connection">Deutsch</a> -->
+                                    <!-- <a class="list-entry" href="language/language.php?lang=fr&page=connection">Français</a> -->
                                 </div>
                             </div>
                         </li>
@@ -91,7 +91,7 @@ if (!$_SESSION["lang"]) {
                                 <li class="dropdown"><a
                                             href="partner.php"><?php echo $lang['partners']; ?></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="http://www.alteravitam.com"><?php echo $lang['partner_1_title']; ?></a></li>
+                                        <li><a href="partner.php"><?php echo $lang['partner_1_title']; ?></a></li>
                                         <li><a href="partner.php"><?php echo $lang['partner_2_title']; ?></a></li>
                                     </ul>
                                 </li>
@@ -156,8 +156,8 @@ if (!$_SESSION["lang"]) {
                             <address>
                                 <strong>AKCBLAWFIRM VIRGINA</strong>
                                 <br/><br/>
-                                203 Greenland Drive, Yorktown VA <br/>
-                                Virgina / USA <br/>
+                                5615 S Woodlawn Ave <br/>
+                                Chicago / USA <br/>
                                 <?php echo $lang['phoneShort']; ?> +1 (201) 899-6194 <br/>
                                 <?php echo $lang['email']; ?> info@akcblawfirm.com
                             </address>
@@ -245,7 +245,7 @@ if (!$_SESSION["lang"]) {
                         <div class="widget clearfix widget-categories">
                             <a href="partner.php"><h4 class="widget-title"><?php echo $lang['partners']; ?></h4></a>
                             <ul class="list list-arrow-icons">
-                                <li><a href="http://www.alteravitam.com"><?php echo $lang['partner_1_title']; ?></a></li>
+                                <li><a href="partner.php"><?php echo $lang['partner_1_title']; ?></a></li>
                                 <li><a href="partner.php"><?php echo $lang['partner_2_title']; ?></a></li>
                             </ul>
                         </div>

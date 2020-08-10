@@ -34,7 +34,7 @@ $lang = array(
     "connectionsmall" => "İletişim",
     "openDoor" => "KAPIMIZI AÇIN",
     "homePageText" => "Dünden bugüne ve bugünden yarına kadar sizinle birlikteyiz. Yarginin bağımsız savunucuları olarak, gücümüzü sizden alıyoruz. Herşey değişmektedir ve hukuk da değişkendir. Sizlerle değişime hazırız.",
-    "aboutUsSmallText" => "Dünyanın dört bir yanındaki insanlara ulaşmayı ve size ulaşmayı hedefledik.",
+    "aboutUsSmallText" => "AKCB Hukuk, yasal süreçte en verimli ve en doğru çözüm önerisine sahip uluslararası bir hukuk bürosudur. Amacımız dünyanın dört bir yanındaki insanları temsil etmek ve profesyonel şekilde en etkin çözümleri sunmaktır. Uluslararası düzeydeki yetkinliklerimiz ve güçlü kadromuzla, kurduğumuz uzun ve sağlam ilişkiler aracılığıyla doğru fırsatlara ulaşmanıza yardımcı olmayı amaçlıyoruz.",
     "links" => "BAĞLANTILAR",
     "content" => "İÇERİKLER",
     "seePublication" => "Devamını Okuyunuz",
@@ -45,8 +45,8 @@ $lang = array(
     "homepage_publications" => "Yayınlarımız ile size daha fazla hizmet sunuyoruz.",
     "homepage_connection" => "İletişim bilgilerimize buradan ulaşabilirsiniz.",
     "homepage_thinktogether_title" => "Birlikte Düşünelim & Yaratalım",
-    "homepage_thinktogether_details" => "AKBC Hukuk, sunduğu her hizmetin merkezinde \"müşteri odaklılığın\" yer aldığı bir uluslararası hukuk bürosudur. En Büyük gücümü her zaman müşterilerimizle birlikte var olma amacından alıyoruz. Onarla adım atıyor ve gelecekte onlar için neyin önemli ve doğru olacağına birlikte karar veriyoruz.",
-    "homepage_purpose_details" => "Dünyanın dört bir yanındaki insanlara ulaşmayı ve size ulaşmayı hedefledik.",
+    "homepage_thinktogether_details" => "AKBC Hukuk, sunduğu her hizmetin merkezinde \"müşteri odaklılığın\" yer aldığı bir uluslararası hukuk bürosudur. En büyük gücümüzü her zaman müşterilerimizle birlikte var olma amacından alıyoruz. Onarla adım atıyor ve gelecekte onlar için neyin önemli ve doğru olacağına birlikte karar veriyoruz.",
+    "homepage_purpose_details" => "Dünyanın dört bir yanındaki insanlara ve size ulaşmayı hedefledik.",
     "homepage_publication_details" => "Yayınlarımıza buradan ulaşabilirsiniz.",
     "homepage_vision_details" => "Vizyonumuza buradan ulaşabilirsiniz.",
 
@@ -56,6 +56,7 @@ $lang = array(
     "workArea_detail_1" => "Sizlerle birlikte attığımız her adım; hukuki güvenceyle işlerinizi büyütmenize, ilişkilerinizi güçlendirmenize ve tüm süreçlerde haklarınızı korumanıza yardımcı olacaktır.",
     "workArea_detail_2" => "AKCB Hukuk, bireylere, şirketlere, tüm kurum ve kuruluşlara hizmet veren uluslararası bir hukuk bürosudur. Hukuk büromuzun size sağladığı özel konumla, en karmaşık yasal zorluklarınızın çözümlenmesinde sizlere benzersiz hizmet sunmaktayız. ",
     "workArea_detail_3" => "Doğrudan yabancı yatırım hukuku ve özel sermaye yatırımları, şirket birleşme ve devralma, ortak girişimler, start-up ve girişimcilik hukuku, sermaye piyasası ve borsa işlemleri, rekabet hukuku, gayrimenkul yatırımları, mevzuata uyum işlemleri, kamulaştırma ve özelleştirme, banka ve finans hukuku, enerji mevzuatı, altyapı yatırımları, doğal kaynaklar,  ticari ve idari davalar, uluslararası davalar ve uyuşmazlıklar, iş davaları, vergi uyuşmazlıkları, alternatif uyuşmazlık ve çözüm yöntemleri, uluslarası tahkim,  takip ve yargılama konuları gibi birçok alanda danışmanlık ve avukatlık hizmeti ver-mekteyiz. Bütün bu hizmetlerimizi güvenilir çözüm yöntemlerimiz ve olanaklarımızla sağlamaktayız.",
+
     "workArea_Area1" => "Ticaret ve Uluslararası Ticaret Hukuku",
     "workArea_Area2" => "Sigorta Hukuku",
     "workArea_Area3" => "Şirketler Hukuku",
@@ -142,10 +143,18 @@ $lang = array(
     "connection_detailsPart1" => "İletişim telefonlarımızdan bize ulaşabilir, bilgi alabilirsiniz.",
     "connection_detailsPart2" => "Email aracılığı ile destek talebinde bulunabilirsiniz.",
 
-    "partner_1_title" => "MONTENEGRO-PODRORICA",
-    "partner_1_details" => "Montenegro, konumu gereği Avrupa’ya açılan yeni kapınız olup, birçok yatırımcının odak noktası olmuştur. Montenegro IMF, Dünya Bankası ve Avrupa Yatırım Bankası üyesi olup, Avrupa Birliği üyeliği için gün saymaktadır. Hukuki ve yatırım hizmetlerimizi sizlere sunuyoruz ve ekonominin gelişmesiyle birlikte siz yatırımcılarımızı Montenegro’ya davet ediyoruz.",
-    "partner_2_title" => "GONKA & PARTNERS",
-    "partner_2_details" => "Dünyadaki uluslararası ortaklığımız ile sizlere tüm hukuki hizmeti sunarız.",
+    "partner_1_title" => "Ethem EMRE",
+    "partner_1_details" => "Rotterdam<br>
+                            Goudse Rijweg 382<br>
+                            3031 CK Rotterdam<br>
+                            Hollanda<br>
+                            Tel: +31 (0) 88 808 78 88",
+    "partner_2_title" => "Pierre Deat (Maître)",
+    "partner_2_details" => "217 Rue du Faubourg<br>
+                                Saint-Honoré,<br>
+                                Paris France<br>
+                                Num: 0033644085060<br>
+                                E-Mail:deat.pierre@gmail.com",
 
     "solution_methods_main_title" => "ÇÖZÜM YÖNTEMLERİ",
     "solution_methods_subtitle_1" => "Yargı Yolları",
@@ -154,6 +163,7 @@ $lang = array(
     "solution_methods_subtitle_2" => "Alternatif Uyuşmazlık Çözüm Yöntemleri",
     "solution_methods_details_2_1" => "Alternatif Uyuşmazlık Çözüm Yöntemleri; temeli Anglo-Sakson Sistemi’ne dayanmakta olan pragmatist bir kurumdur.  Bu kurum, Kıta Avrupa’sında da gelişimini sürdürerek ve giderek yaygınlaşarak küresel bir mekanizma olmuştur. Küresel mekanizmada önemli bir yere sahip olan Alternatif uyuş-mazlık çözüm yöntemlerinin en bilineni ise Tahkim tarafları buluşturan öncül bir sistem olarak yer almıştır. Amerika ve Büyük Britanya’nın öncüsü de olduğu tahkim yolu ilk defa 1872 yılı Alabama Davasında büyük rol oynamış ve giderek tüm dünyada en verimli çözüm yöntemi olmuştur.",
     "solution_methods_details_2_2" => "Alternatif Uyuşmazlık Çözüm Yöntemleri; Türkiye’de tahkimin gelişmesi ve diğer alternatif çözüm uyuşmazlıklarından biri olan Arabuluculuk siste-minin de yasallaşmasıyla birlikte yargısal sisteme kıyasen seçimlik bir yol olarak işlerlik kazanmıştır. Kişilerin serbest iradelerinin bir bütünü olarak da tanımladığımız alternatif çözüm uyuşmazlıkları hukuk sistemimizde önder hale gelmiştir. Uzlaşma temeline dayanan Alternatif Uyuşmazlık Çözüm Yöntemlerinde temel olarak “kazan- kazan” yaklaşımı uygulanmaktadır.  Bu yöntemler arasında hukuki müzakereler, uzlaşma, hakem heyeti, sulh, arabuluculuk, tahkim genel olarak sayılabilir. ",
+    "solution_methods_details_2_3" => "Başta Ticari davalar olmak üzere; idarenin taraf olduğu uyuşmazlıklar, bireysel iş uyuşmazlıkları, sosyal güvenlik uyuşmazlıkları, ceza hukuku, aile hukuku, tüketici hukuku, vergiler ve kamu ile ilgili uyuşmazlıklar, imar,  kamulaştırma ve kamu taşınmazlarına ilişkin uyuşmazlıklar, üst kurulların uyguladıkları idari yaptırımlardan kaynaklanan uyuşmazlıklarda ve diğer ihtilaflarda sizlere hizmet vermekteyiz.",
 
     "consultancy_main_title" => "DANIŞMANLIK",
     "consultancy_subtitle_1" => "Hukuki Danışmanlık",
